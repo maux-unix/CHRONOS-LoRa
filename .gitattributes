@@ -1,0 +1,2 @@
+# Force specific files to another language
+*.h linguist-language=C
