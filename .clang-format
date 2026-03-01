@@ -1,0 +1,57 @@
+# I am using .clang-format based on FreeBSD's style(9) coding style.
+# I modify some things that I personally like
+# See: https://github.com/freebsd/freebsd-src/blob/main/.clang-format
+
+---
+
+BasedOnStyle: WebKit
+AlignAfterOpenBracket: DontAlign
+AlignConsecutiveMacros: AcrossEmptyLines
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignEscapedNewlines: Left
+AlignOperands: false
+AlignTrailingComments: true
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: InlineOnly
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakAfterReturnType: TopLevelDefinitions
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: MultiLine
+BinPackArguments: true
+BinPackParameters: true
+BreakBeforeBinaryOperators: None
+BreakBeforeBraces: WebKit
+BreakBeforeTernaryOperators: false
+BreakStringLiterals: false
+PenaltyBreakAssignment: 100
+PenaltyBreakBeforeFirstCallParameter: 100
+CompactNamespaces: true
+DerivePointerAlignment: false
+DisableFormat: false
+SpaceBeforeParens: ControlStatementsExceptForEachMacros
+IndentCaseLabels: false
+IndentPPDirectives: None
+Language: Cpp
+NamespaceIndentation: None
+PointerAlignment: Right
+ContinuationIndentWidth: 4
+IndentWidth: 4
+TabWidth: 4
+ColumnLimit: 80
+UseTab: Never
+SpaceAfterCStyleCast: false
+IncludeBlocks: Regroup
+SortIncludes: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+
+---
+
+Language: Json
+IndentWidth: 2
+ColumnLimit: 0
+BreakArrays: true
