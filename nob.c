@@ -12,13 +12,16 @@
 #define BUILD_FOLDER "build/"
 #define SRC_FOLDER   "src/"
 #define DOCS_FOLDER  "docs/"
+#define TEST         "'' '$ s/,$//'"
 
-#define BUILD_FLAGS(cmd)                                                       \
-    nob_cmd_append(cmd, "-x", "c", "-g3", "-Wall", "-Wextra", "-Wconversion",  \
-        "-Wdouble-promotion", "-Wno-unused-parameter", "-Wno-unused-function", \
-        "-Wno-sign-conversion", "-fstack-protector-strong",                    \
-        "-fsanitize=undefined", "-fsanitize-trap", "-O2", "-std=c23",          \
+#define BUILD_FLAGS(cmd)                                              \
+    nob_cmd_append(cmd, "-x", "c", "-g3", "-Wall", "-Wextra",         \
+        "-Wno-unused-parameter", "-Wno-unused-function",              \
+        "-Wno-sign-conversion", "-fstack-protector-strong",           \
+        "-fsanitize=undefined", "-fsanitize-trap", "-O2", "-std=c23", \
         "-pedantic")
+
+#define TRANSMITTER_INCLUDE_FLAGS(cmd) nob_cmd_append(cmd, "-Ithirdparty/")
 
 #define COMMANDS_FLAGS(cmd, obj) \
     nob_cmd_append(cmd, "-MJ", BUILD_FOLDER obj "_commands.json")
@@ -35,8 +38,9 @@ build_binaries(Nob_Cmd cmd)
 
     nob_cc(&cmd);
     BUILD_FLAGS(&cmd);
+    TRANSMITTER_INCLUDE_FLAGS(&cmd);
     nob_cc_inputs(&cmd, SRC_FOLDER "transmitter.c");
-    nob_cc_output(&cmd, BUILD_FOLDER "transmitter.exe");
+    nob_cc_output(&cmd, BUILD_FOLDER "transmitter");
     COMMANDS_FLAGS(&cmd, "transmitter");
     if (!nob_cmd_run(&cmd)) return 1;
 
@@ -44,6 +48,8 @@ build_binaries(Nob_Cmd cmd)
         BUILD_FOLDER "chronos.o");
     if (!nob_cmd_run(&cmd)) return 1;
 
+    // nob_cmd_append(&cmd, "sed", "-i" , "''", "'$",
+    // "s/,$//'",BUILD_FOLDER"*.json"); if (!nob_cmd_run(&cmd)) return 1;
     return 1;
 }
 

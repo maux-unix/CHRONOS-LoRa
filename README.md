@@ -19,13 +19,13 @@ This project is the implementation for my bachelor thesis titled ""
 Building the project is so simple, just run this command:
 
 ```cmd
-clang build.c -o build
+clang nob.c -o nob
 ```
 
 If you want to rebuild the entire project, just run this command:
 
 ```cmd
-./build
+./nob
 ```
 
 ## Copyright

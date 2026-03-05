@@ -60,3 +60,5 @@ dkms.conf
 build/
 docs/
 *TAGS
+.DS_Store
+nob

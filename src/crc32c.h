@@ -14,21 +14,25 @@
 #include <stddef.h> /* size_t */
 #include <stdint.h> /* uint32_t */
 #include <stdio.h>  /* printf() */
+#if __has_include (<arm_acle.h>)
+    #include <arm_acle.h> /* Using Hardware-accelrated CRC32C from ARM*/
+#endif /* arm_acle.h */
 
 constexpr uint32_t CRC32C_NORMAL_POLYNOMIAL = 0x1EDC6F41u;
 constexpr uint32_t CRC32C_REVERSED_POLYNOMIAL = 0x82F63B78u;
+constexpr uint32_t CRC32C_LOOKUP_TABLE = {};
 
 typedef struct {
     const void *data;
     size_t length;
 } Crc32c_Span;
 
-/* This is for default/optional parameter for `crc32c_bitwise_encode' */
+/* This is for default/optional parameter for `crc32c_bitwise_encode()' */
 typedef struct {
     uint32_t previous_crc32c;
 } Crc32c_Opt;
 
-/* Expand the parameters for `crc32c_bitwise_encode' */
+/* Expand the parameters for `crc32c_bitwise_encode()' */
 #define crc32c_bitwise_encode(span, ...) \
     crc32c_bitwise_encode_opt((span), (Crc32c_Opt) { __VA_ARGS__ })
 
@@ -42,7 +46,8 @@ CRC32C_DEF void crc32c_fill_table(uint32_t *table);
 CRC32C_DEF uint32_t
 crc32c_bitwise_encode_opt(Crc32c_Span span, Crc32c_Opt opt)
 {
-    uint32_t crc = ~opt.previous_crc32c; // same as previousCrc32 ^ 0xFFFFFFFF
+    // uint32_t crc = ~opt.previous_crc32c; // same as previousCrc32 ^ 0xFFFFFFFF
+    uint32_t crc = opt.previous_crc32c ^ 0xFFFFFFFF; 
     unsigned char* current = (unsigned char*) span.data;
 
     printf("[INFO] opt.previous_crc32 = %d\n", opt.previous_crc32c);
@@ -55,7 +60,8 @@ crc32c_bitwise_encode_opt(Crc32c_Span span, Crc32c_Opt opt)
             if (crc & 1) crc = (crc >> 1) ^ CRC32C_REVERSED_POLYNOMIAL;
             else crc = crc >> 1;
     }
-    return ~crc; // same as crc ^ 0xFFFFFFFF
+    // return ~crc; // same as crc ^ 0xFFFFFFFF
+    return crc ^ 0xFFFFFFFF;
 }
 
 CRC32C_DEF void

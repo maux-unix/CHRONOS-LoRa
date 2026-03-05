@@ -11,6 +11,7 @@
 #define CRC32C_IMPLEMENTATION
 #include "crc32c.h"
 
+#define RS_DEF static inline
 #define REED_SOLOMON_IMPLEMENTATION
 #include "reed_solomon.h"
 

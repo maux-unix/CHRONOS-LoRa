@@ -7,8 +7,8 @@
 #ifndef CANONICAL_HUFFMAN_H_
 #define CANONICAL_HUFFMAN_H_
 
-#ifndef CHDEF
-#define CHDEF static inline
+#ifndef CH_DEF
+#define CH_DEF
 #endif
 
 #endif /* CANONICAL_HUFFMAN_H_ */

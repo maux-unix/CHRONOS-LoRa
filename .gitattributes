@@ -1,2 +1,6 @@
-# Force specific files to another language
+# Sources
+*.c     text diff=c
+*.h     text diff=c
+
+# Linguist settings
 *.h linguist-language=C

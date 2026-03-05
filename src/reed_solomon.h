@@ -8,8 +8,8 @@
 #define REED_SOLOMON_H_
 
 
-#ifndef CHDEF
-#define CHDEF static inline
+#ifndef RS_DEF
+#define RS_DEF
 #endif
 
 
