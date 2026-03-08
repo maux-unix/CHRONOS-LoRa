@@ -4,19 +4,15 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-#ifndef REED_SOLOMON_H_
+#if !defined(REED_SOLOMON_H_)
 #define REED_SOLOMON_H_
 
-
-#ifndef RS_DEF
+#if !defined(RS_DEF)
 #define RS_DEF
-#endif
-
+#endif /* RS_DEF */
 
 #endif /* REED_SOLOMON_H_ */
 
 #ifdef REED_SOLOMON_IMPLEMENTATION
-
-
 
 #endif /* REED_SOLOMON_IMPLEMENTATION */

@@ -12,7 +12,7 @@
 int
 main(void)
 {
-    uint32_t *table = {};
+    uint32_t *table = { };
     crc32c_fill_table(table);
     for (size_t i = 0; i < 256; ++i) {
         printf("0x%08X,\n", table[i]);

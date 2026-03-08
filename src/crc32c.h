@@ -2,81 +2,63 @@
  * Copyright (c) 2026 Maulana M. Ali
  *
  * SPDX-License-Identifier: BSD-3-Clause
+ *
+ * crc32c.h - a CRC32-Castagnoli library using Hardware-accelerated &
+ * Parallel Computation CRC32C intrinsics from ARMv8 and ARMv9
  */
 
-#ifndef CRC32C_H_
+#if !defined(CRC32C_H_)
 #define CRC32C_H_
 
-#ifndef CRC32C_DEF
-#define CRC32C_DEF
+#if !defined(CRC32C_DEF)
+#define CRC32C_DEF static inline
 #endif /* CRC32C_DEF */
 
-#include <stddef.h> /* size_t */
-#include <stdint.h> /* uint32_t */
-#include <stdio.h>  /* printf() */
-#if __has_include (<arm_acle.h>)
-    #include <arm_acle.h> /* Using Hardware-accelrated CRC32C from ARM*/
-#endif /* arm_acle.h */
+#include <arm_acle.h> /* __crc32c ARM intrinsics*/
+#include <stddef.h>   /* size_t */
+#include <stdint.h>   /* uint32_t */
+#include <stdio.h>    /* printf() */
 
-constexpr uint32_t CRC32C_NORMAL_POLYNOMIAL = 0x1EDC6F41u;
-constexpr uint32_t CRC32C_REVERSED_POLYNOMIAL = 0x82F63B78u;
-constexpr uint32_t CRC32C_LOOKUP_TABLE = {};
-
-typedef struct {
-    const void *data;
-    size_t length;
+/**
+ * @struct Crc32c_Span
+ * @brief Holds a span of memory for the CRC32C computation
+ */
+typedef struct Crc32c_Span {
+    const void *data; /**< The data in opaque type */
+    size_t length;    /**< The length of the data */
 } Crc32c_Span;
 
-/* This is for default/optional parameter for `crc32c_bitwise_encode()' */
 typedef struct {
-    uint32_t previous_crc32c;
-} Crc32c_Opt;
+    Crc32c_Span span;
+    uint32_t crc;
+} Crc32c_Frame;
 
-/* Expand the parameters for `crc32c_bitwise_encode()' */
-#define crc32c_bitwise_encode(span, ...) \
-    crc32c_bitwise_encode_opt((span), (Crc32c_Opt) { __VA_ARGS__ })
-
-CRC32C_DEF uint32_t crc32c_bitwise_encode_opt(Crc32c_Span span, Crc32c_Opt opt);
-CRC32C_DEF void crc32c_fill_table(uint32_t *table);
+CRC32C_DEF uint32_t crc32c_encode(Crc32c_Span span);
 
 #endif /* CRC32C_H_ */
 
-#ifdef CRC32C_IMPLEMENTATION
+#if defined(CRC32C_IMPLEMENTATION)
 
 CRC32C_DEF uint32_t
-crc32c_bitwise_encode_opt(Crc32c_Span span, Crc32c_Opt opt)
+crc32c_encode(Crc32c_Span span)
 {
-    // uint32_t crc = ~opt.previous_crc32c; // same as previousCrc32 ^ 0xFFFFFFFF
-    uint32_t crc = opt.previous_crc32c ^ 0xFFFFFFFF; 
-    unsigned char* current = (unsigned char*) span.data;
-
-    printf("[INFO] opt.previous_crc32 = %d\n", opt.previous_crc32c);
-    printf("[INFO] span.data = %s\n", current);
-    printf("[INFO] span.length = %zu\n", span.length);
-
-    while (span.length--) {
-        crc ^= *current++;
-        for (unsigned int j = 0; j < 8; j++)
-            if (crc & 1) crc = (crc >> 1) ^ CRC32C_REVERSED_POLYNOMIAL;
-            else crc = crc >> 1;
+    uint32_t crc = 0xFFFFFFFFu;
+    printf("[INFO] pre-crc = 0x%08X\n", crc);
+    for (size_t i = 0; i < span.length; i++) {
+#if defined(CRC32C_USE_UINT8) /* CRC32C_USE_WORDSIZE */
+        crc = __crc32cb(crc, ((uint8_t *)span.data)[i]);
+#elif defined(CRC32C_USE_UINT16)
+        crc = __crc32ch(crc, ((uint16_t *)span.data)[i]);
+#elif defined(CRC32C_USE_UINT32)
+        crc = __crc32cw(crc, ((uint32_t *)span.data)[i]);
+#elif defined(CRC32C_USE_UINT64)
+        crc = __crc32cd(crc, ((uint64_t *)span.data)[i]);
+#else
+        printf("[WARN] word-size for CRC32C is not defined, no CRC then.");
+#endif /* CRC32C_USE_WORDSIZE */
     }
-    // return ~crc; // same as crc ^ 0xFFFFFFFF
+    printf("[INFO] post-crc = 0x%08X\n", crc);
     return crc ^ 0xFFFFFFFF;
-}
-
-CRC32C_DEF void
-crc32c_fill_table(uint32_t *table)
-{
-    uint8_t index = 0;
-    uint8_t z;
-
-    do {
-        table[index] = index;
-        for (z = 8; z; z--)
-            table[index] = (table[index] & 1) ?
-                (table[index] >> 1) ^ CRC32C_REVERSED_POLYNOMIAL :
-                table[index] >> 1;
-    } while (++index);
 }
 
 #endif /* CRC32_IMPLEMENTATION */

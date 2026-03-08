@@ -2,11 +2,20 @@ CompileFlags:
   CompilationDatabase: build/
   Add:
     - "-xc"
+    - "-O2"
     - "-std=c23"
     - "-Wall"
     - "-Wextra"
-    - "-Wpedantic"
+    - "-Wformat"
+    - "-Wformat=2"
     - "-Wconversion"
+    - "-Wimplicit-fallthrough"
+    - "-Werror=format-security"
+    - "-U_FORTIFY_SOURCE"
+    - "-D_FORTIFY_SOURCE=3"
+    - "-fstrict-flex-arrays=3"
+    - "-fstack-clash-protection"
+    - "-fstack-protector-strong"
     - "-I"
     - "thirdparty/"
 
