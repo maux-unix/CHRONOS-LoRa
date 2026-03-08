@@ -29,7 +29,7 @@ If you want to rebuild the entire project, just run this command:
 ./nob
 ```
 
-> [!INFO]
+> [!IMPORTANT]
 > The build process might spit out errors from clang-doc, please ignore them.
 > That is because I only want to generate docs for CHRONOS-LoRa. If you want to
 > generate docs for all of the components, add "-p build/" to clang-doc
