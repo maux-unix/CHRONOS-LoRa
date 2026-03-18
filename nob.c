@@ -2,34 +2,37 @@
  * Copyright (c) 2026 Maulana M. Ali
  *
  * SPDX-License-Identifier: BSD-3-Clause
- *
  */
 
 #include <stddef.h>
 
-/* I use nob.h build system by Alexey Kutepov (See README.md file for info) */
+/* I use nob.h build system by Alexey Kutepov */
 #define NOB_IMPLEMENTATION
+#define NOB_WARN_DEPRECATED
 #define NOBDEF static inline
 #include "thirdparty/nob/nob.h"
 
-#define CLANG(cmd)         nob_cmd_append(cmd, "clang")
 
+
+// TODO: Clean up these #define shits
+#define CLANG(cmd)         nob_cmd_append(cmd, "clang")
 #define BUILD_FOLDER       "build/"
 #define SRC_FOLDER         "src/"
 #define DOCS_FOLDER        "docs/"
 #define PKG_CONFIGS_FOLDER BUILD_FOLDER "pkg-configs/"
 #define FLAGS_PATH         SRC_FOLDER "flags/"
-
-#define BUILD_FLAGS(cmd)   nob_cmd_append(cmd, "@" FLAGS_PATH "build_flags.txt")
+#define BUILD_FLAGS(cmd) \
+    nob_cmd_append(cmd, "@" FLAGS_PATH "dev_compile_flags.txt")
 #define THIRDPARTY_INCLUDE_FLAGS(cmd) nob_cmd_append(cmd, "-Ithirdparty/")
 #define COMMANDS_FLAGS(cmd, obj) \
     nob_cmd_append(cmd, "-MJ", BUILD_FOLDER obj "_commands.json")
-
 #define LINK_GRAPHICSMAGICK(cmd) \
     nob_cmd_append(cmd, "$(GraphicsMagick-config --cflags --ldflags --libs)")
 #define LINK_CHRONOS(cmd) nob_cmd_append(cmd, "-Lbuild/", "-lchronos")
 
-bool
+
+
+static bool
 build_binaries(Nob_Cmd cmd)
 {
     // Compile `chronos.c` =====================================================
@@ -40,6 +43,10 @@ build_binaries(Nob_Cmd cmd)
     nob_cmd_append(&cmd, "@" PKG_CONFIGS_FOLDER "graphicsmagick_includes.txt");
     nob_cmd_append(&cmd,
         "@" PKG_CONFIGS_FOLDER "graphicsmagickwand_includes.txt");
+
+    // TODO: Add -L, -I, and -l for libcorrect
+    // nob_cmd_append(&cmd, "@" );
+
     nob_cc_inputs(&cmd, "-c", SRC_FOLDER "chronos.c");
     nob_cc_output(&cmd, BUILD_FOLDER "chronos.o");
 
@@ -75,10 +82,14 @@ build_binaries(Nob_Cmd cmd)
     LINK_CHRONOS(&cmd);
     if (!nob_cmd_run(&cmd)) return 1;
 
+    // TODO: Add rules for compiling `receiver.c`
+
+    // TODO: Add -L, -I, and -l for libcorrect rules for linking `receiver.c`
+
     return 1;
 }
 
-bool
+static bool
 run_clang_format(Nob_Cmd cmd)
 {
     char *files[] = { "nob.c", SRC_FOLDER "canonical_huffman.h",
@@ -94,7 +105,7 @@ run_clang_format(Nob_Cmd cmd)
     return 1;
 }
 
-bool
+static bool
 align_compilation_database(Nob_Cmd cmd)
 {
     nob_cmd_append(&cmd, "sh", "-c",
@@ -108,7 +119,7 @@ align_compilation_database(Nob_Cmd cmd)
     return 1;
 }
 
-bool
+static bool
 pkg_config_all(Nob_Cmd cmd)
 {
     if (!nob_mkdir_if_not_exists(PKG_CONFIGS_FOLDER)) return 1;
@@ -136,7 +147,7 @@ pkg_config_all(Nob_Cmd cmd)
     return 1;
 }
 
-bool
+static bool
 build_docs_normal(Nob_Cmd cmd, const char *source_files[], size_t count)
 {
     nob_cmd_append(&cmd, "clang-doc", "--format=html", "--output=docs/",
@@ -154,22 +165,17 @@ int
 main(int argc, char **argv)
 {
     NOB_GO_REBUILD_URSELF(argc, argv);
-
     Nob_Cmd cmd = { 0 };
     const char *source_files[] = { SRC_FOLDER "chronos.c",
         SRC_FOLDER "transmitter.c", SRC_FOLDER "receiver.c" };
-    size_t count = 3;
-
+        size_t count = 3;
+        
     if (!nob_mkdir_if_not_exists(BUILD_FOLDER)) return 1;
-
     nob_cmd_append(&cmd, "sh", "-c",
         "find build -type f -name \"*.json\" -delete");
     if (!nob_cmd_run(&cmd)) return 1;
-
     if (!pkg_config_all(cmd)) return 1;
-
     if (!nob_mkdir_if_not_exists(DOCS_FOLDER)) return 1;
-
     if (!build_binaries(cmd)) return 1;
     if (!align_compilation_database(cmd)) return 1;
     if (!run_clang_format(cmd)) return 1;

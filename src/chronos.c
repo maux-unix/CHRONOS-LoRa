@@ -4,6 +4,12 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
+/**
+ * @brief The macro for definitions in <chronos.h>
+ *
+ * This macro makes every definitions to be `static inline'
+ */
+
 #include "chronos.h"
 
 #include "magick/colorspace.h"
@@ -13,6 +19,7 @@
 #include "magick/image.h"
 #include "magick/magick.h"
 #include "magick/pixel_cache.h"
+#include "magick/resize.h"
 #include "wand/magick_wand.h"
 
 #include <stdint.h>
@@ -20,7 +27,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-static inline Quantum
+static Quantum
 chronos_clamp_quantum(double v)
 {
     if (v < 0.0) return 0;
@@ -28,12 +35,39 @@ chronos_clamp_quantum(double v)
     return (Quantum)v;
 }
 
-/**
- * @brief Convert an image's colorspace (without changing file format)
- *        from RGB to Grayscale
- * @param *in_filename The input's filename
- * @param *out_filename The output's filename
- */
+static void
+chronos_process_image(const char *in_filename, const char *out_filename,
+    Chronos_Process_Function fn)
+{
+    Image *image = NULL;
+    Image *result = NULL;
+    ImageInfo *image_info = NULL;
+    ExceptionInfo exception;
+
+    InitializeMagick(NULL);
+    GetExceptionInfo(&exception);
+
+    image_info = CloneImageInfo(image_info);
+    strcpy(image_info->filename, in_filename);
+
+    image = ReadImage(image_info, &exception);
+    if (exception.severity != UndefinedException) CatchException(&exception);
+
+    if (!image) exit(1);
+
+    result = fn(image, &exception);
+
+    strcpy(result->filename, out_filename);
+    WriteImage(image_info, result);
+
+    DestroyImage(image);
+    if (result != image) DestroyImage(result);
+    DestroyImageInfo(image_info);
+    DestroyExceptionInfo(&exception);
+    DestroyMagick();
+    return;
+}
+
 CHRONOS_DEF void
 chronos_rgb_to_grayscale(const char *in_filename, const char *out_filename)
 {
@@ -46,23 +80,23 @@ chronos_rgb_to_grayscale(const char *in_filename, const char *out_filename)
 
     status = MagickReadImage(wand, in_filename);
     if (status == MagickFalse) {
-        printf("[ERROR] Unable to read image\n");
+        printf("[CHRONOS-ERROR] Unable to read image\n");
         exit(1);
     }
 
     status = MagickSetImageColorspace(wand, GRAYColorspace);
     if (status == MagickFalse) {
-        printf("[ERROR] Unable to convert to Grayscale");
+        printf("[CHRONOS-ERROR] Unable to convert to Grayscale\n");
         exit(1);
     }
 
     status = MagickWriteImage(wand, out_filename);
     if (status == MagickFalse) {
-        printf("[ERROR] Unable to write image");
+        printf("[CHRONOS-ERROR] Unable to write image\n");
         exit(1);
     }
 
-    printf("[INFO] Successfully write %s", out_filename);
+    printf("[CHRONOS-INFO] Successfully write %s\n", out_filename);
     DestroyMagickWand(wand);
 
     return;
@@ -71,7 +105,7 @@ chronos_rgb_to_grayscale(const char *in_filename, const char *out_filename)
 CHRONOS_DEF void
 chronos_rgb_to_ycocg(char **argv)
 {
-    Image *image = { 0 };
+    Image *image;
     ImageInfo *image_info;
     ExceptionInfo exception;
     PixelPacket *pixels;
@@ -88,7 +122,7 @@ chronos_rgb_to_ycocg(char **argv)
 
     image = ReadImage(image_info, &exception);
     if (image == (Image *)NULL) {
-        printf("[ERROR] Unable to read um80.jpg\n");
+        printf("[CHRONOS-ERROR] Unable to read um80.jpg\n");
         exit(1);
     }
 
@@ -122,7 +156,7 @@ chronos_rgb_to_ycocg(char **argv)
 
     strcpy(image->filename, "output_ycocg.jpg");
     WriteImage(image_info, image);
-    printf("[INFO] Successfully write output_ycocg.jpg\n");
+    printf("[CHRONOS-INFO] Successfully write output_ycocg.jpg\n");
 
     DestroyImage(image);
     DestroyImageInfo(image_info);
@@ -132,30 +166,74 @@ chronos_rgb_to_ycocg(char **argv)
     return;
 }
 
+// CHRONOS_DEF void
+// chronos_convert_to_ppm(const char *in_filename, const char *out_filename)
+// {
+//     Image *image;
+//     ImageInfo *image_info;
+//     ExceptionInfo exception;
+
+//     InitializeMagick(NULL);
+//     GetExceptionInfo(&exception);
+//     image_info = CloneImageInfo((ImageInfo *)NULL);
+
+//     strcpy(image_info->filename, in_filename);
+//     image = ReadImage(image_info, &exception);
+//     if (exception.severity != UndefinedException) CatchException(&exception);
+//     if (!image) exit(1);
+
+//     strcpy(image->magick, "PPM");
+
+//     strcpy(image->filename, out_filename);
+//     WriteImage(image_info, image);
+
+//     DestroyImage(image);
+//     DestroyImageInfo(image_info);
+//     DestroyExceptionInfo(&exception);
+//     DestroyMagick();
+
+//     return;
+// }
+
+static Image *
+chronos_convert_to_ppm_op(Image *image, ExceptionInfo *exception)
+{
+    (void)exception;
+    strcpy(image->magick, "PPM");
+    return image;
+}
+
 CHRONOS_DEF void
-chronos_dng_to_ppm(const char *in_filename, const char *out_filename)
+chronos_convert_to_ppm(const char *in_filename, const char *out_filename)
+{
+    chronos_process_image(in_filename, out_filename, chronos_convert_to_ppm_op);
+}
+
+CHRONOS_DEF void
+chronos_resize_image(const char *in_filename, const char *out_filename)
 {
     Image *image;
-    Image *converted_image;
-    ImageInfo *image_info;
+    Image *resized_image;
     ExceptionInfo exception;
 
     InitializeMagick(NULL);
     GetExceptionInfo(&exception);
-    image_info = CloneImageInfo((ImageInfo *)NULL);
 
+    ImageInfo *image_info = CloneImageInfo((ImageInfo *)NULL);
     strcpy(image_info->filename, in_filename);
     image = ReadImage(image_info, &exception);
-    if (exception.severity != UndefinedException) CatchException(&exception);
-    if (!image) exit(1);
 
-    strcpy(image->magick, "PPM");
+    resized_image = ResizeImage(image, 600, 400, LanczosFilter, 1.0,
+        &exception);
 
-    strcpy(image->filename, out_filename);
-    WriteImage(image_info, image);
-
+    strcpy(resized_image->filename, out_filename);
+    WriteImage(image_info, resized_image);
     DestroyImage(image);
+    DestroyImage(resized_image);
     DestroyImageInfo(image_info);
     DestroyExceptionInfo(&exception);
     DestroyMagick();
 }
+
+CHRONOS_DEF void chronos_scale_image(const char *in_filename,
+    const char *out_filename);
