@@ -12,10 +12,8 @@
 #define NOBDEF static inline
 #include "thirdparty/nob/nob.h"
 
-
-
 // TODO: Clean up these #define shits
-#define CLANG(cmd)         nob_cmd_append(cmd, "clang")
+#define CLANG(cmd)         nob_cmd_append(cmd, "clang-20")
 #define BUILD_FOLDER       "build/"
 #define SRC_FOLDER         "src/"
 #define DOCS_FOLDER        "docs/"
@@ -29,8 +27,6 @@
 #define LINK_GRAPHICSMAGICK(cmd) \
     nob_cmd_append(cmd, "$(GraphicsMagick-config --cflags --ldflags --libs)")
 #define LINK_CHRONOS(cmd) nob_cmd_append(cmd, "-Lbuild/", "-lchronos")
-
-
 
 static bool
 build_binaries(Nob_Cmd cmd)
@@ -54,7 +50,7 @@ build_binaries(Nob_Cmd cmd)
     if (!nob_cmd_run(&cmd)) return 1;
 
     // Archive `libchronos.a` library ==========================================
-    nob_cmd_append(&cmd, "llvm-ar", "rcs", BUILD_FOLDER "libchronos.a",
+    nob_cmd_append(&cmd, "llvm-ar-20", "rcs", BUILD_FOLDER "libchronos.a",
         BUILD_FOLDER "chronos.o");
     if (!nob_cmd_run(&cmd)) return 1;
 
@@ -62,6 +58,7 @@ build_binaries(Nob_Cmd cmd)
     CLANG(&cmd);
     BUILD_FLAGS(&cmd);
     THIRDPARTY_INCLUDE_FLAGS(&cmd);
+    nob_cmd_append(&cmd, "-march=armv8-a+crc");
 
     nob_cmd_append(&cmd, "@" PKG_CONFIGS_FOLDER "graphicsmagick_includes.txt");
     nob_cmd_append(&cmd,
@@ -82,6 +79,16 @@ build_binaries(Nob_Cmd cmd)
     LINK_CHRONOS(&cmd);
     if (!nob_cmd_run(&cmd)) return 1;
 
+    // Compiling `transmitter-normal`
+    nob_cmd_append(&cmd, "clang++-20", "-xc++");
+    // BUILD_FLAGS(&cmd);
+    nob_cc_inputs(&cmd, SRC_FOLDER "transmitter-normal.cpp");
+    nob_cmd_append(&cmd, "-I/usr/local/include/RadioLib", "-L/usr/local/lib/",
+        "-lRadioLib", "-llgpio", "-lpthread");
+    nob_cc_output(&cmd, BUILD_FOLDER "transmitter-normal");
+    COMMANDS_FLAGS(&cmd, "transmitter-normal");
+    if (!nob_cmd_run(&cmd)) return 1;
+
     // TODO: Add rules for compiling `receiver.c`
 
     // TODO: Add -L, -I, and -l for libcorrect rules for linking `receiver.c`
@@ -99,7 +106,7 @@ run_clang_format(Nob_Cmd cmd)
         BUILD_FOLDER "chronos_commands.json",
         BUILD_FOLDER "transmitter_commands.json" };
     for (size_t i = 0; i < sizeof(files) / sizeof(files[0]); i++) {
-        nob_cmd_append(&cmd, "clang-format", "-i", files[i]);
+        nob_cmd_append(&cmd, "clang-format-20", "-i", files[i]);
         if (!nob_cmd_run(&cmd)) return 1;
     }
     return 1;
@@ -150,7 +157,7 @@ pkg_config_all(Nob_Cmd cmd)
 static bool
 build_docs_normal(Nob_Cmd cmd, const char *source_files[], size_t count)
 {
-    nob_cmd_append(&cmd, "clang-doc", "--format=html", "--output=docs/",
+    nob_cmd_append(&cmd, "clang-doc-20", "--format=html", "--output=docs/",
         "--doxygen", "--project-name=CHRONOS-LoRa");
 
     for (size_t i = 0; i < count; i++) {
@@ -168,8 +175,8 @@ main(int argc, char **argv)
     Nob_Cmd cmd = { 0 };
     const char *source_files[] = { SRC_FOLDER "chronos.c",
         SRC_FOLDER "transmitter.c", SRC_FOLDER "receiver.c" };
-        size_t count = 3;
-        
+    size_t count = 3;
+
     if (!nob_mkdir_if_not_exists(BUILD_FOLDER)) return 1;
     nob_cmd_append(&cmd, "sh", "-c",
         "find build -type f -name \"*.json\" -delete");
