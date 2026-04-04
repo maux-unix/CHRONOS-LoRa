@@ -2,9 +2,9 @@
 
 This project is the implementation for my bachelor thesis titled ""
 
-## Background and Similar Works {#background}
+## Background and Similar Works
 
-## Prerequisites (Hardware) {#prerequisites}
+## Prerequisites (Hardware)
 
 In this project, we used 2 pairs of the components below, one as a transmitter
 and one as a receiver.
@@ -12,20 +12,20 @@ and one as a receiver.
 1. Raspberry Pi 4B (see [here][rpi4b_link])
 2. Waveshare SX1262 LoRa Module for Raspberry Pi (see [here][lora_link])
 
-## Requirements & Dependencies {#requirements}
+## Requirements & Dependencies
 
 Some of these can be found in your OS' package manager, or you can build it
 from source. You can download binaries/source code from the links in 
-the [Third-parties](#thirdparty).
+the Third-parties section.
 
-1. LLVM/Clang Tools version 22.1+ (clang, clang-format, clang-doc, llvm-ar,
+1. LLVM/Clang Tools version 20.1+ (clang, clang-format, clang-doc, llvm-ar,
    lld, lldb)
 2. POSIX coreutils (find, sed, echo, cat, sh)
 3. WiringPi version 3.18
-4. GraphicsMagick version 1.3.46
+4. GraphicsMagick version 1.3+
 5. libcorrect
 
-## Building the Project {#building}
+## Building the Project
 
 Building the project is so simple, just run this command:
 
@@ -44,20 +44,20 @@ If you want to rebuild the entire project, just run this command:
 > That is because I only want to generate docs for CHRONOS-LoRa. If you want to
 > generate docs for all of the components, add "-p build/" to clang-doc
 
-## Testing {#testing}
+## Testing
 
-## Documentation {#documentation}
+## Documentation
 
 The project's documentation is in the ``` docs/ ``` folder, created
 by the build system. You can open it with your web browser by opening
 ``` docs/html/index.html ``` file.
 
-## Copyright {#copyright}
+## Copyright
 
 This project is licensed under BSD-3-Clause license. See [LICENSE](./LICENSE)
 file for copyrights/legal things.
 
-## Third-parties {#thirdparty}
+## Third-parties
 
 1. **[nob.h][nob_link]**: a sane build system for C projects by Alexey Kutepov,
    see [LICENSE][nob_license] file for copyrigths/legal things.

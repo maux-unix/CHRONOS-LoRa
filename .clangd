@@ -1,9 +1,6 @@
 CompileFlags:
   CompilationDatabase: build/
   Add:
-    - "-xc"
-    - "-O2"
-    - "-std=c23"
     - "-Wall"
     - "-Wextra"
     - "-Wformat"
@@ -16,8 +13,22 @@ CompileFlags:
     - "-fstrict-flex-arrays=3"
     - "-fstack-clash-protection"
     - "-fstack-protector-strong"
-    - "-I"
-    - "thirdparty/"
+
+---
+If:
+  PathMatch: .*\.c$
+CompileFlags:
+  Add:
+    - "-xc"
+    - "-std=c23"
+
+---
+If:
+  PathMatch: .*\.(cpp|cc|cxx)$
+CompileFlags:
+  Add:
+    - "-xc++"
+    - "-std=c++23"
 
 Diagnostics:
   UnusedIncludes: Strict

@@ -1,73 +1,117 @@
+/*
+ * Copyright (c) 2026 Maulana M. Ali
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+
+#include "Module.h"
+#include "TypeDef.h"
+#include "modules/SX126x/SX1262.h"
+
+#include <algorithm>
+#include <cstddef>
+#include <cstdint>
+#include <cstdio>
+#include <cstring>
+#include <fstream>
+#include <iostream>
+#include <iterator>
+#include <print>
+#include <string>
+#include <unistd.h>
+#include <vector>
+
 #include <RadioLib.h>
 #include <hal/RPi/PiHal.h>
-#include <fstream>
-#include <vector>
-#include <iostream>
-#include <cstring>
-#include <unistd.h>
 
-// HAL
-PiHal* hal = new PiHal(0);
+constexpr auto CHUNK_SIZE = 180;
+constexpr auto HEADER = 0xAA;
 
-// NSS, DIO1, RESET, BUSY
-SX1262 lora = new Module(hal, 8, 25, 17, 24);
+namespace {
 
-#define CHUNK_SIZE 180
-#define HEADER 0xAA
-
-std::vector<uint8_t> loadImage(const std::string& path) {
-    std::ifstream file(path, std::ios::binary);
-    return std::vector<uint8_t>((std::istreambuf_iterator<char>(file)),
-                                std::istreambuf_iterator<char>());
+static PiHal &
+get_rpi_hal()
+{
+    static PiHal hal(0);
+    return hal;
 }
 
-int main() {
-    std::cout << "Initializing SX1262...\n";
+static Module &
+get_lora_module()
+{
+    static Module lora(&get_rpi_hal(), 8, 25, 17, 24);
+    return lora;
+}
 
-    int state = lora.begin(915.0);  // change to 868.0 if needed
+static SX1262 &
+get_lora()
+{
+    static SX1262 radio(&get_lora_module());
+    return radio;
+}
+
+static std::vector<uint8_t>
+loadImage(const std::string &path)
+{
+    std::ifstream file(path, std::ios::binary);
+    return std::vector<uint8_t>((std::istreambuf_iterator<char>(file)),
+        std::istreambuf_iterator<char>());
+}
+
+}
+
+int
+main(void)
+{
+    std::print("[INFO] Initializing SX1262...\n");
+
+    /* RadioLib LoRa Initialization */
+    auto lora = get_lora();
+    auto state = lora.begin(915.0); // change to 868.0 if needed
+
     if (state != RADIOLIB_ERR_NONE) {
-        std::cout << "Init failed: " << state << "\n";
+        std::print("[ERROR] RadioLib init failed: {}\n", state);
         return -1;
     }
 
-    // Optional tuning
+    /* Optional tuning */
     lora.setSpreadingFactor(9);
     lora.setBandwidth(125.0);
     lora.setCodingRate(5);
     lora.setOutputPower(17);
 
+    /* Image loading */
     auto image = loadImage("compressed.jpg");
-    size_t totalSize = image.size();
+    auto totalSize = image.size();
+    auto totalPackets = (totalSize + CHUNK_SIZE - 1) / CHUNK_SIZE;
 
-    int totalPackets = (totalSize + CHUNK_SIZE - 1) / CHUNK_SIZE;
+    std::print("[INFO] Size: {} bytes\n", totalSize);
+    std::print("[INFO] Packets: {}\n", totalPackets);
 
-    std::cout << "Size: " << totalSize << " bytes\n";
-    std::cout << "Packets: " << totalPackets << "\n";
-
-    for (int i = 0; i < totalPackets; i++) {
+    for (size_t i = 0; i < totalPackets; i++) {
         uint8_t packet[256];
 
-        int offset = i * CHUNK_SIZE;
-        int len = std::min((size_t)CHUNK_SIZE, totalSize - offset);
+        auto offset = i * CHUNK_SIZE;
+        auto len = std::min((size_t)CHUNK_SIZE, totalSize - offset);
 
         packet[0] = HEADER;
         packet[1] = totalPackets;
         packet[2] = i;
-        packet[3] = len;  // IMPORTANT: actual length
+        packet[3] = len; // IMPORTANT: actual length
 
         memcpy(packet + 4, &image[offset], len);
 
-        int state = lora.transmit(packet, len + 4);
+        auto state = lora.transmit(packet, len + 4);
 
         if (state == RADIOLIB_ERR_NONE) {
-            std::cout << "Sent: " << i << "\n";
+            std::print("[INFO] Sent: {}\n", i);
         } else {
-            std::cout << "Error: " << state << "\n";
+            std::print("[ERROR] Error code: {}\n", state);
         }
 
-        usleep(150000);  // SX1262 can go faster than SX127x
+        usleep(150000); // SX1262 can go faster than SX127x
     }
 
-    std::cout << "Done.\n";
+    std::print("[INFO] Transmission done.\n");
     return 0;
 }

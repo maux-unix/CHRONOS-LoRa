@@ -80,7 +80,7 @@ build_binaries(Nob_Cmd cmd)
     if (!nob_cmd_run(&cmd)) return 1;
 
     // Compiling `transmitter-normal`
-    nob_cmd_append(&cmd, "clang++-20", "-xc++");
+    nob_cmd_append(&cmd, "clang++-20", "-xc++", "-std=c++23");
     // BUILD_FLAGS(&cmd);
     nob_cc_inputs(&cmd, SRC_FOLDER "transmitter-normal.cpp");
     nob_cmd_append(&cmd, "-I/usr/local/include/RadioLib", "-L/usr/local/lib/",

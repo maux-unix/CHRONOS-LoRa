@@ -4,12 +4,6 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-/**
- * @brief The macro for definitions in <chronos.h>
- *
- * This macro makes every definitions to be `static inline'
- */
-
 #include "chronos.h"
 
 #include "magick/colorspace.h"
@@ -27,6 +21,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * @brief Clamp GraphicsMagick's Quantum value from signed to unisgned limit
+ * @param v -> the double value
+ */
 static Quantum
 chronos_clamp_quantum(double v)
 {
@@ -35,6 +33,11 @@ chronos_clamp_quantum(double v)
     return (Quantum)v;
 }
 
+/**
+ * @brief Process the Image in GraphicsMagick context
+ * @param *in_filename -> The input's filename
+ * @param *out_filename -> The output's filename
+ */
 static void
 chronos_process_image(const char *in_filename, const char *out_filename,
     Chronos_Process_Function fn)
@@ -166,39 +169,15 @@ chronos_rgb_to_ycocg(char **argv)
     return;
 }
 
-// CHRONOS_DEF void
-// chronos_convert_to_ppm(const char *in_filename, const char *out_filename)
-// {
-//     Image *image;
-//     ImageInfo *image_info;
-//     ExceptionInfo exception;
-
-//     InitializeMagick(NULL);
-//     GetExceptionInfo(&exception);
-//     image_info = CloneImageInfo((ImageInfo *)NULL);
-
-//     strcpy(image_info->filename, in_filename);
-//     image = ReadImage(image_info, &exception);
-//     if (exception.severity != UndefinedException) CatchException(&exception);
-//     if (!image) exit(1);
-
-//     strcpy(image->magick, "PPM");
-
-//     strcpy(image->filename, out_filename);
-//     WriteImage(image_info, image);
-
-//     DestroyImage(image);
-//     DestroyImageInfo(image_info);
-//     DestroyExceptionInfo(&exception);
-//     DestroyMagick();
-
-//     return;
-// }
-
+/**
+ * @brief The operation to convert to PPM
+ * @param *image -> The image object
+ * @param *exception_info -> The exception's information
+ */
 static Image *
-chronos_convert_to_ppm_op(Image *image, ExceptionInfo *exception)
+chronos_convert_to_ppm_op(Image *image, ExceptionInfo *exception_info)
 {
-    (void)exception;
+    (void)exception_info;
     strcpy(image->magick, "PPM");
     return image;
 }
