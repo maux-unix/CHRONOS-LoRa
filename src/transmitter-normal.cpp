@@ -63,14 +63,14 @@ loadImage(const std::string &path)
 int
 main(void)
 {
-    std::print("[INFO] Initializing SX1262...\n");
+    std::println("[INFO] Initializing SX1262...");
 
     /* RadioLib LoRa Initialization */
     auto lora = get_lora();
     auto state = lora.begin(915.0); // change to 868.0 if needed
 
     if (state != RADIOLIB_ERR_NONE) {
-        std::print("[ERROR] RadioLib init failed: {}\n", state);
+        std::println("[ERROR] RadioLib init failed: {}", state);
         return -1;
     }
 
@@ -85,8 +85,8 @@ main(void)
     auto totalSize = image.size();
     auto totalPackets = (totalSize + CHUNK_SIZE - 1) / CHUNK_SIZE;
 
-    std::print("[INFO] Size: {} bytes\n", totalSize);
-    std::print("[INFO] Packets: {}\n", totalPackets);
+    std::println("[INFO] Size: {} bytes", totalSize);
+    std::println("[INFO] Packets: {}", totalPackets);
 
     for (size_t i = 0; i < totalPackets; i++) {
         uint8_t packet[256];
@@ -95,23 +95,23 @@ main(void)
         auto len = std::min((size_t)CHUNK_SIZE, totalSize - offset);
 
         packet[0] = HEADER;
-        packet[1] = totalPackets;
-        packet[2] = i;
-        packet[3] = len; // IMPORTANT: actual length
+        packet[1] = (uint8_t) totalPackets;
+        packet[2] = (uint8_t) i;
+        packet[3] = (uint8_t) len; // IMPORTANT: actual length
 
         memcpy(packet + 4, &image[offset], len);
 
         auto state = lora.transmit(packet, len + 4);
 
         if (state == RADIOLIB_ERR_NONE) {
-            std::print("[INFO] Sent: {}\n", i);
+            std::println("[INFO] Sent: {}", i);
         } else {
-            std::print("[ERROR] Error code: {}\n", state);
+            std::println("[ERROR] Error code: {}", state);
         }
 
         usleep(150000); // SX1262 can go faster than SX127x
     }
 
-    std::print("[INFO] Transmission done.\n");
+    std::println("[INFO] Transmission done.");
     return 0;
 }
