@@ -26,25 +26,30 @@
 
 constexpr auto CHUNK_SIZE = 180;
 constexpr auto HEADER = 0xAA;
+constexpr auto LORA_FREQ = 920.5;
+constexpr auto LORA_SF = 9;
+constexpr auto LORA_BW = 125.0;
+constexpr auto LORA_CR = 5;
+constexpr auto LORA_POWER = 19;
 
 namespace {
 
 static PiHal &
-get_rpi_hal()
+get_rpi_hal(void)
 {
     static PiHal hal(0);
     return hal;
 }
 
 static Module &
-get_lora_module()
+get_lora_module(void)
 {
-    static Module lora(&get_rpi_hal(), 8, 25, 17, 24);
+    static Module lora(&get_rpi_hal(), 21, 16, 18, 20);
     return lora;
 }
 
 static SX1262 &
-get_lora()
+get_lora(void)
 {
     static SX1262 radio(&get_lora_module());
     return radio;
@@ -67,7 +72,7 @@ main(void)
 
     /* RadioLib LoRa Initialization */
     auto lora = get_lora();
-    auto state = lora.begin(915.0); // change to 868.0 if needed
+    auto state = lora.begin(LORA_FREQ);
 
     if (state != RADIOLIB_ERR_NONE) {
         std::println("[ERROR] RadioLib init failed: {}", state);
@@ -75,10 +80,10 @@ main(void)
     }
 
     /* Optional tuning */
-    lora.setSpreadingFactor(9);
-    lora.setBandwidth(125.0);
-    lora.setCodingRate(5);
-    lora.setOutputPower(17);
+    lora.setSpreadingFactor(LORA_SF);
+    lora.setBandwidth(LORA_BW);
+    lora.setCodingRate(LORA_CR);
+    lora.setOutputPower(LORA_POWER);
 
     /* Image loading */
     auto image = loadImage("compressed.jpg");
@@ -109,7 +114,7 @@ main(void)
             std::println("[ERROR] Error code: {}", state);
         }
 
-        usleep(150000); // SX1262 can go faster than SX127x
+        usleep(150000);
     }
 
     std::println("[INFO] Transmission done.");

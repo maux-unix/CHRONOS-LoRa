@@ -23,7 +23,6 @@ the Third-parties section.
 2. POSIX coreutils (find, sed, echo, cat, sh)
 3. WiringPi version 3.18
 4. GraphicsMagick version 1.3+
-5. libcorrect
 
 ## Building the Project
 
