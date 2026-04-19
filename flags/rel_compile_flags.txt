@@ -1,12 +1,14 @@
 -xc
--O0
+-O2
 -std=c23
--glldb
 -Wall
 -Wextra
 -Wpedantic
 -Wformat
 -Wformat=2
+-Wconversion
+-Wimplicit-fallthrough
+-Werror=format-security
 -U_FORTIFY_SOURCE
 -D_FORTIFY_SOURCE=3
 -Wno-unused-parameter

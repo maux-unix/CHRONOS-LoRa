@@ -113,10 +113,10 @@ chronos_rgb_to_ycocg(char **argv)
     ExceptionInfo exception;
     PixelPacket *pixels;
 
-    long y;
-    long x;
-    long columns;
-    long rows;
+    unsigned long y;
+    unsigned long x;
+    unsigned long columns;
+    unsigned long rows;
 
     InitializeMagick(*argv);
     image_info = CloneImageInfo((ImageInfo *)NULL);
@@ -133,7 +133,7 @@ chronos_rgb_to_ycocg(char **argv)
     columns = image->columns;
 
     for (y = 0; y < rows; y++) {
-        pixels = GetImagePixels(image, 0, y, columns, 1);
+        pixels = GetImagePixels(image, 0, (long)y, columns, 1);
         if (pixels == (PixelPacket *)NULL) break;
 
         for (x = 0; x < columns; x++) {

@@ -44,7 +44,7 @@ CRC32C_DEF uint32_t
 crc32c_encode(Crc32c_Span span)
 {
     uint32_t crc = 0xFFFFFFFFu;
-    printf("[CRC-INFO] pre-crc = 0x%08X\n", crc);
+    // printf("[CRC-INFO] pre-crc = 0x%08X\n", crc);
     for (size_t i = 0; i < span.length; i++) {
 #if defined(CRC32C_USE_UINT8) /* CRC32C_USE_WORDSIZE */
         crc = __crc32cb(crc, ((uint8_t *)span.data)[i]);
@@ -55,10 +55,11 @@ crc32c_encode(Crc32c_Span span)
 #elif defined(CRC32C_USE_UINT64)
         crc = __crc32cd(crc, ((uint64_t *)span.data)[i]);
 #else
-        printf("[CRC-WARN] word-size for CRC32C is not defined, no CRC then.");
+        // printf("[CRC-WARN] word-size for CRC32C is not defined, no CRC
+        // then.");
 #endif /* CRC32C_USE_WORDSIZE */
     }
-    printf("[CRC-INFO] post-crc = 0x%08X\n", crc);
+    // printf("[CRC-INFO] post-crc = 0x%08X\n", crc);
     return crc ^ 0xFFFFFFFF;
 }
 

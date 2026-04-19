@@ -4,25 +4,25 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
+#define CRC32C_USE_UINT8
+#include "chronos.h"
+
 #include "Module.h"
 #include "TypeDef.h"
 #include "modules/SX126x/SX1262.h"
-
+#include <RadioLib.h>
 #include <algorithm>
 #include <cstddef>
 #include <cstdint>
 #include <cstdio>
 #include <cstring>
 #include <fstream>
-#include <iostream>
+#include <hal/RPi/PiHal.h>
 #include <iterator>
 #include <print>
 #include <string>
 #include <unistd.h>
 #include <vector>
-
-#include <RadioLib.h>
-#include <hal/RPi/PiHal.h>
 
 constexpr auto CHUNK_SIZE = 180;
 constexpr auto HEADER = 0xAA;
@@ -68,6 +68,7 @@ loadImage(const std::string &path)
 int
 main(void)
 {
+    chronos_convert_to_ppm("test.png", "test.jpg");
     std::println("[INFO] Initializing SX1262...");
 
     /* RadioLib LoRa Initialization */
@@ -100,9 +101,9 @@ main(void)
         auto len = std::min((size_t)CHUNK_SIZE, totalSize - offset);
 
         packet[0] = HEADER;
-        packet[1] = (uint8_t) totalPackets;
-        packet[2] = (uint8_t) i;
-        packet[3] = (uint8_t) len; // IMPORTANT: actual length
+        packet[1] = (uint8_t)totalPackets;
+        packet[2] = (uint8_t)i;
+        packet[3] = (uint8_t)len; // IMPORTANT: actual length
 
         memcpy(packet + 4, &image[offset], len);
 

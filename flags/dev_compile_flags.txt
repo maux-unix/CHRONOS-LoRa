@@ -1,6 +1,5 @@
--xc
 -O0
--std=c23
+-g3
 -glldb
 -Wall
 -Wextra
@@ -11,6 +10,8 @@
 -D_FORTIFY_SOURCE=3
 -Wno-unused-parameter
 -Wno-auto-decl-extensions
+-Wno-inconsistent-missing-override
+-Wno-overloaded-virtual
 -fstrict-flex-arrays=3
 -fstack-protector-strong
 -fsanitize=undefined

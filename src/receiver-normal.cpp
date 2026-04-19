@@ -8,12 +8,13 @@
 #include "TypeDef.h"
 #include "hal/RPi/PiHal.h"
 #include "modules/SX126x/SX1262.h"
+
 #include <RadioLib.h>
 #include <cstddef>
 #include <cstdint>
-#include <iostream>
-#include <fstream>
 #include <cstring>
+#include <fstream>
+#include <iostream>
 #include <print>
 
 constexpr auto CHUNK_SIZE = 180;
@@ -23,7 +24,7 @@ constexpr auto LORA_FREQ = 920.5;
 constexpr auto LORA_SF = 9;
 constexpr auto LORA_BW = 125.0;
 constexpr auto LORA_CR = 5;
-constexpr auto LORA_POWER = 19;
+// constexpr auto LORA_POWER = 19;
 
 namespace {
 
@@ -49,8 +50,8 @@ get_lora(void)
 }
 
 static uint8_t imageBuffer[CHUNK_SIZE * MAX_PACKETS];
-static bool received[MAX_PACKETS] = {false};
-static int packetSizes[MAX_PACKETS] = {0};
+static bool received[MAX_PACKETS] = { false };
+static int packetSizes[MAX_PACKETS] = { 0 };
 
 }
 
@@ -84,7 +85,8 @@ main(void)
             auto index = buffer[2];
             auto len = buffer[3];
 
-            memcpy(&imageBuffer[static_cast<ptrdiff_t>(index * CHUNK_SIZE)], buffer + 4, len);
+            memcpy(&imageBuffer[static_cast<ptrdiff_t>(index * CHUNK_SIZE)],
+                buffer + 4, len);
 
             received[index] = true;
             packetSizes[index] = len;
@@ -106,7 +108,9 @@ main(void)
                 std::ofstream out("output.jpg", std::ios::binary);
 
                 for (int i = 0; i < totalPackets; i++) {
-                    out.write((char*)&imageBuffer[static_cast<ptrdiff_t>(i * CHUNK_SIZE)], packetSizes[i]);
+                    out.write((char *)&imageBuffer[static_cast<ptrdiff_t>(
+                                  i * CHUNK_SIZE)],
+                        packetSizes[i]);
                 }
 
                 out.close();
