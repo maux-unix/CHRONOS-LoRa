@@ -4,12 +4,15 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
+extern "C" {
 #define CRC32C_USE_UINT8
 #include "chronos.h"
+}
 
 #include "Module.h"
 #include "TypeDef.h"
 #include "modules/SX126x/SX1262.h"
+
 #include <RadioLib.h>
 #include <algorithm>
 #include <cstddef>

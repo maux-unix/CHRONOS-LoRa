@@ -13,6 +13,9 @@ CompileFlags:
     - "-fstrict-flex-arrays=3"
     - "-fstack-clash-protection"
     - "-fstack-protector-strong"
+    - "-Ithirdparty/libcorrect/include/"
+    - "-I/usr/include/GraphicsMagick"
+    - "-Lthirdparty/libcorrect/lib/"
 
 ---
 If:

@@ -1,9 +1,5 @@
 # CHRONOS-LoRa
 
-This project is the implementation for my bachelor thesis titled ""
-
-## Background and Similar Works
-
 ## Prerequisites (Hardware)
 
 In this project, we used 2 pairs of the components below, one as a transmitter
@@ -15,7 +11,7 @@ and one as a receiver.
 ## Requirements & Dependencies
 
 Some of these can be found in your OS' package manager, or you can build it
-from source. You can download binaries/source code from the links in 
+from source. You can download binaries/source code from the links in
 the Third-parties section.
 
 1. LLVM/Clang Tools version 20.1+ (clang, clang-format, clang-doc, llvm-ar,
@@ -23,6 +19,7 @@ the Third-parties section.
 2. POSIX coreutils (find, sed, echo, cat, sh)
 3. WiringPi version 3.18
 4. GraphicsMagick version 1.3+
+5. RadioLib
 
 ## Building the Project
 
@@ -37,13 +34,6 @@ If you want to rebuild the entire project, just run this command:
 ```cmd
 ./nob
 ```
-
-> [!IMPORTANT]
-> The build process might spit out errors from clang-doc, please ignore them.
-> That is because I only want to generate docs for CHRONOS-LoRa. If you want to
-> generate docs for all of the components, add "-p build/" to clang-doc
-
-## Testing
 
 ## Documentation
 
@@ -69,27 +59,12 @@ file for copyrights/legal things.
    for the Raspberry Pi, see [COPYING.LESSER][wp_license] file
    for copyrights/legal things. This one is linked dynamically for compliancy.
 
-4. **[libcorrect][lc_link]**: C library for Convolutional codes and 
+4. **[libcorrect][lc_link]**: C library for Convolutional codes and
    Reed-Solomon, see [LICENSE][lc_license] file for copyrights/legal things.
 
 5. **[RadioLib][rl_link]**: Universal wireless communication library for
-   embedded devices, see [license.txt][rl_license] file for copyrights/legal 
+   embedded devices, see [license.txt][rl_license] file for copyrights/legal
    things.
-
-## Citing CHRONOS-LoRa
-
-CHRONOS-LoRa was initially developed by Maulana M. Ali. If you find CHRONOS-LoRa
-useful in your research and wish to cite it, please use the following BibTex
-entry:
-
-```text
-@software{chronoslora2026,
-    author = {Maulana M. Ali},
-    title = {{CHRONOS-LoRa}}
-    url =
-}
-```
-
 
 
 [rpi4b_link]: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/

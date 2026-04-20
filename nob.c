@@ -8,17 +8,22 @@
 
 #define NOB_IMPLEMENTATION
 #define NOB_WARN_DEPRECATED
+#define NOB_EXPERIMENTAL_DELETE_OLD
 #define NOBDEF static inline
 #include "thirdparty/nob/nob.h"
 
 /* CLI Tools' Aliases */
-#define SHELL(cmd, ...) nob_cmd_append(cmd, "sh", "-c", __VA_ARGS__)
-#define CLANG(cmd)      nob_cmd_append(cmd, "clang-20", "-xc", "-std=c23")
-#define CLANGPP(cmd)    nob_cmd_append(cmd, "clang++-20", "-xc++", "-std=c++23")
-#define AR(cmd, ...)    nob_cmd_append(cmd, "llvm-ar-20", __VA_ARGS__)
+#define SHELL(cmd, ...)   nob_cmd_append(cmd, "sh", "-c", __VA_ARGS__)
+#define CLANG(cmd, ...)   nob_cmd_append(cmd, "clang-20", "-xc", "-std=c23")
+#define CLANGPP(cmd)      nob_cmd_append(cmd, "clang++-20", "-xc++", "-std=c++23")
+#define COMPILE(cmd, ...) nob_cc_inputs(cmd, "-c", "-fPIC", __VA_ARGS__)
+#define INPUTS(cmd, ...)  nob_cc_inputs(cmd, __VA_ARGS__)
+#define OUTPUT(cmd, ...)  nob_cc_output(cmd, __VA_ARGS__)
+#define APPEND(cmd, ...)  nob_cmd_append(cmd, __VA_ARGS__)
+#define STATIC_LIB(cmd)   nob_cmd_append(cmd, "llvm-ar-20", "rcs")
+#define SHARED_LIB(cmd)   nob_cmd_append(cmd, "clang-20", "-shared")
 #define CLANG_FORMAT(cmd, ...) \
     nob_cmd_append(cmd, "clang-format-20", __VA_ARGS__)
-#define COMPILE(cmd, ...) nob_cc_inputs(cmd, "-c", __VA_ARGS__)
 
 /* Folders' PATH */
 #define BUILD_FOLDER       "build/"
@@ -26,6 +31,8 @@
 #define DOCS_FOLDER        "docs/"
 #define FLAGS_PATH         "flags/"
 #define PKG_CONFIGS_FOLDER BUILD_FOLDER "pkg-configs/"
+#define BIN_FOLDER         BUILD_FOLDER "bin/"
+#define LIB_FOLDER         BUILD_FOLDER "lib/"
 
 /* Flags */
 #define BUILD_FLAGS(cmd) \
@@ -42,9 +49,10 @@
     nob_cmd_append(cmd, "-Ithirdparty/libcorrect/include/")
 
 /* Linking */
-#define LINK_GRAPHICSMAGICK(cmd) \
-    nob_cmd_append(cmd, "$(GraphicsMagick-config --cflags --ldflags --libs)")
 #define LINK_CHRONOS(cmd) nob_cmd_append(cmd, "-L", BUILD_FOLDER, "-lchronos")
+#define LINK_GRAPHICSMAGICK(cmd)                                          \
+    nob_cmd_append(cmd, "@" PKG_CONFIGS_FOLDER "graphicsmagick_libs.txt", \
+        "@" PKG_CONFIGS_FOLDER "graphicsmagickwand_libs.txt")
 #define LINK_LIBCORRECT(cmd) \
     nob_cmd_append(cmd, "-Lthirdparty/libcorrect/lib/", "-lcorrect")
 
@@ -57,45 +65,63 @@ build_binaries(Nob_Cmd cmd)
     INCLUDE_THIRDPARTY(&cmd);
     INCLUDE_GRAPHICSMAGICK(&cmd);
     COMPILE(&cmd, SRC_FOLDER "chronos.c");
-    nob_cc_output(&cmd, BUILD_FOLDER "chronos.o");
+    OUTPUT(&cmd, BUILD_FOLDER "chronos.o");
     COMMANDS_FLAGS(&cmd, "chronos");
     if (!nob_cmd_run(&cmd)) return 1;
 
-    /* (2) Archive `libchronos.a` library */
-    AR(&cmd, "rcs", BUILD_FOLDER "libchronos.a", BUILD_FOLDER "chronos.o");
+    /* (2) Making `libchronos.a` and `libchronos.so` */
+    STATIC_LIB(&cmd);
+    APPEND(&cmd, LIB_FOLDER "libchronos.a");
+    INPUTS(&cmd, BUILD_FOLDER "chronos.o");
     if (!nob_cmd_run(&cmd)) return 1;
 
-    /* (3) Compile `transmitter.c` */
+    SHARED_LIB(&cmd);
+    INPUTS(&cmd, BUILD_FOLDER "chronos.o");
+    OUTPUT(&cmd, LIB_FOLDER "libchronos.so");
+    LINK_GRAPHICSMAGICK(&cmd);
+    if (!nob_cmd_run(&cmd)) return 1;
+
+    /* (3a) Compile `transmitter.c` */
     CLANG(&cmd);
     BUILD_FLAGS(&cmd);
-
-    nob_cmd_append(&cmd, "-march=armv8-a+crc");
-
+    APPEND(&cmd, "-march=armv8-a+crc");
     INCLUDE_THIRDPARTY(&cmd);
     INCLUDE_GRAPHICSMAGICK(&cmd);
     COMPILE(&cmd, SRC_FOLDER "transmitter.c");
-    nob_cc_output(&cmd, BUILD_FOLDER "transmitter.o");
+    OUTPUT(&cmd, BUILD_FOLDER "transmitter.o");
     COMMANDS_FLAGS(&cmd, "transmitter");
     if (!nob_cmd_run(&cmd)) return 1;
 
-    /* (4) Compile `transmitter-normal.cpp` */
+    /* (3b) Compile `transmitter-normal.cpp` */
     CLANGPP(&cmd);
     BUILD_FLAGS(&cmd);
-    nob_cc_inputs(&cmd, SRC_FOLDER "transmitter-normal.cpp");
-    nob_cmd_append(&cmd, "-I/usr/local/include/RadioLib", "-L/usr/local/lib/",
-        "-lRadioLib", "-llgpio", "-lpthread");
-    nob_cc_output(&cmd, BUILD_FOLDER "transmitter-normal");
+    INCLUDE_GRAPHICSMAGICK(&cmd);
+    APPEND(&cmd, "-I/usr/local/include/RadioLib");
+    COMPILE(&cmd, SRC_FOLDER "transmitter-normal.cpp");
+    OUTPUT(&cmd, BUILD_FOLDER "transmitter-normal.o");
+    // APPEND(&cmd, "-lRadioLib", "-llgpio", "-lpthread", "-lchronos");
+    // LINK_GRAPHICSMAGICK(&cmd);
     COMMANDS_FLAGS(&cmd, "transmitter-normal");
     if (!nob_cmd_run(&cmd)) return 1;
 
-    /* (5) Compile `receiver-normal.cpp` */
+    /* (3c) Compile `receiver-normal.cpp` */
     CLANGPP(&cmd);
     BUILD_FLAGS(&cmd);
-    nob_cc_inputs(&cmd, SRC_FOLDER "receiver-normal.cpp");
-    nob_cmd_append(&cmd, "-I/usr/local/include/RadioLib", "-L/usr/local/lib/",
-        "-lRadioLib", "-llgpio", "-lpthread");
-    nob_cc_output(&cmd, BUILD_FOLDER "receiver-normal");
+    APPEND(&cmd, "-I/usr/local/include/RadioLib");
+    COMPILE(&cmd, SRC_FOLDER "receiver-normal.cpp");
+    OUTPUT(&cmd, BUILD_FOLDER "receiver-normal.o");
+    // APPEND(&cmd, "-lRadioLib", "-llgpio", "-lpthread", "-lchronos");
     COMMANDS_FLAGS(&cmd, "receiver-normal");
+    if (!nob_cmd_run(&cmd)) return 1;
+
+    /* (4b) Linking `transmitter-normal.o` */
+    APPEND(&cmd, "clang++-20", "-fuse-ld=lld", "-fsanitize=address");
+    APPEND(&cmd, "-Wl,-rpath,'$ORIGIN/../lib'");
+    OUTPUT(&cmd, BIN_FOLDER "transmitter-normal");
+    INPUTS(&cmd, BUILD_FOLDER "transmitter-normal.o");
+    APPEND(&cmd, "-Lbuild/lib/", "-L/usr/local/lib/");
+    APPEND(&cmd, "-lRadioLib", "-llgpio", "-lpthread", "-lchronos");
+    LINK_GRAPHICSMAGICK(&cmd);
     if (!nob_cmd_run(&cmd)) return 1;
 
     return 1;
@@ -110,7 +136,8 @@ run_clang_format(Nob_Cmd cmd)
         SRC_FOLDER "receiver-normal.cpp", SRC_FOLDER "transmitter-normal.cpp",
         BUILD_FOLDER "compile_commands.json",
         BUILD_FOLDER "chronos_commands.json",
-        BUILD_FOLDER "transmitter-normal_commands.json" };
+        BUILD_FOLDER "transmitter-normal_commands.json",
+        BUILD_FOLDER "receiver-normal_commands.json" };
     for (size_t i = 0; i < sizeof(files) / sizeof(files[0]); i++) {
         CLANG_FORMAT(&cmd, "-i", files[i]);
         if (!nob_cmd_run(&cmd)) return 1;
@@ -161,14 +188,11 @@ pkg_config_all(Nob_Cmd cmd)
 }
 
 static bool
-build_docs_normal(Nob_Cmd cmd, const char *source_files[], size_t count)
+build_docs_normal(Nob_Cmd cmd)
 {
     nob_cmd_append(&cmd, "clang-doc-20", "--format=html", "--output=docs/",
-        "--doxygen", "--project-name=CHRONOS-LoRa", "-p", BUILD_FOLDER);
-
-    for (size_t i = 0; i < count; i++) {
-        nob_cmd_append(&cmd, source_files[i]);
-    }
+        "--doxygen", "--project-name=CHRONOS-LoRa", "--executor=all-TUs",
+        BUILD_FOLDER "compile_commands.json");
     if (!nob_cmd_run(&cmd)) return 1;
 
     return 1;
@@ -179,20 +203,20 @@ main(int argc, char **argv)
 {
     NOB_GO_REBUILD_URSELF(argc, argv);
     Nob_Cmd cmd = { 0 };
-    const char *source_files[] = { SRC_FOLDER "chronos.c",
-        SRC_FOLDER "transmitter-normal.cpp", SRC_FOLDER "receiver-normal.cpp" };
-    size_t count = 3;
 
     if (!nob_mkdir_if_not_exists(BUILD_FOLDER)) return 1;
+    if (!nob_mkdir_if_not_exists(LIB_FOLDER)) return 1;
+    if (!nob_mkdir_if_not_exists(BIN_FOLDER)) return 1;
+    if (!nob_mkdir_if_not_exists(DOCS_FOLDER)) return 1;
+
     nob_cmd_append(&cmd, "sh", "-c",
         "find build -type f -name \"*.json\" -delete");
     if (!nob_cmd_run(&cmd)) return 1;
+
     if (!pkg_config_all(cmd)) return 1;
-    if (!nob_mkdir_if_not_exists(DOCS_FOLDER)) return 1;
     if (!build_binaries(cmd)) return 1;
     if (!align_compilation_database(cmd)) return 1;
     if (!run_clang_format(cmd)) return 1;
-    if (!build_docs_normal(cmd, source_files, count)) return 1;
-
+    if (!build_docs_normal(cmd)) return 1;
     return 0;
 }

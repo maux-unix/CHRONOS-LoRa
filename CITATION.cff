@@ -1,0 +1,16 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: CHRONOS-LoRa
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Maulana Muhammad Ali
+    email: maulanalazim5@gmail.com
+    affiliation: Universitas Brawijaya
+    orcid: 'https://orcid.org/0009-0003-4930-1728'
+repository-code: 'https://github.com/maux-unix/CHRONOS-LoRa.git'
+license: BSD-3-Clause
