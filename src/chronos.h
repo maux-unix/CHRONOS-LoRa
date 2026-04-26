@@ -11,14 +11,27 @@
 #define CHRONOS_DEF
 #endif /* CHRONOS_DEF */
 
-#include "canonical_huffman.h"
+#define CRC32C_IMPLEMENTATION
 #include "crc32c.h"
+
+#define REED_SOLOMON_IMPLEMENTATION
 #include "reed_solomon.h"
+
+#define CANONICAL_HUFFMAN_IMPLEMENTATION
+#include "canonical_huffman.h"
 
 #include <magick/api.h>
 #include <magick/error.h>
 #include <magick/image.h>
 #include <wand/magick_wand.h>
+
+typedef struct {
+    uint8_t block_id;
+    uint8_t frag_id;
+    uint8_t total_frags;
+    uint8_t len;
+    uint8_t data[FRAG_SIZE];
+} Chronos_Packet_T;
 
 /**
  * @struct CHRONOS' GraphicsMagick Process Function

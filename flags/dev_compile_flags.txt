@@ -15,6 +15,5 @@
 -fstrict-flex-arrays=3
 -fstack-protector-strong
 -fsanitize=undefined
--fsanitize=address
 -fsanitize-trap
 -mbranch-protection=standard
