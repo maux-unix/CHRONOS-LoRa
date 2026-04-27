@@ -2,7 +2,7 @@
 #define _RADIOLIB_H
 
 /*!
-  \mainpage RadioLib Documentation
+  \page RadioLib Documentation
 
   Universal wireless communication library for embedded devices.
 

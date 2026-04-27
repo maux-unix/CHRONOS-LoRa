@@ -10,65 +10,45 @@ and one as a receiver.
 
 ## Requirements & Dependencies (Software)
 
-Some of these can be found in your OS' package manager, or you can build it
-from source. You can download binaries/source code from the links in
-the Third-parties section.
+This repository has vendored most of the dependencies, the rest of them are
+available in Raspberry Pi OS's package manager.
 
-### Required
+1.  Required (for building):
 
-These are required for building the project.
+    ```cmd
+    sudo apt install clang clang-format clang-tidy lld ninja-build \
+    graphicsmagick libgraphicsmagick++1-dev liblgpio-dev \
+    ./thirdparty/WiringPi/wiringpi_3.18_arm64.deb -y
+    ```
 
-1. LLVM/Clang Tools version >= 19.1 (clang, clang-format, clang-tidy, lld)
-2. GraphicsMagick version >= 1.4 (graphicsmagick, libgraphicsmagick++1-dev)
-3. Ninja Build System version >= 1.12.1 (ninja)
-4. WiringPi GPIO Tools version >= 3.18 (WiringPi, liblgpio-dev)
+2. Optional (for further development):
 
-Run this command from the root project to install them:
-
-```cmd
-sudo apt install clang clang-format clang-tidy lld ninja graphicsmagick \
-libgraphicsmagick++1-dev liblgpio-dev \
-./thirdparty/WiringPi/wiringpi_3.18_arm64.deb -y
-```
-
-### Optional
-
-These are optional things that you might want for further development experience.
-
-1. LLVM/Clang LSP and Debugger Tools version >= 19.1 (clangd, lldb)
-2. Doxygen Documentation Tools version >= 1.9.8 (doxygen doxygen-awesome-css graphviz)
-
-Run this command to install them:
-
-```cmd
-sudo apt install clangd lldb doxygen doxygen-awesome-css graphviz -y
-```
+    ```cmd
+    sudo apt install clangd lldb doxygen doxygen-awesome-css graphviz -y
+    ```
 
 ## Building the Project
 
-Building/rebuilding the project is so simple, just run this command:
+1. Building/rebuilding:
 
-```cmd
-ninja -v
-```
+    ```cmd
+    ninja -v
+    ```
 
-If you want to clean the entire project, just run this command:
+2. Cleanup:
 
-```cmd
-ninja clean
-```
+    ```cmd
+    ninja clean
+    ```
 
 ## Documentation
 
-Run this command to compile the documentation:
+1. Local (Offline):
+   ```cmd
+   doxygen && xdg-open docs/html/index.html
+   ```
 
-```cmd
-doxygen
-```
-
-The project's documentation is in the ``` docs/ ``` folder, created
-by Doxygen. You can open it with your web browser by opening
-``` docs/html/index.html ``` file.
+2. Website (Online): Just open the [GitHub Pages][ghp_link]
 
 ## Copyright
 
@@ -103,3 +83,4 @@ file for copyrights/legal things.
 [lc_license]: ./thirdparty/libcorrect/LICENSE
 [rl_link]: https://github.com/jgromes/RadioLib.git
 [rl_license]: ./thirdparty/RadioLib/license.txt
+[ghp_link]: https://maux-unix.github.io/CHRONOS-LoRa/

@@ -11,6 +11,7 @@ ar       = ar
 gmc_cpp  = GraphicsMagick++-config
 gmc_wand = GraphicsMagickWand-config
 
+
 # Flags
 cflags_dev = -O0 -g3 -glldb -Wall -Wextra -std=c++23 -Wpedantic -Wformat $
              -Wformat=2 -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=3 $

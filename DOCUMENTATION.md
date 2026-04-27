@@ -1,0 +1,17 @@
+# CHRONOS-LoRa Documentation
+
+Complex Coding Scheme for Image Transmission via LoRa.
+
+Coding Techniques that are used
+- CRC32C
+- ReedSolomon
+- CanonicalHuffman
+
+## Quick Links
+
+- https://github.com/maux-unix/CHRONOS-LoRa.git
+- https://maux-unix.github.io/CHRONOS-LoRa
+
+## Copyright
+
+Copyright (c) 2026 Maulana M. Ali
