@@ -4,15 +4,14 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-extern "C" {
-#include "chronos.h"
-}
+#include "chronos.hpp"
 
 #include "Module.h"
 #include "TypeDef.h"
 #include "modules/SX126x/SX1262.h"
-
 #include <RadioLib.h>
+#include <hal/RPi/PiHal.h>
+
 #include <algorithm>
 #include <cstddef>
 #include <cstdint>
@@ -20,7 +19,6 @@ extern "C" {
 #include <cstring>
 #include <fcntl.h>
 #include <fstream>
-#include <hal/RPi/PiHal.h>
 #include <iterator>
 #include <print>
 #include <string>

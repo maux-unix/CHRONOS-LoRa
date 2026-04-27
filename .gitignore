@@ -62,3 +62,4 @@ docs/
 *TAGS
 .DS_Store
 nob
+.ninja_log

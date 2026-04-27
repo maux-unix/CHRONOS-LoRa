@@ -13,25 +13,6 @@ CompileFlags:
     - "-fstrict-flex-arrays=3"
     - "-fstack-clash-protection"
     - "-fstack-protector-strong"
-    - "-Ithirdparty/libcorrect/include/"
-    - "-I/usr/include/GraphicsMagick"
-    - "-Lthirdparty/libcorrect/lib/"
-
----
-If:
-  PathMatch: .*\.c$
-CompileFlags:
-  Add:
-    - "-xc"
-    - "-std=c23"
-
----
-If:
-  PathMatch: .*\.(cpp|cc|cxx)$
-CompileFlags:
-  Add:
-    - "-xc++"
-    - "-std=c++23"
 
 Diagnostics:
   UnusedIncludes: Strict
