@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['radiolib_20documentation_0',['RadioLib Documentation',['../index.html',1,'']]]
+  ['documentation_0',['documentation',['../index.html',1,'CHRONOS-LoRa Documentation'],['../RadioLib.html',1,'Documentation']]]
 ];
