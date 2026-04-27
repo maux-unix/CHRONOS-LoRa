@@ -22,7 +22,7 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y \
-            clang clang-format clang-tidy lld ninja graphicsmagick \
+            clang clang-format clang-tidy lld ninja-build graphicsmagick \
             libgraphicsmagick++1-dev liblgpio-dev \
             doxygen doxygen-awesome-css graphviz \
             ./thirdparty/WiringPi/wiringpi_3.18_arm64.deb
