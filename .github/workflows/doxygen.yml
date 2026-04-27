@@ -25,7 +25,9 @@ jobs:
             doxygen \
             graphviz \
             ninja-build \
-            clang
+            clang \
+            graphicsmagick \
+            libgraphicsmagick++1-dev
 
       # 3. Build project (this is where compile_commands.json is generated)
       - name: Build project with Ninja
