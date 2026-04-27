@@ -20,12 +20,12 @@ jobs:
       # 2. Install required tools
       - name: Install dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y \
+          sudo apt update
+          sudo apt install -y \
             clang clang-format clang-tidy lld ninja graphicsmagick \
             libgraphicsmagick++1-dev liblgpio-dev \
             doxygen doxygen-awesome-css graphviz \
-            thirdparty/WiringPi/wiringpi_3.18_arm64.deb
+            ./thirdparty/WiringPi/wiringpi_3.18_arm64.deb
 
       # 3. Build project (this is where compile_commands.json is generated)
       - name: Build project with Ninja
