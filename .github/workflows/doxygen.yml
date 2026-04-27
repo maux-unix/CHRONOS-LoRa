@@ -22,17 +22,15 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y \
-            doxygen \
-            graphviz \
-            ninja-build \
-            clang \
-            graphicsmagick \
-            libgraphicsmagick++1-dev
+            clang clang-format clang-tidy lld ninja graphicsmagick \
+            libgraphicsmagick++1-dev liblgpio-dev \
+            doxygen doxygen-awesome-css graphviz \
+            thirdparty/WiringPi/wiringpi_3.18_arm64.deb
 
       # 3. Build project (this is where compile_commands.json is generated)
       - name: Build project with Ninja
         run: |
-          ninja
+          ninja -v
 
       # 4. Verify compile database exists
       - name: Validate compile_commands.json
