@@ -24,7 +24,7 @@ jobs:
           sudo apt install -y \
             clang clang-format clang-tidy lld ninja-build graphicsmagick \
             libgraphicsmagick++1-dev liblgpio-dev \
-            doxygen doxygen-awesome-css graphviz \
+            doxygen-awesome-css \
             ./thirdparty/WiringPi/wiringpi_3.18_arm64.deb
 
       # 3. Build project (this is where compile_commands.json is generated)
@@ -45,4 +45,4 @@ jobs:
           branch: gh-pages
           folder: docs/html
           config_file: Doxyfile
-          doxygen_version: 1.9.6
+          doxygen_version: 1.9.8
