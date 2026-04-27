@@ -1,0 +1,7 @@
+<map id="BellClient" name="BellClient">
+<area shape="rect" id="Node000001" title="Client for Bell modem communication. The public interface is the same as Arduino Serial." alt="" coords="70,79,155,104"/>
+<area shape="rect" id="Node000002" href="$classAFSKClient.html" title="Client for audio&#45;based transmissions. Requires Arduino tone() function, and a module capable of direc..." alt="" coords="5,5,97,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,40,105,77,101,80,68,43"/>
+<area shape="rect" id="Node000003" href="$classRadioLibPrint.html" title="Printing class, based on Arduino Print class with additional encodings." alt="" coords="121,5,229,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,43,125,80,121,77,154,39"/>
+</map>

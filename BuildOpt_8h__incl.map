@@ -1,0 +1,12 @@
+<map id="thirdparty/RadioLib/include/RadioLib/BuildOpt.h" name="thirdparty/RadioLib/include/RadioLib/BuildOpt.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="13,5,218,45"/>
+<area shape="rect" id="Node000002" href="$TypeDef_8h.html" title=" " alt="" coords="21,93,108,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,47,74,82,70,79,93,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="133,93,199,119"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="130,44,153,80,149,83,125,47"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="224,93,295,119"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="151,43,227,84,225,89,149,48"/>
+<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="77,91,102,56,106,59,81,95"/>
+<area shape="rect" id="Node000003" href="$BuildOptUser_8h.html" title=" " alt="" coords="5,167,124,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="67,119,67,153,62,153,62,119"/>
+</map>

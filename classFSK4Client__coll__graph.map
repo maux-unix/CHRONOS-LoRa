@@ -1,0 +1,8 @@
+<map id="FSK4Client" name="FSK4Client">
+<area shape="rect" id="Node000001" title="Client for FSK&#45;4 communication. The public interface is the same as Arduino Serial." alt="" coords="15,181,107,207"/>
+<area shape="rect" id="Node000002" href="$classPhysicalLayer.html" title="Provides common interface for protocols that run on LoRa/FSK modules, such as RTTY or LoRaWAN...." alt="" coords="5,5,117,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,45,57,80,56,119,62,181,57,181,51,119,51,79,55,44"/>
+<area shape="rect" id="Node000003" href="$classAFSKClient.html" title="Client for audio&#45;based transmissions. Requires Arduino tone() function, and a module capable of direc..." alt="" coords="130,93,222,119"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="89,37,162,91,159,95,86,41"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,129,79,183,75,179,148,125"/>
+</map>

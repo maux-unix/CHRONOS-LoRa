@@ -1,0 +1,9 @@
+<map id="PiHal::pulseIn" name="PiHal::pulseIn">
+<area shape="rect" id="Node000001" title="Measure the length of incoming digital pulse in microseconds. Must be implemented by the platform&#45;spe..." alt="" coords="5,55,116,80"/>
+<area shape="rect" id="Node000002" href="$classPiHal.html#ab9a8fc4f0c7c5190db9d8770bc7d635e" title="Digital read method. Must be implemented by the platform&#45;specific hardware abstraction!" alt="" coords="164,5,303,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,52,174,32,176,37,107,57"/>
+<area shape="rect" id="Node000003" href="$classPiHal.html#a99893a968bd5789511154b559f349e60" title="Get number of microseconds since start. Must be implemented by the platform&#45;specific hardware abstrac..." alt="" coords="179,55,287,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="116,65,165,65,165,70,116,70"/>
+<area shape="rect" id="Node000004" href="$classPiHal.html#ad2986ed862d4c429d6527bd54e472530" title="GPIO pin mode (input/output/...) configuration method. Must be implemented by the platform&#45;specific h..." alt="" coords="173,104,293,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="107,77,176,98,174,103,105,83"/>
+</map>

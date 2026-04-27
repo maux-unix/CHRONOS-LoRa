@@ -1,0 +1,10 @@
+<map id="MorseClient" name="MorseClient">
+<area shape="rect" id="Node000001" title="Client for Morse Code communication. The public interface is the same as Arduino Serial." alt="" coords="112,181,212,207"/>
+<area shape="rect" id="Node000002" href="$classRadioLibPrint.html" title="Printing class, based on Arduino Print class with additional encodings." alt="" coords="5,93,113,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,126,149,179,146,183,82,130"/>
+<area shape="rect" id="Node000003" href="$classPhysicalLayer.html" title="Provides common interface for protocols that run on LoRa/FSK modules, such as RTTY or LoRaWAN...." alt="" coords="127,5,239,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,45,166,181,161,181,178,44"/>
+<area shape="rect" id="Node000004" href="$classAFSKClient.html" title="Client for audio&#45;based transmissions. Requires Arduino tone() function, and a module capable of direc..." alt="" coords="252,93,344,119"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="211,37,284,91,281,95,208,41"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="270,128,182,183,179,179,267,124"/>
+</map>

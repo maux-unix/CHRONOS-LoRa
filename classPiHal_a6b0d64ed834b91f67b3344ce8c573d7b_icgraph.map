@@ -1,0 +1,5 @@
+<map id="PiHal::spiEnd" name="PiHal::spiEnd">
+<area shape="rect" id="Node000001" title="SPI termination method." alt="" coords="148,5,255,31"/>
+<area shape="rect" id="Node000002" href="$classPiHal.html#ae5821694030ae6364012be3a34ef584d" title="Module termination method. This will be called by all radio modules when the destructor is called...." alt="" coords="5,5,100,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,21,100,21,100,15,134,15"/>
+</map>

@@ -1,0 +1,25 @@
+var classMorseClient =
+[
+    [ "MorseClient", "classMorseClient.html#aeade3a433da40e6a9f28688f2e6e3b5a", null ],
+    [ "MorseClient", "classMorseClient.html#aa5c8ec6823388877b7acfa0deab689a2", null ],
+    [ "begin", "classMorseClient.html#a516f19bb51b87ead7f7ed149f2ca92cf", null ],
+    [ "decode", "classMorseClient.html#aa0aefaa493e0d58d8940d74b6168aed1", null ],
+    [ "read", "classMorseClient.html#a77eab03be04ef2d693348d9580ee5d3c", null ],
+    [ "standby", "classMorseClient.html#acf595b1d0a3f20109624c0a4ca1de338", null ],
+    [ "startSignal", "classMorseClient.html#a3c718208786f8fe55f30eee990ec28e3", null ],
+    [ "transmitDirect", "classMorseClient.html#a4727b6509970e2124242e9a14b72ba83", null ],
+    [ "write", "classMorseClient.html#a4a9cf8bf1a8bd270417a1a9fca660ef1", null ],
+    [ "audioClient", "classMorseClient.html#afb0fa5868b136868c89ba735aec1cad0", null ],
+    [ "baseFreq", "classMorseClient.html#a47c89176fb88071469414a238bd9753f", null ],
+    [ "baseFreqHz", "classMorseClient.html#a9eb2946f3cfd213de1225108e52f4d1f", null ],
+    [ "basePeriod", "classMorseClient.html#a832603b5c9eaabcc92ad3f476dfcfc19", null ],
+    [ "dashLength", "classMorseClient.html#af87ef8d7690edf38037a84b9a97154a2", null ],
+    [ "dotLength", "classMorseClient.html#a598a01831aafae8c1654b536c3664275", null ],
+    [ "letterSpace", "classMorseClient.html#a6b560b3b5f479335286b7d072ae3e2f2", null ],
+    [ "pauseCounter", "classMorseClient.html#acff4b42a52a34928da9c1434f78931c0", null ],
+    [ "pauseStart", "classMorseClient.html#aa41102f10a6fb688db5c9b646aca6b82", null ],
+    [ "phyLayer", "classMorseClient.html#ae5df1b55ec3a35145e61db9f33f8f9fc", null ],
+    [ "signalCounter", "classMorseClient.html#aa547c6d5db4c2286b24774d505ceb163", null ],
+    [ "signalStart", "classMorseClient.html#a8f978414a4d2c39d58dde3a088659ad7", null ],
+    [ "wordSpace", "classMorseClient.html#af951f09001a3a5e39a01ac795d43e4a8", null ]
+];

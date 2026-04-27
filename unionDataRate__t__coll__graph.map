@@ -1,0 +1,9 @@
+<map id="DataRate_t" name="DataRate_t">
+<area shape="rect" id="Node000001" title="Common data rate structure." alt="" coords="122,93,217,119"/>
+<area shape="rect" id="Node000002" href="$structLoRaRate__t.html" title="Data rate structure interpretation in case LoRa is used." alt="" coords="5,5,101,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,37,155,91,152,95,78,41"/>
+<area shape="rect" id="Node000003" href="$structFSKRate__t.html" title="Data rate structure interpretation in case FSK is used." alt="" coords="125,5,213,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,45,172,93,167,93,167,45"/>
+<area shape="rect" id="Node000004" href="$structLrFhssRate__t.html" title="Data rate structure interpretation in case LR&#45;FHSS is used." alt="" coords="237,5,344,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="264,41,187,95,184,91,261,37"/>
+</map>

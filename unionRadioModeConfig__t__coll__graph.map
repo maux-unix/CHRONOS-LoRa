@@ -1,0 +1,17 @@
+<map id="RadioModeConfig_t" name="RadioModeConfig_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="301,181,449,207"/>
+<area shape="rect" id="Node000002" href="$structStandbyConfig__t.html" title=" " alt="" coords="5,93,133,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,120,227,155,324,179,322,184,226,160,115,126"/>
+<area shape="rect" id="Node000003" href="$structReceiveConfig__t.html" title=" " alt="" coords="158,93,285,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="255,123,355,179,353,183,253,128"/>
+<area shape="rect" id="Node000004" href="$structTransmitConfig__t.html" title=" " alt="" coords="309,93,440,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="377,133,377,181,372,181,372,133"/>
+<area shape="rect" id="Node000005" href="$unionChannelScanConfig__t.html" title="Common channel scan configuration structure." alt="" coords="465,93,623,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="510,127,399,183,396,179,508,122"/>
+<area shape="rect" id="Node000006" href="$structCADScanConfig__t.html" title="Channel scan configuration interpretation in case LoRa CAD is used." alt="" coords="397,5,531,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="486,39,535,91,531,95,482,43"/>
+<area shape="rect" id="Node000007" href="$structRSSIScanConfig__t.html" title="Channel scan configuration interpretation in case RSSI threshold is used." alt="" coords="555,5,690,31"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="605,43,557,95,553,91,601,39"/>
+<area shape="rect" id="Node000008" href="$structSleepConfig__t.html" title=" " alt="" coords="647,93,758,119"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="646,125,419,184,418,179,645,120"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="PiHal::digitalRead" name="PiHal::digitalRead">
+<area shape="rect" id="Node000001" title="Digital read method. Must be implemented by the platform&#45;specific hardware abstraction!" alt="" coords="164,5,303,31"/>
+<area shape="rect" id="Node000002" href="$classPiHal.html#a3350f8cc20008dbe69e7180599fb80ee" title="Measure the length of incoming digital pulse in microseconds. Must be implemented by the platform&#45;spe..." alt="" coords="5,5,116,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,21,116,21,116,15,150,15"/>
+</map>

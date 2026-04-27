@@ -1,0 +1,5 @@
+<map id="LoRaWANPackageTS003" name="LoRaWANPackageTS003">
+<area shape="rect" id="Node000001" title="LoRaWAN Application package for TS003 Application Time." alt="" coords="5,79,184,104"/>
+<area shape="rect" id="Node000002" href="$classLoRaWANPackage.html" title="Common interface for all application packages." alt="" coords="25,5,164,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,44,97,79,92,79,92,44"/>
+</map>

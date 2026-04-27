@@ -1,0 +1,9 @@
+<map id="PacketConfig_t" name="PacketConfig_t">
+<area shape="rect" id="Node000001" title="Common packet configuration structure." alt="" coords="191,93,308,119"/>
+<area shape="rect" id="Node000002" href="$structLoRaPacketConfig__t.html" title=" " alt="" coords="5,5,155,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,34,228,91,225,95,114,39"/>
+<area shape="rect" id="Node000003" href="$structFSKPacketConfig__t.html" title=" " alt="" coords="179,5,320,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="252,45,252,93,247,93,247,45"/>
+<area shape="rect" id="Node000004" href="$structLrFhssPacketConfig__t.html" title=" " alt="" coords="345,5,503,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="389,39,274,95,272,91,387,34"/>
+</map>

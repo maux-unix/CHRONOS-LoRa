@@ -1,0 +1,29 @@
+<map id="thirdparty/RadioLib/include/RadioLib/protocols/PhysicalLayer/PhysicalLayer.h" name="thirdparty/RadioLib/include/RadioLib/protocols/PhysicalLayer/PhysicalLayer.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="147,5,369,60"/>
+<area shape="rect" id="Node000002" href="$TypeDef_8h.html" title=" " alt="" coords="139,181,249,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,61,206,170,201,168,245,59"/>
+<area shape="rect" id="Node000007" href="$Module_8h.html" title=" " alt="" coords="259,108,366,133"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="277,59,300,95,296,98,272,62"/>
+<area shape="rect" id="Node000003" href="$BuildOptUser_8h.html" title=" " alt="" coords="5,255,124,280"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="174,209,99,250,97,245,172,204"/>
+<area shape="rect" id="Node000004" href="$BuildOpt_8h.html" title=" " alt="" coords="149,255,239,280"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="190,207,188,241,183,241,184,207"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="198,254,200,220,205,221,204,255"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="155,328,222,353"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="196,281,193,315,188,314,190,280"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="247,328,317,353"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="210,278,259,317,255,321,206,282"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="295,136,227,176,224,172,292,131"/>
+<area shape="rect" id="Node000008" href="$Hal_8h.html" title=" " alt="" coords="394,181,450,207"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="332,131,394,171,391,176,329,136"/>
+<area shape="rect" id="Node000010" href="$Utils_8h.html" title=" " alt="" coords="274,181,370,207"/>
+<area shape="poly" id="edge13_Node000007_Node000010" title=" " alt="" coords="317,133,321,167,316,168,312,134"/>
+<area shape="poly" id="edge12_Node000008_Node000004" title=" " alt="" coords="394,207,244,253,243,248,393,202"/>
+<area shape="poly" id="edge10_Node000008_Node000006" title=" " alt="" coords="424,208,419,243,411,263,400,282,368,309,332,327,329,322,365,305,396,278,407,261,413,241,419,207"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="461,255,535,280"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="436,205,477,243,474,247,432,209"/>
+<area shape="poly" id="edge16_Node000010_Node000004" title=" " alt="" coords="303,209,228,250,226,245,300,204"/>
+<area shape="poly" id="edge14_Node000010_Node000006" title=" " alt="" coords="321,208,306,255,290,315,285,314,301,254,316,206"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="315,255,385,280"/>
+<area shape="poly" id="edge15_Node000010_Node000011" title=" " alt="" coords="329,206,343,241,338,243,324,208"/>
+</map>

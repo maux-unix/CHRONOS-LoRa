@@ -1,0 +1,16 @@
+<map id="thirdparty/RadioLib/include/RadioLib/modules/LR11x0/LR1120.h" name="thirdparty/RadioLib/include/RadioLib/modules/LR11x0/LR1120.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="102,5,295,60"/>
+<area shape="rect" id="Node000002" href="$RadioLib_8h.html" title=" " alt="" coords="96,211,301,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,73,160,109,155,135,160,162,171,187,185,209,181,212,166,190,155,163,150,135,155,107,170,71"/>
+<area shape="rect" id="Node000006" href="$LR1121_8h.html" title=" " alt="" coords="170,108,363,163"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="226,70,251,106,247,109,222,73"/>
+<area shape="rect" id="Node000003" href="$receiver-normal_8cpp.html" title=" " alt="" coords="5,401,181,427"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="150,260,128,278,110,300,100,326,95,354,95,401,89,401,89,354,94,325,106,297,124,274,147,256"/>
+<area shape="rect" id="Node000004" href="$transmitter-normal_8cpp.html" title=" " alt="" coords="211,401,407,427"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="249,256,272,274,292,297,304,325,310,354,313,401,307,401,305,354,299,326,287,300,269,278,246,260"/>
+<area shape="rect" id="Node000005" href="$PiHal_8h.html" title=" " alt="" coords="120,299,277,353"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="201,264,201,299,196,299,196,264"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="158,364,109,403,106,399,154,360"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="245,360,296,399,293,403,242,364"/>
+<area shape="poly" id="edge8_Node000006_Node000002" title=" " alt="" coords="242,175,215,212,210,209,237,172"/>
+</map>

@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['ch_5fdef_0',['CH_DEF',['../canonical__huffman_8hpp.html#ac144a36b5d715490b128f20611cfd88d',1,'canonical_huffman.hpp']]],
-  ['crc32c_5fdef_1',['CRC32C_DEF',['../transmitter_8c.html#a2877da0967a5d7413f446cee754b8626',1,'transmitter.c']]],
-  ['crc32c_5fimplementation_2',['CRC32C_IMPLEMENTATION',['../transmitter_8c.html#a2885f94b78c2eeec69fbd19245e88173',1,'transmitter.c']]],
-  ['crc32c_5fuse_5fuint8_3',['CRC32C_USE_UINT8',['../transmitter_8c.html#a395354641e0e39a68ba72f749654488e',1,'transmitter.c']]]
+  ['array_5fget_0',['ARRAY_GET',['../nob_8h.html#a3cc1ed8c4a643f7b12b7793f7dbc5459',1,'nob.h']]],
+  ['array_5flen_1',['ARRAY_LEN',['../nob_8h.html#abc6e4c7c6eb484462c07c2c5098cb892',1,'nob.h']]]
 ];

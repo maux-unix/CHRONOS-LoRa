@@ -1,0 +1,17 @@
+<map id="thirdparty/RadioLib/include/RadioLib/Hal.h" name="thirdparty/RadioLib/include/RadioLib/Hal.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,176,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="21,167,91,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,47,57,69,44,94,41,124,48,153,43,154,36,125,39,93,52,66,69,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="53,93,128,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="93,46,93,79,88,79,88,46"/>
+<area shape="rect" id="Node000004" href="$BuildOpt_8h.html" title=" " alt="" coords="152,93,243,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="118,43,172,83,169,87,115,48"/>
+<area shape="poly" id="edge8_Node000004_Node000002" title=" " alt="" coords="176,121,92,163,90,158,173,116"/>
+<area shape="rect" id="Node000005" href="$TypeDef_8h.html" title=" " alt="" coords="154,167,241,192"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="193,119,191,153,186,153,188,119"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="265,167,332,192"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="215,116,272,156,269,161,212,121"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="202,166,203,132,209,133,207,167"/>
+<area shape="rect" id="Node000006" href="$BuildOptUser_8h.html" title=" " alt="" coords="138,240,257,265"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="200,192,200,226,195,226,195,192"/>
+</map>

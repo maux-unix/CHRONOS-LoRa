@@ -1,0 +1,5 @@
+<map id="PiHal::init" name="PiHal::init">
+<area shape="rect" id="Node000001" title="Module initialization method. This will be called by all radio modules at the beginning of startup...." alt="" coords="5,5,91,31"/>
+<area shape="rect" id="Node000002" href="$classPiHal.html#a40d237c2f5f4ead26c39f33481b4d7e3" title="SPI initialization method." alt="" coords="139,5,259,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,15,125,15,125,21,91,21"/>
+</map>

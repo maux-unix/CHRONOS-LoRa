@@ -1,0 +1,15 @@
+<map id="LRxxxx" name="LRxxxx">
+<area shape="rect" id="Node000001" title=" " alt="" coords="99,79,169,104"/>
+<area shape="rect" id="Node000003" href="$classLR11x0.html" title="Base class for LR11x0 series. All derived classes for LR11x0 (e.g. LR1110 or LR1120) inherit from thi..." alt="" coords="52,152,123,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="121,117,97,153,93,150,117,114"/>
+<area shape="rect" id="Node000007" href="$classLR2021.html" title=" " alt="" coords="147,152,217,177"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="152,114,176,150,172,153,147,117"/>
+<area shape="rect" id="Node000002" href="$classPhysicalLayer.html" title="Provides common interface for protocols that run on LoRa/FSK modules, such as RTTY or LoRaWAN...." alt="" coords="78,5,190,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,44,137,79,131,79,131,44"/>
+<area shape="rect" id="Node000004" href="$classLR1110.html" title="Derived class for LR1110 modules." alt="" coords="5,225,76,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="74,190,50,227,46,224,70,187"/>
+<area shape="rect" id="Node000005" href="$classLR1120.html" title="Derived class for LR1120 modules." alt="" coords="100,225,171,251"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="105,187,130,224,125,227,101,190"/>
+<area shape="rect" id="Node000006" href="$classLR1121.html" title="Derived class for LR1121 modules." alt="" coords="100,299,171,324"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="138,264,138,299,133,299,133,264"/>
+</map>

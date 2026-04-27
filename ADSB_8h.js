@@ -1,0 +1,47 @@
+var ADSB_8h =
+[
+    [ "ADSBFrame", "structADSBFrame.html", "structADSBFrame" ],
+    [ "ADSBClient", "classADSBClient.html", "classADSBClient" ],
+    [ "RADIOLIB_ADSB_CALLSIGN_LEN", "ADSB_8h.html#a20758accae92f2dafd4a5981a8ccdf37", null ],
+    [ "RADIOLIB_ADSB_CARRIER_FREQUENCY", "ADSB_8h.html#ae2bfaee731877abc98c9352b8c460fe8", null ],
+    [ "RADIOLIB_ADSB_FRAME_DF_CA_POS", "ADSB_8h.html#a43629e3ad46cd295abb4f0e546c2bb8e", null ],
+    [ "RADIOLIB_ADSB_FRAME_ICAO_LEN_BYTES", "ADSB_8h.html#a710ef5f64d000b3e6ba26793684a04b1", null ],
+    [ "RADIOLIB_ADSB_FRAME_ICAO_POS", "ADSB_8h.html#a1f90ba8b557ebde58a7679342aeca024", null ],
+    [ "RADIOLIB_ADSB_FRAME_LEN_BYTES", "ADSB_8h.html#ad0b86ae2a0feeac1e2b20c0c2efa5d34", null ],
+    [ "RADIOLIB_ADSB_FRAME_MESSAGE_LEN_BYTES", "ADSB_8h.html#a6d6f9a16eec13af76a33e03b6d95ca8e", null ],
+    [ "RADIOLIB_ADSB_FRAME_MESSAGE_POS", "ADSB_8h.html#a22e7a834d74edd5df0dc987f81104c08", null ],
+    [ "RADIOLIB_ADSB_FRAME_PARITY_INTERROGATOR_LEN_BYTES", "ADSB_8h.html#a3faf134c3e6dec1264fa961b1ab02e98", null ],
+    [ "RADIOLIB_ADSB_FRAME_PARITY_INTERROGATOR_POS", "ADSB_8h.html#a45d6a63a67e9309a022bf61b0adf13c8", null ],
+    [ "RADIOLIB_ADSB_HEX_ID_LEN", "ADSB_8h.html#a03116d8c16e7706496e75aa8552c6aa4", null ],
+    [ "ADSBAircraftCategory", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512eb", [
+      [ "NONE", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512ebab50339a10e1de285ac99d4c3990b8693", null ],
+      [ "SURFACE_EMERGENCY", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512eba14e48105ddbdb08c6d28ace01e020541", null ],
+      [ "SURFACE_SERVICE", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512eba8bac8296724012c39e67c6797c7765e1", null ],
+      [ "GROUND_OBSTRUCTION", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512eba79bc25d47ce0b9bd9c2697f4f08e4f5b", null ],
+      [ "GLIDER", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512ebab907680db9e398e109621dd21ddf59a8", null ],
+      [ "LIGHTER_THAN_AIR", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512eba7cfeef4c14ec4718217d058eb201f22e", null ],
+      [ "PARACHUTIST", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512ebaf9e8ee492f625c6f066260ad88ab5eb3", null ],
+      [ "ULTRALIGHT_PARAGLIDER", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512eba8db52cda6ace1d78bba7ebff8c990c33", null ],
+      [ "UAV", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512eba6902d76cea698982754404da77e5e08a", null ],
+      [ "SPACE_VEHICLE", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512eba0b0f9fa54e63503949266eedae5d68cf", null ],
+      [ "LIGHT", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512ebaf8589806bbf66241917092b2a6e18c6f", null ],
+      [ "MEDIUM_1", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512ebaa0cbf859d07cbadc713bab61f680fb98", null ],
+      [ "MEDIUM_2", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512eba6ab81ba46fcef33af65df32dc573af22", null ],
+      [ "HIGH_VORTEX", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512eba2a1e5f19640a91a47dbf52101ca4904f", null ],
+      [ "HEAVY", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512eba7f51edd36275e0ad089c8f9dc7fecf87", null ],
+      [ "HIGH_PERFORMANCE", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512ebad83cca9f99d06cad23f93af79fc66880", null ],
+      [ "ROTORCRAFT", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512ebaf9e992d5df1e8db3aa8cd10ecfe5bf8b", null ],
+      [ "RESERVED", "ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512eba83c7f2aa8c3ac10ed8beb75cad162827", null ]
+    ] ],
+    [ "ADSBMessageType", "ADSB_8h.html#aa4a96f208e683aa2552025653dfef3ce", [
+      [ "AIRCRAFT_ID", "ADSB_8h.html#aa4a96f208e683aa2552025653dfef3cea439492cff4e43518ab7faa77fa2c5421", null ],
+      [ "SURFACE_POS", "ADSB_8h.html#aa4a96f208e683aa2552025653dfef3ceaf8be1d6d54bd724c689e7949d72edd44", null ],
+      [ "AIRBORNE_POS_ALT_BARO", "ADSB_8h.html#aa4a96f208e683aa2552025653dfef3cea535a238912bb75ceb6a8318778b32e41", null ],
+      [ "AIRBORNE_VEL", "ADSB_8h.html#aa4a96f208e683aa2552025653dfef3cea6bcf7a69326648c4a3b67bef3138c1b4", null ],
+      [ "AIRBORNE_POS_ALT_GNSS", "ADSB_8h.html#aa4a96f208e683aa2552025653dfef3cea126df57594e4b6f59fd8ba38b03a08fb", null ],
+      [ "AIRCRAFT_STATUS", "ADSB_8h.html#aa4a96f208e683aa2552025653dfef3cea6583729bcfd4133fba6b36eb4ac012f2", null ],
+      [ "TARGET_STATE", "ADSB_8h.html#aa4a96f208e683aa2552025653dfef3ceaec471fb4b8e617886b5cc3ad08af8a9b", null ],
+      [ "AIRCRAFT_OPS_STATUS", "ADSB_8h.html#aa4a96f208e683aa2552025653dfef3ceaf5340c9ccd1c6f6beb7c477d1c0747b7", null ],
+      [ "RESERVED", "ADSB_8h.html#aa4a96f208e683aa2552025653dfef3cea83c7f2aa8c3ac10ed8beb75cad162827", null ]
+    ] ]
+];

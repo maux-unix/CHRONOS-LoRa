@@ -1,0 +1,5 @@
+<map id="nRF24" name="nRF24">
+<area shape="rect" id="Node000001" title="Control class for nRF24 module." alt="" coords="30,79,93,104"/>
+<area shape="rect" id="Node000002" href="$classPhysicalLayer.html" title="Provides common interface for protocols that run on LoRa/FSK modules, such as RTTY or LoRaWAN...." alt="" coords="5,5,117,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,44,64,79,59,79,59,44"/>
+</map>

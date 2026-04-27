@@ -1,0 +1,9 @@
+<map id="SX1277" name="SX1277">
+<area shape="rect" id="Node000001" title="Derived class for SX1277 modules. Overrides some methods from SX1278 due to different parameter range..." alt="" coords="26,225,97,251"/>
+<area shape="rect" id="Node000002" href="$classSX1278.html" title="Derived class for SX1278 modules. Also used as base class for SX1276, SX1277, SX1279,..." alt="" coords="26,152,97,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,191,64,225,59,225,59,191"/>
+<area shape="rect" id="Node000003" href="$classSX127x.html" title="Base class for SX127x series. All derived classes for SX127x (e.g. SX1278 or SX1272) inherit from thi..." alt="" coords="26,79,97,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="64,118,64,152,59,152,59,118"/>
+<area shape="rect" id="Node000004" href="$classPhysicalLayer.html" title="Provides common interface for protocols that run on LoRa/FSK modules, such as RTTY or LoRaWAN...." alt="" coords="5,5,117,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="64,44,64,79,59,79,59,44"/>
+</map>

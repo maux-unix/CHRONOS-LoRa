@@ -1,0 +1,24 @@
+<map id="thirdparty/RadioLib/include/RadioLib/modules/LR11x0/LR11x0_registers.h" name="thirdparty/RadioLib/include/RadioLib/modules/LR11x0/LR11x0_registers.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="135,5,338,60"/>
+<area shape="rect" id="Node000002" href="$LR11x0_8h.html" title=" " alt="" coords="140,108,333,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,74,239,108,234,108,234,74"/>
+<area shape="rect" id="Node000003" href="$LR1110_8h.html" title=" " alt="" coords="5,313,199,368"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="172,172,149,190,131,212,118,237,111,264,104,313,99,313,105,263,113,235,126,209,146,187,169,168"/>
+<area shape="rect" id="Node000008" href="$LR1120_8h.html" title=" " alt="" coords="140,211,333,265"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="239,176,239,211,234,211,234,176"/>
+<area shape="rect" id="Node000009" href="$LR1121_8h.html" title=" " alt="" coords="275,313,468,368"/>
+<area shape="poly" id="edge13_Node000002_Node000009" title=" " alt="" coords="306,168,329,187,348,209,361,235,369,263,374,313,369,313,364,264,356,237,344,212,325,191,303,172"/>
+<area shape="rect" id="Node000004" href="$RadioLib_8h.html" title=" " alt="" coords="134,416,339,456"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="153,374,211,414,208,418,150,378"/>
+<area shape="rect" id="Node000005" href="$receiver-normal_8cpp.html" title=" " alt="" coords="43,607,219,632"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="188,466,166,483,148,505,138,532,133,560,133,606,127,606,127,559,132,530,144,503,162,480,185,461"/>
+<area shape="rect" id="Node000006" href="$transmitter-normal_8cpp.html" title=" " alt="" coords="249,607,445,632"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="287,461,310,480,330,503,342,530,348,559,351,606,345,606,343,560,337,532,325,505,307,483,284,465"/>
+<area shape="rect" id="Node000007" href="$PiHal_8h.html" title=" " alt="" coords="158,504,315,559"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="239,469,239,504,234,504,234,469"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="196,569,147,608,144,604,192,565"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="283,565,334,604,331,608,280,569"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="239,279,239,416,234,416,234,279"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="284,271,338,311,334,315,281,276"/>
+<area shape="poly" id="edge12_Node000009_Node000004" title=" " alt="" coords="324,378,266,418,263,414,321,374"/>
+</map>

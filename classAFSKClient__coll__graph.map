@@ -1,0 +1,5 @@
+<map id="AFSKClient" name="AFSKClient">
+<area shape="rect" id="Node000001" title="Client for audio&#45;based transmissions. Requires Arduino tone() function, and a module capable of direc..." alt="" coords="15,93,107,119"/>
+<area shape="rect" id="Node000002" href="$classPhysicalLayer.html" title="Provides common interface for protocols that run on LoRa/FSK modules, such as RTTY or LoRaWAN...." alt="" coords="5,5,117,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,45,64,93,59,93,59,45"/>
+</map>

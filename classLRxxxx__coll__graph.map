@@ -1,0 +1,14 @@
+<map id="LRxxxx" name="LRxxxx">
+<area shape="rect" id="Node000001" title=" " alt="" coords="47,181,118,207"/>
+<area shape="rect" id="Node000002" href="$classPhysicalLayer.html" title="Provides common interface for protocols that run on LoRa/FSK modules, such as RTTY or LoRaWAN...." alt="" coords="5,93,117,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,131,82,180,77,181,65,133"/>
+<area shape="rect" id="Node000003" href="$classModule.html" title="Implements all common low&#45;level methods to control the wireless module. Every module class contains o..." alt="" coords="141,93,211,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="136,127,113,145,99,163,89,182,85,180,94,161,109,141,133,123"/>
+<area shape="rect" id="Node000005" href="$structModule_1_1SPIConfig__t.html" title="SPI configuration structure." alt="" coords="194,181,345,207"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="169,132,168,145,172,156,185,169,202,179,200,183,182,174,167,159,162,145,164,131"/>
+<area shape="rect" id="Node000004" href="$classRadioLibHal.html" title="Hardware abstraction library base interface." alt="" coords="43,5,143,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="116,39,166,91,163,95,112,43"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="277,168,278,155,274,144,261,132,246,122,211,112,213,107,248,118,265,127,278,141,283,155,282,169"/>
+<area shape="rect" id="Node000006" href="$structModule_1_1RfSwitchMode__t.html" title="Description of RF switch pin states for a single mode. See setRfSwitchTable for details." alt="" coords="167,5,350,31"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="240,43,189,95,186,91,236,39"/>
+</map>

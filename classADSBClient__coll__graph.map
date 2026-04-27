@@ -1,0 +1,5 @@
+<map id="ADSBClient" name="ADSBClient">
+<area shape="rect" id="Node000001" title="Client for receiving and decoding ADS&#45;B broadcast." alt="" coords="13,93,109,119"/>
+<area shape="rect" id="Node000002" href="$classPhysicalLayer.html" title="Provides common interface for protocols that run on LoRa/FSK modules, such as RTTY or LoRaWAN...." alt="" coords="5,5,117,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,45,64,93,59,93,59,45"/>
+</map>

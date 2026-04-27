@@ -1,0 +1,25 @@
+<map id="LoRaWANBand_t" name="LoRaWANBand_t">
+<area shape="rect" id="Node000001" title="Structure to save information about LoRaWAN band." alt="" coords="743,95,873,121"/>
+<area shape="rect" id="Node000002" href="$structLoRaWANChannel__t.html" title="Structure to save information about LoRaWAN channels. To save space, adjacent channels are saved in &quot;..." alt="" coords="457,35,608,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="622,56,719,75,775,93,774,98,718,80,621,61"/>
+<area shape="rect" id="Node000003" href="$structLoRaWANChannelSpan__t.html" title="Structure to save information about LoRaWAN channels. To save space, adjacent channels are saved in &quot;..." alt="" coords="441,95,624,121"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="637,105,743,105,743,111,637,111"/>
+<area shape="rect" id="Node000004" href="$structLoRaWANDataRate__t.html" title=" " alt="" coords="453,145,612,170"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="625,141,718,125,753,118,754,123,719,131,626,147"/>
+<area shape="rect" id="Node000005" href="$unionDataRate__t.html" title="Common data rate structure." alt="" coords="267,95,362,121"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="376,119,476,142,475,147,375,124"/>
+<area shape="rect" id="Node000006" href="$structLoRaRate__t.html" title="Data rate structure interpretation in case LoRa is used." alt="" coords="37,9,133,34"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="143,36,165,43,233,67,289,93,287,98,231,72,163,48,141,41"/>
+<area shape="rect" id="Node000007" href="$structFSKRate__t.html" title="Data rate structure interpretation in case FSK is used." alt="" coords="41,58,129,83"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="143,77,268,98,267,103,142,83"/>
+<area shape="rect" id="Node000008" href="$structLrFhssRate__t.html" title="Data rate structure interpretation in case LR&#45;FHSS is used." alt="" coords="31,107,138,133"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="151,116,232,112,267,110,267,115,232,117,152,121"/>
+<area shape="rect" id="Node000009" href="$unionPacketConfig__t.html" title="Common packet configuration structure." alt="" coords="256,169,373,194"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="387,177,417,175,467,167,468,173,418,180,387,182"/>
+<area shape="rect" id="Node000010" href="$structLoRaPacketConfig__t.html" title=" " alt="" coords="10,157,159,182"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="173,171,256,176,256,181,173,177"/>
+<area shape="rect" id="Node000011" href="$structFSKPacketConfig__t.html" title=" " alt="" coords="14,206,155,231"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="168,205,232,195,255,190,256,196,232,200,169,210"/>
+<area shape="rect" id="Node000012" href="$structLrFhssPacketConfig__t.html" title=" " alt="" coords="5,255,164,281"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="149,249,231,222,291,192,293,196,233,226,151,254"/>
+</map>

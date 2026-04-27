@@ -117,16 +117,25 @@ $(document).ready(function(){initNavTree('chronos_8cpp.html',''); initResizable(
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="chronos_8cpp__incl.svg" width="2003" height="256"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="chronos_8cpp__incl.svg" width="1914" height="330"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a1d40478f7931bc2280f6d1048a1cb496" id="r_a1d40478f7931bc2280f6d1048a1cb496"><td class="memItemLeft" align="right" valign="top">static Quantum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chronos_8cpp.html#a1d40478f7931bc2280f6d1048a1cb496">chronos_clamp_quantum</a> (double v)</td></tr>
+<tr class="memdesc:a1d40478f7931bc2280f6d1048a1cb496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clamp GraphicsMagick's Quantum value from signed to unisgned limit.  <br /></td></tr>
+<tr class="separator:a1d40478f7931bc2280f6d1048a1cb496"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c442ee2efdfad19f622ad860721ab3f" id="r_a8c442ee2efdfad19f622ad860721ab3f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chronos_8cpp.html#a8c442ee2efdfad19f622ad860721ab3f">chronos_process_image</a> (const char *in_filename, const char *out_filename, <a class="el" href="chronos_8hpp.html#a4ec41397b58fb8c97ac0f4537483ded5">Chronos_Process_Function</a> fn)</td></tr>
+<tr class="memdesc:a8c442ee2efdfad19f622ad860721ab3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process the Image in GraphicsMagick context.  <br /></td></tr>
+<tr class="separator:a8c442ee2efdfad19f622ad860721ab3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29a3494a090b272d667b2cbe3bae8203" id="r_a29a3494a090b272d667b2cbe3bae8203"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chronos_8cpp.html#a29a3494a090b272d667b2cbe3bae8203">chronos_rgb_to_grayscale</a> (const char *in_filename, const char *out_filename)</td></tr>
 <tr class="memdesc:a29a3494a090b272d667b2cbe3bae8203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an image's colorspace, without changing file format, from RGB to Grayscale.  <br /></td></tr>
 <tr class="separator:a29a3494a090b272d667b2cbe3bae8203"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c3f0d6ab9edd97cb75278bf820c5de1" id="r_a0c3f0d6ab9edd97cb75278bf820c5de1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chronos_8cpp.html#a0c3f0d6ab9edd97cb75278bf820c5de1">chronos_rgb_to_ycocg</a> (char **argv)</td></tr>
 <tr class="separator:a0c3f0d6ab9edd97cb75278bf820c5de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe71f212fc375c7e18f637bedda70c5" id="r_a0fe71f212fc375c7e18f637bedda70c5"><td class="memItemLeft" align="right" valign="top">static Image *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chronos_8cpp.html#a0fe71f212fc375c7e18f637bedda70c5">chronos_convert_to_ppm_op</a> (Image *image, ExceptionInfo *exception_info)</td></tr>
+<tr class="memdesc:a0fe71f212fc375c7e18f637bedda70c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The operation to convert to PPM.  <br /></td></tr>
+<tr class="separator:a0fe71f212fc375c7e18f637bedda70c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27732e3f3736db194dd933a3f7f511ec" id="r_a27732e3f3736db194dd933a3f7f511ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chronos_8cpp.html#a27732e3f3736db194dd933a3f7f511ec">chronos_convert_to_ppm</a> (const char *in_filename, const char *out_filename)</td></tr>
 <tr class="memdesc:a27732e3f3736db194dd933a3f7f511ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert any GraphicsMagick supported image format to PPM image format.  <br /></td></tr>
 <tr class="separator:a27732e3f3736db194dd933a3f7f511ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,6 +145,40 @@ Functions</h2></td></tr>
 <tr class="separator:ae2ac128a0ec8575adf23a6e123e7cac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a1d40478f7931bc2280f6d1048a1cb496" name="a1d40478f7931bc2280f6d1048a1cb496"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d40478f7931bc2280f6d1048a1cb496">&#9670;&#160;</a></span>chronos_clamp_quantum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Quantum chronos_clamp_quantum </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clamp GraphicsMagick's Quantum value from signed to unisgned limit. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>-&gt; the double value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a27732e3f3736db194dd933a3f7f511ec" name="a27732e3f3736db194dd933a3f7f511ec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a27732e3f3736db194dd933a3f7f511ec">&#9670;&#160;</a></span>chronos_convert_to_ppm()</h2>
 
@@ -170,13 +213,102 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="chronos_8cpp_a27732e3f3736db194dd933a3f7f511ec_icgraph.svg" width="299" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+<a id="a0fe71f212fc375c7e18f637bedda70c5" name="a0fe71f212fc375c7e18f637bedda70c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fe71f212fc375c7e18f637bedda70c5">&#9670;&#160;</a></span>chronos_convert_to_ppm_op()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Image * chronos_convert_to_ppm_op </td>
+          <td>(</td>
+          <td class="paramtype">Image *&#160;</td>
+          <td class="paramname"><em>image</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ExceptionInfo *&#160;</td>
+          <td class="paramname"><em>exception_info</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The operation to convert to PPM. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">*image</td><td>-&gt; The image object </td></tr>
+    <tr><td class="paramname">*exception_info</td><td>-&gt; The exception's information </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8c442ee2efdfad19f622ad860721ab3f" name="a8c442ee2efdfad19f622ad860721ab3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c442ee2efdfad19f622ad860721ab3f">&#9670;&#160;</a></span>chronos_process_image()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void chronos_process_image </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>in_filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>out_filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="chronos_8hpp.html#a4ec41397b58fb8c97ac0f4537483ded5">Chronos_Process_Function</a>&#160;</td>
+          <td class="paramname"><em>fn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Process the Image in GraphicsMagick context. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">*in_filename</td><td>-&gt; The input's filename </td></tr>
+    <tr><td class="paramname">*out_filename</td><td>-&gt; The output's filename </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -205,13 +337,6 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="chronos_8cpp_ab6e29349c1d27559eca20345417eec1a_icgraph.svg" width="280" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
 </div>
 </div>
@@ -249,13 +374,6 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="chronos_8cpp_a29a3494a090b272d667b2cbe3bae8203_icgraph.svg" width="304" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
 </div>
 </div>
@@ -274,13 +392,6 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="chronos_8cpp_a0c3f0d6ab9edd97cb75278bf820c5de1_icgraph.svg" width="280" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
 </div>
 </div>

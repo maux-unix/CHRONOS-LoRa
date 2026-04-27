@@ -1,0 +1,25 @@
+<map id="thirdparty/RadioLib/include/RadioLib/modules/Si443x/Si4432.h" name="thirdparty/RadioLib/include/RadioLib/modules/Si443x/Si4432.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="68,5,262,60"/>
+<area shape="rect" id="Node000002" href="$RadioLib_8h.html" title=" " alt="" coords="162,313,368,353"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,70,72,111,30,161,16,187,9,213,11,239,23,264,44,279,77,293,162,314,161,319,75,298,41,284,19,267,6,240,4,213,11,185,26,158,68,107,115,66"/>
+<area shape="rect" id="Node000006" href="$RFM22_8h.html" title=" " alt="" coords="34,211,227,265"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="142,73,126,109,122,135,121,162,127,210,122,211,116,163,117,135,121,107,137,71"/>
+<area shape="rect" id="Node000007" href="$Si4430_8h.html" title=" " alt="" coords="136,108,330,163"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="193,70,217,106,213,109,188,73"/>
+<area shape="rect" id="Node000008" href="$Si4431_8h.html" title=" " alt="" coords="354,108,547,163"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="253,62,377,105,375,110,251,67"/>
+<area shape="rect" id="Node000003" href="$receiver-normal_8cpp.html" title=" " alt="" coords="72,504,248,529"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="216,363,194,381,177,403,166,429,161,457,161,504,156,504,156,457,161,427,172,400,191,377,213,359"/>
+<area shape="rect" id="Node000004" href="$transmitter-normal_8cpp.html" title=" " alt="" coords="278,504,474,529"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="316,359,339,377,358,400,370,427,377,456,379,504,374,504,371,457,365,429,353,403,335,381,312,363"/>
+<area shape="rect" id="Node000005" href="$PiHal_8h.html" title=" " alt="" coords="186,401,344,456"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="268,367,268,401,262,401,262,367"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="224,467,176,506,172,502,221,462"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="311,462,362,502,359,506,308,467"/>
+<area shape="poly" id="edge8_Node000006_Node000002" title=" " alt="" coords="181,271,239,311,236,315,178,275"/>
+<area shape="poly" id="edge10_Node000007_Node000002" title=" " alt="" coords="242,176,265,313,259,314,237,177"/>
+<area shape="poly" id="edge12_Node000008_Node000002" title=" " alt="" coords="393,172,343,213,303,266,276,314,271,312,298,263,339,209,390,168"/>
+<area shape="rect" id="Node000009" href="$RFM23_8h.html" title=" " alt="" coords="354,211,547,265"/>
+<area shape="poly" id="edge13_Node000008_Node000009" title=" " alt="" coords="453,176,453,211,448,211,448,176"/>
+<area shape="poly" id="edge14_Node000009_Node000002" title=" " alt="" coords="387,274,304,316,301,311,385,269"/>
+</map>

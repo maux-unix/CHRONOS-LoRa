@@ -1,0 +1,13 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,104,60,129"/>
+<area shape="rect" id="Node000002" href="$classSX1262.html#a8a88319e70afdea327fb8b82e5e1bd34" title="Initialization method for LoRa modem." alt="" coords="152,5,267,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="41,102,68,71,107,40,138,27,140,32,109,44,72,74,45,106"/>
+<area shape="rect" id="Node000003" href="$classSX126x.html#aa676c12e84c04195f896d2683ec3c4e9" title="Sets LoRa bandwidth. Allowed values are 7.8, 10.4, 15.6, 20.8, 31.25, 41.7, 62.5, 125...." alt="" coords="125,55,293,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="59,104,107,89,137,81,138,86,109,94,61,110"/>
+<area shape="rect" id="Node000004" href="$classSX126x.html#a6f04a13e604d8bd8127ddf910e406ab5" title="Sets LoRa coding rate denominator. Allowed values range from 4 to 8. Note that a value of 4 means no ..." alt="" coords="122,104,297,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="60,114,108,114,108,119,60,119"/>
+<area shape="rect" id="Node000005" href="$classSX1262.html#a2f9f8abdaa6e68baf901b7763d05dd24" title="Sets output power. Allowed values are in range from &#45;9 to 22 dBm. This method is virtual to allow ove..." alt="" coords="118,153,301,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="61,123,109,138,143,147,141,152,107,143,59,128"/>
+<area shape="rect" id="Node000006" href="$classSX126x.html#adedb69604942ef758fd8b7bbeb4cd694" title="Sets LoRa spreading factor. Allowed values range from 5 to 12." alt="" coords="108,203,311,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="45,128,72,158,109,188,126,196,124,200,107,192,68,162,41,131"/>
+</map>

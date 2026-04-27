@@ -1,0 +1,11 @@
+<map id="BellClient" name="BellClient">
+<area shape="rect" id="Node000001" title="Client for Bell modem communication. The public interface is the same as Arduino Serial." alt="" coords="143,181,228,207"/>
+<area shape="rect" id="Node000002" href="$classAFSKClient.html" title="Client for audio&#45;based transmissions. Requires Arduino tone() function, and a module capable of direc..." alt="" coords="15,93,107,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,124,170,179,167,183,88,129"/>
+<area shape="rect" id="Node000003" href="$classPhysicalLayer.html" title="Provides common interface for protocols that run on LoRa/FSK modules, such as RTTY or LoRaWAN...." alt="" coords="5,5,117,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="64,45,64,93,59,93,59,45"/>
+<area shape="rect" id="Node000004" href="$classRadioLibPrint.html" title="Printing class, based on Arduino Print class with additional encodings." alt="" coords="131,93,239,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="188,133,188,181,183,181,183,133"/>
+<area shape="rect" id="Node000005" href="$structBellModem__t.html" title="Definition of the Bell&#45;compatible modem." alt="" coords="263,93,371,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="290,128,205,183,202,179,287,124"/>
+</map>

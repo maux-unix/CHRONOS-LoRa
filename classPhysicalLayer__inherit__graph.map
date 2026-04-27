@@ -1,0 +1,67 @@
+<map id="PhysicalLayer" name="PhysicalLayer">
+<area shape="rect" id="Node000001" title="Provides common interface for protocols that run on LoRa/FSK modules, such as RTTY or LoRaWAN...." alt="" coords="458,5,570,31"/>
+<area shape="rect" id="Node000002" href="$classCC1101.html" title="Control class for CC1101 module." alt="" coords="71,79,143,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="445,32,311,53,156,81,144,84,143,79,155,76,310,48,444,27"/>
+<area shape="rect" id="Node000003" href="$classExternalRadio.html" title="Class to interface with external radio hardware." alt="" coords="168,79,281,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="455,37,272,81,271,76,454,31"/>
+<area shape="rect" id="Node000004" href="$classLRxxxx.html" title=" " alt="" coords="305,79,376,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="475,38,370,81,368,76,473,33"/>
+<area shape="rect" id="Node000010" href="$classRF69.html" title="Control class for RF69 module. Also serves as base class for SX1231." alt="" coords="400,79,455,104"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="491,41,443,81,440,76,488,37"/>
+<area shape="rect" id="Node000013" href="$classSX126x.html" title="Base class for SX126x series. All derived classes for SX126x (e.g. SX1262 or SX1268) inherit from thi..." alt="" coords="479,79,549,104"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="517,44,517,79,511,79,511,44"/>
+<area shape="rect" id="Node000018" href="$classSX127x.html" title="Base class for SX127x series. All derived classes for SX127x (e.g. SX1278 or SX1272) inherit from thi..." alt="" coords="573,79,644,104"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="542,37,595,76,592,81,539,41"/>
+<area shape="rect" id="Node000025" href="$classSX128x.html" title="Base class for SX128x series. All derived classes for SX128x (e.g. SX1280 or SX1281) inherit from thi..." alt="" coords="668,79,739,104"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="558,33,673,76,671,81,556,38"/>
+<area shape="rect" id="Node000029" href="$classSi443x.html" title="Base class for Si443x series. All derived classes for Si443x (e.g. Si4431 or Si4432) inherit from thi..." alt="" coords="763,79,830,104"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="573,31,764,79,763,84,572,37"/>
+<area shape="rect" id="Node000033" href="$classnRF24.html" title="Control class for nRF24 module." alt="" coords="855,79,917,104"/>
+<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="584,28,705,49,843,76,855,79,854,84,841,81,704,54,583,33"/>
+<area shape="rect" id="Node000005" href="$classLR11x0.html" title="Base class for LR11x0 series. All derived classes for LR11x0 (e.g. LR1110 or LR1120) inherit from thi..." alt="" coords="100,152,171,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="296,111,169,154,168,149,294,106"/>
+<area shape="rect" id="Node000009" href="$classLR2021.html" title=" " alt="" coords="195,152,265,177"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="313,114,250,154,247,150,310,109"/>
+<area shape="rect" id="Node000006" href="$classLR1110.html" title="Derived class for LR1110 modules." alt="" coords="5,225,76,251"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="111,188,58,227,55,223,108,183"/>
+<area shape="rect" id="Node000007" href="$classLR1120.html" title="Derived class for LR1120 modules." alt="" coords="100,225,171,251"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="138,191,138,225,133,225,133,191"/>
+<area shape="rect" id="Node000008" href="$classLR1121.html" title="Derived class for LR1121 modules." alt="" coords="100,299,171,324"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="138,264,138,299,133,299,133,264"/>
+<area shape="rect" id="Node000011" href="$classSX1231.html" title="Control class for SX1231 module. Overrides some methods from RF69 due to different register values." alt="" coords="289,152,360,177"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="401,114,343,154,340,150,398,110"/>
+<area shape="rect" id="Node000012" href="$classSX1233.html" title="Control class for SX1233 module. Overrides some methods from SX1231/RF69 due to different register va..." alt="" coords="195,225,265,251"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="300,188,247,227,244,223,297,183"/>
+<area shape="rect" id="Node000014" href="$classSX1262.html" title="Derived class for SX1262 modules." alt="" coords="384,152,455,177"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="489,114,436,154,433,150,486,110"/>
+<area shape="rect" id="Node000017" href="$classSX1268.html" title="Derived class for SX1268 modules." alt="" coords="479,152,549,177"/>
+<area shape="poly" id="edge16_Node000013_Node000017" title=" " alt="" coords="517,118,517,152,511,152,511,118"/>
+<area shape="rect" id="Node000015" href="$classLLCC68.html" title="Derived class for LLCC68 modules." alt="" coords="289,225,360,251"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="395,188,342,227,339,223,392,183"/>
+<area shape="rect" id="Node000016" href="$classSX1261.html" title="Derived class for SX1261 modules." alt="" coords="384,225,455,251"/>
+<area shape="poly" id="edge15_Node000014_Node000016" title=" " alt="" coords="422,191,422,225,417,225,417,191"/>
+<area shape="rect" id="Node000019" href="$classSX1272.html" title="Derived class for SX1272 modules. Also used as base class for SX1273. Both modules use the same basic..." alt="" coords="573,152,644,177"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="611,118,611,152,606,152,606,118"/>
+<area shape="rect" id="Node000021" href="$classSX1278.html" title="Derived class for SX1278 modules. Also used as base class for SX1276, SX1277, SX1279,..." alt="" coords="668,152,739,177"/>
+<area shape="poly" id="edge20_Node000018_Node000021" title=" " alt="" coords="636,110,689,150,686,154,633,114"/>
+<area shape="rect" id="Node000020" href="$classSX1273.html" title="Derived class for SX1273 modules. Overrides some methods from SX1272 due to different parameter range..." alt="" coords="479,225,549,251"/>
+<area shape="poly" id="edge19_Node000019_Node000020" title=" " alt="" coords="584,188,531,227,528,223,581,183"/>
+<area shape="rect" id="Node000022" href="$classSX1276.html" title="Derived class for SX1276 modules. Overrides some methods from SX1278 due to different parameter range..." alt="" coords="573,225,644,251"/>
+<area shape="poly" id="edge21_Node000021_Node000022" title=" " alt="" coords="679,188,626,227,623,223,676,183"/>
+<area shape="rect" id="Node000023" href="$classSX1277.html" title="Derived class for SX1277 modules. Overrides some methods from SX1278 due to different parameter range..." alt="" coords="668,225,739,251"/>
+<area shape="poly" id="edge22_Node000021_Node000023" title=" " alt="" coords="706,191,706,225,701,225,701,191"/>
+<area shape="rect" id="Node000024" href="$classSX1279.html" title="Derived class for SX1279 modules. Overrides some methods from SX1278 due to different parameter range..." alt="" coords="763,225,833,251"/>
+<area shape="poly" id="edge23_Node000021_Node000024" title=" " alt="" coords="731,183,784,223,781,227,728,188"/>
+<area shape="rect" id="Node000026" href="$classSX1281.html" title="Derived class for SX1281 modules." alt="" coords="811,152,881,177"/>
+<area shape="poly" id="edge25_Node000025_Node000026" title=" " alt="" coords="740,108,824,149,821,154,737,112"/>
+<area shape="rect" id="Node000027" href="$classSX1280.html" title="Derived class for SX1280 modules." alt="" coords="857,225,928,251"/>
+<area shape="poly" id="edge26_Node000026_Node000027" title=" " alt="" coords="863,187,887,224,883,227,859,190"/>
+<area shape="rect" id="Node000028" href="$classSX1282.html" title="Derived class for SX1282 modules." alt="" coords="857,299,928,324"/>
+<area shape="poly" id="edge27_Node000027_Node000028" title=" " alt="" coords="895,264,895,299,890,299,890,264"/>
+<area shape="rect" id="Node000030" href="$classSi4432.html" title="Derived class for Si4432 modules." alt="" coords="953,152,1019,177"/>
+<area shape="poly" id="edge29_Node000029_Node000030" title=" " alt="" coords="841,106,956,149,954,154,839,111"/>
+<area shape="rect" id="Node000031" href="$classSi4430.html" title="Derived class for Si4430 modules." alt="" coords="953,225,1019,251"/>
+<area shape="poly" id="edge30_Node000030_Node000031" title=" " alt="" coords="989,191,989,225,983,225,983,191"/>
+<area shape="rect" id="Node000032" href="$classSi4431.html" title="Derived class for Si4431 modules." alt="" coords="1043,225,1110,251"/>
+<area shape="poly" id="edge31_Node000030_Node000032" title=" " alt="" coords="1013,184,1063,223,1060,227,1010,188"/>
+</map>

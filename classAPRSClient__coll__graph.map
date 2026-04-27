@@ -1,0 +1,18 @@
+<map id="APRSClient" name="APRSClient">
+<area shape="rect" id="Node000001" title="Client for APRS communication." alt="" coords="15,357,110,383"/>
+<area shape="rect" id="Node000002" href="$classAX25Client.html" title="Client for AX25 communication." alt="" coords="110,269,205,295"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,306,78,359,74,355,132,302"/>
+<area shape="rect" id="Node000003" href="$classPhysicalLayer.html" title="Provides common interface for protocols that run on LoRa/FSK modules, such as RTTY or LoRaWAN...." alt="" coords="52,5,164,31"/>
+<area shape="poly" id="edge9_Node000001_Node000003" title=" " alt="" coords="64,39,44,51,26,65,13,83,8,105,8,283,12,305,23,325,50,355,46,359,18,328,7,307,3,284,3,104,8,81,22,62,41,46,62,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,44,109,97,115,157,134,220,154,268,149,270,129,222,109,158,103,97,104,44"/>
+<area shape="rect" id="Node000004" href="$classAFSKClient.html" title="Client for audio&#45;based transmissions. Requires Arduino tone() function, and a module capable of direc..." alt="" coords="146,93,238,119"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="131,39,182,91,178,95,127,43"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="190,132,162,270,157,269,184,131"/>
+<area shape="rect" id="Node000005" href="$classBellClient.html" title="Client for Bell modem communication. The public interface is the same as Arduino Serial." alt="" coords="267,181,352,207"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="220,125,295,179,292,183,217,129"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="278,216,179,271,177,267,276,211"/>
+<area shape="rect" id="Node000006" href="$classRadioLibPrint.html" title="Printing class, based on Arduino Print class with additional encodings." alt="" coords="262,93,370,119"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="317,133,313,181,308,181,311,132"/>
+<area shape="rect" id="Node000007" href="$structBellModem__t.html" title="Definition of the Bell&#45;compatible modem." alt="" coords="394,93,502,119"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="419,128,330,183,327,179,416,124"/>
+</map>

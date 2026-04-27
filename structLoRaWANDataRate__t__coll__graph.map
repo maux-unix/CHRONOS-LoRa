@@ -1,0 +1,19 @@
+<map id="LoRaWANDataRate_t" name="LoRaWANDataRate_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="441,141,600,167"/>
+<area shape="rect" id="Node000002" href="$unionDataRate__t.html" title="Common data rate structure." alt="" coords="267,92,362,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="376,116,468,139,466,144,375,122"/>
+<area shape="rect" id="Node000003" href="$structLoRaRate__t.html" title="Data rate structure interpretation in case LoRa is used." alt="" coords="37,5,133,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="143,32,165,39,233,64,289,90,287,94,231,68,163,45,141,37"/>
+<area shape="rect" id="Node000004" href="$structFSKRate__t.html" title="Data rate structure interpretation in case FSK is used." alt="" coords="41,55,129,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="143,74,268,94,267,100,142,79"/>
+<area shape="rect" id="Node000005" href="$structLrFhssRate__t.html" title="Data rate structure interpretation in case LR&#45;FHSS is used." alt="" coords="31,104,138,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="151,112,232,109,267,106,267,111,232,114,152,118"/>
+<area shape="rect" id="Node000006" href="$unionPacketConfig__t.html" title="Common packet configuration structure." alt="" coords="256,165,373,191"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="387,174,417,171,463,164,463,169,418,177,387,179"/>
+<area shape="rect" id="Node000007" href="$structLoRaPacketConfig__t.html" title=" " alt="" coords="10,153,159,179"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="173,168,256,172,256,178,173,173"/>
+<area shape="rect" id="Node000008" href="$structFSKPacketConfig__t.html" title=" " alt="" coords="14,203,155,228"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="168,201,232,191,255,187,256,192,232,197,169,207"/>
+<area shape="rect" id="Node000009" href="$structLrFhssPacketConfig__t.html" title=" " alt="" coords="5,252,164,277"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="149,246,231,218,291,188,293,193,233,223,151,251"/>
+</map>

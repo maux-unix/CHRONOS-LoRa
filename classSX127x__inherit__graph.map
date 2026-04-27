@@ -1,0 +1,17 @@
+<map id="SX127x" name="SX127x">
+<area shape="rect" id="Node000001" title="Base class for SX127x series. All derived classes for SX127x (e.g. SX1278 or SX1272) inherit from thi..." alt="" coords="52,79,123,104"/>
+<area shape="rect" id="Node000003" href="$classSX1272.html" title="Derived class for SX1272 modules. Also used as base class for SX1273. Both modules use the same basic..." alt="" coords="5,152,76,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="74,117,50,153,46,150,70,114"/>
+<area shape="rect" id="Node000005" href="$classSX1278.html" title="Derived class for SX1278 modules. Also used as base class for SX1276, SX1277, SX1279,..." alt="" coords="147,152,217,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="115,110,168,150,165,154,112,114"/>
+<area shape="rect" id="Node000002" href="$classPhysicalLayer.html" title="Provides common interface for protocols that run on LoRa/FSK modules, such as RTTY or LoRaWAN...." alt="" coords="31,5,143,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,44,90,79,85,79,85,44"/>
+<area shape="rect" id="Node000004" href="$classSX1273.html" title="Derived class for SX1273 modules. Overrides some methods from SX1272 due to different parameter range..." alt="" coords="5,225,76,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="43,191,43,225,38,225,38,191"/>
+<area shape="rect" id="Node000006" href="$classSX1276.html" title="Derived class for SX1276 modules. Overrides some methods from SX1278 due to different parameter range..." alt="" coords="100,225,171,251"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="169,190,145,227,141,224,165,187"/>
+<area shape="rect" id="Node000007" href="$classSX1277.html" title="Derived class for SX1277 modules. Overrides some methods from SX1278 due to different parameter range..." alt="" coords="195,225,265,251"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="200,187,224,224,220,227,195,190"/>
+<area shape="rect" id="Node000008" href="$classSX1279.html" title="Derived class for SX1279 modules. Overrides some methods from SX1278 due to different parameter range..." alt="" coords="289,225,360,251"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="218,181,303,223,300,227,216,186"/>
+</map>
