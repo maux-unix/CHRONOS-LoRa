@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['pagerclient_0',['PagerClient',['../classPhysicalLayer.html#a41ff2710d9e3a626becfa7a093900052',1,'PhysicalLayer']]]
+  ['m17client_0',['M17Client',['../classPhysicalLayer.html#a831cdfbf3895309806bef744d4bc77c6',1,'PhysicalLayer']]],
+  ['morseclient_1',['morseclient',['../classPhysicalLayer.html#ae5c5757c553100373984a416b6c3690a',1,'PhysicalLayer::MorseClient'],['../classAFSKClient.html#ae5c5757c553100373984a416b6c3690a',1,'AFSKClient::MorseClient']]]
 ];

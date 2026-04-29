@@ -1,19 +1,4 @@
 var searchData=
 [
-  ['nob_5fchain_0',['Nob_Chain',['../structNob__Chain.html',1,'']]],
-  ['nob_5fchain_5fbegin_5fopt_1',['Nob_Chain_Begin_Opt',['../structNob__Chain__Begin__Opt.html',1,'']]],
-  ['nob_5fchain_5fcmd_5fopt_2',['Nob_Chain_Cmd_Opt',['../structNob__Chain__Cmd__Opt.html',1,'']]],
-  ['nob_5fchain_5fend_5fopt_3',['Nob_Chain_End_Opt',['../structNob__Chain__End__Opt.html',1,'']]],
-  ['nob_5fcmd_4',['Nob_Cmd',['../structNob__Cmd.html',1,'']]],
-  ['nob_5fcmd_5fopt_5',['Nob_Cmd_Opt',['../structNob__Cmd__Opt.html',1,'']]],
-  ['nob_5fcmd_5fredirect_6',['Nob_Cmd_Redirect',['../structNob__Cmd__Redirect.html',1,'']]],
-  ['nob_5fdir_5fentry_7',['Nob_Dir_Entry',['../structNob__Dir__Entry.html',1,'']]],
-  ['nob_5ffile_5fpaths_8',['Nob_File_Paths',['../structNob__File__Paths.html',1,'']]],
-  ['nob_5fpipe_9',['Nob_Pipe',['../structNob__Pipe.html',1,'']]],
-  ['nob_5fprocs_10',['Nob_Procs',['../structNob__Procs.html',1,'']]],
-  ['nob_5fstring_5fbuilder_11',['Nob_String_Builder',['../structNob__String__Builder.html',1,'']]],
-  ['nob_5fstring_5fview_12',['Nob_String_View',['../structNob__String__View.html',1,'']]],
-  ['nob_5fwalk_5fdir_5fopt_13',['Nob_Walk_Dir_Opt',['../structNob__Walk__Dir__Opt.html',1,'']]],
-  ['nob_5fwalk_5fentry_14',['Nob_Walk_Entry',['../structNob__Walk__Entry.html',1,'']]],
-  ['nrf24_15',['nRF24',['../classnRF24.html',1,'']]]
+  ['keyvalue_0',['KeyValue',['../classcxxopts_1_1KeyValue.html',1,'cxxopts']]]
 ];

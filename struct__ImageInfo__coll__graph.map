@@ -1,0 +1,28 @@
+<map id="_ImageInfo" name="_ImageInfo">
+<area shape="rect" id="Node000001" title=" " alt="" coords="797,142,892,167"/>
+<area shape="rect" id="Node000002" href="$struct__PixelPacket.html" title=" " alt="" coords="273,65,375,90"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="389,60,417,56,477,51,538,56,617,73,695,95,814,139,812,144,693,100,616,78,537,61,477,56,418,61,390,65"/>
+<area shape="rect" id="Node000003" href="$struct__Image.html" title=" " alt="" coords="586,257,657,282"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="365,93,418,115,452,123,480,126,508,131,539,147,567,173,589,203,617,255,613,258,585,206,563,176,536,152,506,136,480,131,451,128,417,120,363,98"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="658,248,818,165,820,170,660,253"/>
+<area shape="poly" id="edge11_Node000003_Node000003" title=" " alt="" coords="598,242,605,233,621,230,635,232,644,239,646,248,642,258,637,255,641,248,639,242,633,237,621,235,608,238,602,245"/>
+<area shape="rect" id="Node000004" href="$struct__ChromaticityInfo.html" title=" " alt="" coords="255,151,393,177"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="407,165,473,176,538,198,580,225,610,254,607,258,577,229,536,202,471,181,406,170"/>
+<area shape="rect" id="Node000005" href="$struct__PrimaryInfo.html" title=" " alt="" coords="5,151,111,177"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="124,161,254,161,254,167,124,167"/>
+<area shape="rect" id="Node000006" href="$struct__RectangleInfo.html" title=" " alt="" coords="265,206,383,231"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="397,227,538,251,586,260,585,265,537,256,396,232"/>
+<area shape="rect" id="Node000007" href="$struct__ErrorInfo.html" title=" " alt="" coords="281,255,367,281"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="380,266,586,267,586,272,380,271"/>
+<area shape="rect" id="Node000008" href="$struct__TimerInfo.html" title=" " alt="" coords="278,305,370,330"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="383,309,537,287,585,276,587,281,538,292,384,314"/>
+<area shape="rect" id="Node000009" href="$struct__Timer.html" title=" " alt="" coords="25,305,91,330"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="105,315,278,315,278,320,105,320"/>
+<area shape="rect" id="Node000010" href="$struct__ExceptionInfo.html" title=" " alt="" coords="265,354,383,379"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="396,359,466,347,536,326,574,304,604,280,608,284,577,308,538,330,467,353,397,364"/>
+<area shape="rect" id="Node000011" href="$struct__ImageAttribute.html" title=" " alt="" coords="261,457,387,482"/>
+<area shape="poly" id="edge12_Node000003_Node000011" title=" " alt="" coords="385,450,461,421,500,401,536,377,560,353,582,327,611,281,616,284,586,330,564,357,539,381,502,405,463,426,387,455"/>
+<area shape="poly" id="edge13_Node000011_Node000011" title=" " alt="" coords="296,442,304,434,324,430,340,432,350,439,353,448,348,458,343,455,348,448,346,442,339,437,324,435,307,438,300,446"/>
+<area shape="rect" id="Node000012" href="$struct__Ascii85Info.html" title=" " alt="" coords="273,506,375,531"/>
+<area shape="poly" id="edge14_Node000003_Node000012" title=" " alt="" coords="388,512,425,506,464,496,502,479,536,457,555,437,571,414,594,364,609,317,616,282,621,283,614,318,599,366,575,417,559,440,539,461,504,484,466,501,426,511,389,518"/>
+</map>

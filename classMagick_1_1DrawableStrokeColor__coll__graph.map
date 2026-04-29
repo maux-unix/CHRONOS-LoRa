@@ -1,0 +1,9 @@
+<map id="Magick::DrawableStrokeColor" name="Magick::DrawableStrokeColor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,181,220,207"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="9,93,125,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,130,109,180,104,182,78,132"/>
+<area shape="rect" id="Node000003" href="$classMagick_1_1Color.html" title=" " alt="" coords="149,93,260,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,130,127,183,124,179,180,126"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="157,5,252,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="207,45,207,93,202,93,202,45"/>
+</map>

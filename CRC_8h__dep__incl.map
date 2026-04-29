@@ -1,37 +1,35 @@
 <map id="thirdparty/RadioLib/include/RadioLib/utils/CRC.h" name="thirdparty/RadioLib/include/RadioLib/utils/CRC.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="543,5,751,45"/>
-<area shape="rect" id="Node000002" href="$RadioLib_8h.html" title=" " alt="" coords="351,504,556,544"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="650,60,648,137,636,241,623,297,606,354,581,408,550,458,523,485,492,506,489,502,519,481,546,454,577,405,601,352,618,296,631,240,643,136,645,59"/>
-<area shape="rect" id="Node000006" href="$SX126x_8h.html" title=" " alt="" coords="349,93,542,148"/>
-<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="595,54,503,96,501,91,592,49"/>
-<area shape="rect" id="Node000011" href="$AX25_8h.html" title=" " alt="" coords="676,299,873,353"/>
-<area shape="poly" id="edge20_Node000001_Node000011" title=" " alt="" coords="663,57,766,297,761,299,658,59"/>
-<area shape="rect" id="Node000003" href="$receiver-normal_8cpp.html" title=" " alt="" coords="5,695,181,720"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="338,538,272,546,209,558,155,574,135,584,121,594,105,618,97,645,95,694,89,694,92,644,100,615,117,590,132,579,153,569,207,553,272,541,337,532"/>
-<area shape="rect" id="Node000004" href="$transmitter-normal_8cpp.html" title=" " alt="" coords="227,695,423,720"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="434,557,336,696,331,693,430,554"/>
-<area shape="rect" id="Node000005" href="$PiHal_8h.html" title=" " alt="" coords="131,592,288,647"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="392,551,279,594,277,589,390,546"/>
-<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="165,657,111,696,108,692,161,653"/>
-<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="257,653,311,692,308,696,254,657"/>
-<area shape="rect" id="Node000007" href="$SX1261_8h.html" title=" " alt="" coords="341,299,534,353"/>
-<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="421,161,405,197,401,223,405,250,413,275,424,297,419,300,408,277,400,251,396,223,400,195,416,159"/>
-<area shape="rect" id="Node000009" href="$SX1262_8h.html" title=" " alt="" coords="146,196,339,251"/>
-<area shape="poly" id="edge12_Node000006_Node000009" title=" " alt="" coords="382,156,297,198,294,194,379,152"/>
-<area shape="rect" id="Node000010" href="$SX1268_8h.html" title=" " alt="" coords="415,196,609,251"/>
-<area shape="poly" id="edge18_Node000006_Node000010" title=" " alt="" coords="473,158,497,194,492,197,468,161"/>
-<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="476,363,488,380,497,401,503,429,497,457,486,483,471,505,467,502,481,480,492,455,497,429,492,402,483,383,471,366"/>
-<area shape="rect" id="Node000008" href="$LLCC68_8h.html" title=" " alt="" coords="290,401,483,456"/>
-<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="420,367,402,402,398,400,416,364"/>
-<area shape="poly" id="edge11_Node000008_Node000002" title=" " alt="" coords="416,466,442,502,438,506,411,469"/>
-<area shape="poly" id="edge15_Node000009_Node000002" title=" " alt="" coords="240,265,238,308,242,358,254,409,265,433,279,454,312,483,352,502,350,506,309,487,275,458,260,435,249,411,237,359,233,308,235,265"/>
-<area shape="poly" id="edge13_Node000009_Node000003" title=" " alt="" coords="177,260,132,290,89,328,72,350,58,374,49,400,45,427,45,525,50,575,63,623,90,694,85,695,58,625,45,576,40,525,40,427,43,399,53,372,67,347,85,324,129,285,174,255"/>
-<area shape="poly" id="edge14_Node000009_Node000004" title=" " alt="" coords="238,265,233,299,233,353,237,405,248,455,261,494,274,523,288,552,303,591,317,649,326,694,321,695,312,650,297,593,283,554,269,525,256,496,243,457,232,406,228,353,228,298,232,264"/>
-<area shape="poly" id="edge17_Node000009_Node000007" title=" " alt="" coords="307,255,388,296,385,301,304,259"/>
-<area shape="poly" id="edge16_Node000009_Node000008" title=" " alt="" coords="268,260,330,352,367,399,363,403,326,355,264,263"/>
-<area shape="poly" id="edge19_Node000010_Node000002" title=" " alt="" coords="535,262,548,298,551,326,548,354,540,407,533,430,520,457,500,484,478,506,475,502,496,480,515,455,528,428,535,406,543,353,546,326,543,299,530,264"/>
-<area shape="poly" id="edge21_Node000011_Node000002" title=" " alt="" coords="747,366,700,419,659,458,603,487,544,506,543,501,601,482,656,454,696,416,743,362"/>
-<area shape="rect" id="Node000012" href="$APRS_8h.html" title=" " alt="" coords="727,401,924,456"/>
-<area shape="poly" id="edge22_Node000011_Node000012" title=" " alt="" coords="796,364,814,400,810,402,792,367"/>
-<area shape="poly" id="edge23_Node000012_Node000002" title=" " alt="" coords="714,460,529,507,528,501,713,455"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="402,5,610,45"/>
+<area shape="rect" id="Node000002" href="$RadioLib_8h.html" title=" " alt="" coords="294,504,499,544"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="506,59,498,146,482,251,457,355,425,457,407,505,402,503,419,455,452,354,477,250,493,145,501,58"/>
+<area shape="rect" id="Node000006" href="$SX126x_8h.html" title=" " alt="" coords="208,93,401,148"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="454,54,362,96,360,91,452,49"/>
+<area shape="rect" id="Node000011" href="$AX25_8h.html" title=" " alt="" coords="527,299,725,353"/>
+<area shape="poly" id="edge18_Node000001_Node000011" title=" " alt="" coords="521,57,618,297,613,299,516,59"/>
+<area shape="rect" id="Node000003" href="$transmitter-normal_8cpp.html" title="CHRONOS&#45;LoRa Transmitter program (Normal)" alt="" coords="112,695,308,720"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="358,554,308,594,256,650,220,696,216,693,252,646,304,590,354,550"/>
+<area shape="rect" id="Node000004" href="$PiHal_8h.html" title=" " alt="" coords="318,592,475,647"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="399,557,399,592,394,592,394,557"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="329,655,236,697,234,692,326,650"/>
+<area shape="rect" id="Node000005" href="$receiver-normal_8cpp.html" title="CHRONOS&#45;LoRa Receiver program (Normal)" alt="" coords="333,695,509,720"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="410,659,420,694,415,695,405,661"/>
+<area shape="rect" id="Node000007" href="$SX1261_8h.html" title=" " alt="" coords="191,299,384,353"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="280,161,265,197,261,223,264,250,278,298,273,299,259,251,256,223,259,195,275,159"/>
+<area shape="rect" id="Node000009" href="$SX1262_8h.html" title=" " alt="" coords="5,196,199,251"/>
+<area shape="poly" id="edge11_Node000006_Node000009" title=" " alt="" coords="241,156,156,198,154,194,238,152"/>
+<area shape="rect" id="Node000010" href="$SX1268_8h.html" title=" " alt="" coords="275,196,468,251"/>
+<area shape="poly" id="edge16_Node000006_Node000010" title=" " alt="" coords="332,158,356,194,352,197,327,161"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="321,363,347,400,374,455,393,503,388,505,369,457,342,403,317,366"/>
+<area shape="rect" id="Node000008" href="$LLCC68_8h.html" title=" " alt="" coords="140,401,333,456"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="270,367,252,402,248,400,266,364"/>
+<area shape="poly" id="edge10_Node000008_Node000002" title=" " alt="" coords="295,461,366,502,363,506,292,465"/>
+<area shape="poly" id="edge13_Node000009_Node000002" title=" " alt="" coords="97,265,92,308,93,359,104,410,115,433,129,454,155,471,195,486,294,507,293,512,193,491,152,476,125,458,110,436,99,412,88,360,87,308,91,264"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="89,264,66,339,57,383,54,427,54,525,58,554,69,582,85,607,105,629,150,667,189,692,187,697,147,671,101,633,81,610,64,584,53,556,49,526,49,427,52,382,61,338,84,263"/>
+<area shape="poly" id="edge15_Node000009_Node000007" title=" " alt="" coords="163,255,240,296,237,301,161,259"/>
+<area shape="poly" id="edge14_Node000009_Node000008" title=" " alt="" coords="125,262,180,352,217,400,212,403,176,355,121,264"/>
+<area shape="poly" id="edge17_Node000010_Node000002" title=" " alt="" coords="389,263,398,298,404,357,405,415,401,504,396,504,400,415,399,357,393,299,384,264"/>
+<area shape="poly" id="edge19_Node000011_Node000002" title=" " alt="" coords="599,366,559,412,510,458,473,485,436,506,433,502,470,480,507,454,555,408,595,363"/>
+<area shape="rect" id="Node000012" href="$APRS_8h.html" title=" " alt="" coords="578,401,775,456"/>
+<area shape="poly" id="edge20_Node000011_Node000012" title=" " alt="" coords="648,364,666,400,661,402,643,367"/>
+<area shape="poly" id="edge21_Node000012_Node000002" title=" " alt="" coords="586,463,454,507,452,501,584,458"/>
 </map>

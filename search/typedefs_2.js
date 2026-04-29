@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getsecondscb_5ft_0',['getsecondscb_t',['../classLoRaWANPackage.html#a96c7fcaa80a5a2fd77bdedfe87b2c466',1,'LoRaWANPackage::GetSecondsCb_t'],['../classLoRaWANPackageManager.html#acabecc49111246dad38144e43ac0c1cf',1,'LoRaWANPackageManager::GetSecondsCb_t']]]
+  ['blobinfo_0',['BlobInfo',['../blob_8h.html#a1d88d25e19cf23d7e0278408c9241027',1,'blob.h']]]
 ];

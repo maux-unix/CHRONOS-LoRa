@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="receiver-normal_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="receiver-normal_8cpp.html" target="_top" xlink:title="CHRONOS&#45;LoRa Receiver program (Normal)">
 <polygon fill="white" stroke="#666666" points="132,-19 0,-19 0,0 132,0 132,-19"/>
 <text text-anchor="middle" x="66" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">src/receiver&#45;normal.cpp</text>
 </a>
@@ -40,7 +40,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="transmitter-normal_8cpp.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="transmitter-normal_8cpp.html" target="_top" xlink:title="CHRONOS&#45;LoRa Transmitter program (Normal)">
 <polygon fill="white" stroke="#666666" points="297.5,-19 150.5,-19 150.5,0 297.5,0 297.5,-19"/>
 <text text-anchor="middle" x="224" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">src/transmitter&#45;normal.cpp</text>
 </a>

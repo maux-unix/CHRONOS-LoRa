@@ -94,16 +94,16 @@ $(document).ready(function(){initNavTree('crc32c_8hpp.html',''); initResizable()
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">crc32c.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>CRC32-Castagnoli header using Hardware-accelerated &amp; Parallel Computation CRC32C intrinsics from ARMv8 and ARMv9.  
+<p>CRC32-Castagnoli header using Hardware-accelerated &amp; Parallel Computation <a class="el" href="namespaceCRC32C.html">CRC32C</a> intrinsics from ARMv8 and ARMv9.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;arm_acle.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="chronos__types_8hpp_source.html">chronos_types.hpp</a>&quot;</code><br />
+<code>#include &lt;arm_acle.h&gt;</code><br />
 <code>#include &lt;cstddef&gt;</code><br />
 <code>#include &lt;cstdint&gt;</code><br />
 <code>#include &lt;print&gt;</code><br />
@@ -112,38 +112,34 @@ $(document).ready(function(){initNavTree('crc32c_8hpp.html',''); initResizable()
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="crc32c_8hpp__incl.svg" width="368" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="crc32c_8hpp__incl.svg" width="496" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="crc32c_8hpp__dep__incl.svg" width="355" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="crc32c_8hpp__dep__incl.svg" width="163" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="crc32c_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcrc32c_1_1Frame.html">crc32c::Frame</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a dynamic array for CRC32 processing.  <a href="structcrc32c_1_1Frame.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespacecrc32c" id="r_namespacecrc32c"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecrc32c.html">crc32c</a></td></tr>
+<tr class="memitem:namespaceCRC32C" id="r_namespaceCRC32C"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCRC32C.html">CRC32C</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:adcecfd36687c120a8440b5f3201a69ba" id="r_adcecfd36687c120a8440b5f3201a69ba"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacecrc32c.html#adcecfd36687c120a8440b5f3201a69ba">crc32c::encode</a> (const <a class="el" href="structcrc32c_1_1Frame.html">Frame</a> &amp;frame, std::uint32_t previous_crc=0)</td></tr>
-<tr class="memdesc:adcecfd36687c120a8440b5f3201a69ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the CRC32C checksum of a memory span.  <br /></td></tr>
-<tr class="separator:adcecfd36687c120a8440b5f3201a69ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc927199e4d21895169d7205fc2214f7" id="r_abc927199e4d21895169d7205fc2214f7"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCRC32C.html#abc927199e4d21895169d7205fc2214f7">CRC32C::encode</a> (<a class="el" href="structChronosTypes_1_1CrcFrame.html">ChronosTypes::CrcFrame</a> &amp;frame, std::uint32_t previous_crc=0)</td></tr>
+<tr class="memdesc:abc927199e4d21895169d7205fc2214f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the <a class="el" href="namespaceCRC32C.html">CRC32C</a> checksum of a memory span.  <br /></td></tr>
+<tr class="separator:abc927199e4d21895169d7205fc2214f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9955b981fab15a316757c5f024bc5de" id="r_ab9955b981fab15a316757c5f024bc5de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structChronosTypes_1_1CrcFrame.html">ChronosTypes::CrcFrame</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCRC32C.html#ab9955b981fab15a316757c5f024bc5de">CRC32C::encode_entire</a> (<a class="el" href="structChronosTypes_1_1CrcFrame.html">ChronosTypes::CrcFrame</a> &amp;frame)</td></tr>
+<tr class="separator:ab9955b981fab15a316757c5f024bc5de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>CRC32-Castagnoli header using Hardware-accelerated &amp; Parallel Computation CRC32C intrinsics from ARMv8 and ARMv9. </p>
-<p>Provides fast CRC32C checksum computation through ARM ACLE intrinsics, specifically optimized for processors supporting CRC32 instructions.</p>
+<div class="textblock"><p>CRC32-Castagnoli header using Hardware-accelerated &amp; Parallel Computation <a class="el" href="namespaceCRC32C.html">CRC32C</a> intrinsics from ARMv8 and ARMv9. </p>
+<p>Provides fast <a class="el" href="namespaceCRC32C.html">CRC32C</a> checksum computation through ARM ACLE intrinsics, specifically optimized for processors supporting CRC32 instructions.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2026 Maulana M. Ali</dd></dl>
 <p>SPDX-License-Identifier: BSD-3-Clause </p>
 </div></div><!-- contents -->
@@ -151,7 +147,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="crc32c_8hpp.html">crc32c.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_6ce08dfeb0011581c764b9e6b5b1dd10.html">include</a></li><li class="navelem"><a class="el" href="crc32c_8hpp.html">crc32c.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>

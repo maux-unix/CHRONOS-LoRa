@@ -1,5 +1,19 @@
 <map id="src/transmitter&#45;chronos.cpp" name="src/transmitter&#45;chronos.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,207,31"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="43,79,169,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,31,109,65,103,65,103,31"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="176,5,377,31"/>
+<area shape="rect" id="Node000002" href="$reed__solomon_8hpp.html" title="Reed&#45;Solomon header for encoding and decoding RS codes." alt="" coords="205,79,348,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="279,31,279,65,274,65,274,31"/>
+<area shape="rect" id="Node000003" href="$correct_8h.html" title=" " alt="" coords="49,152,128,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="247,107,133,149,131,144,246,102"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="153,152,219,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="264,106,213,145,210,141,260,102"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="243,152,310,177"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="279,104,279,138,274,138,274,104"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="335,152,405,177"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="293,102,346,141,342,146,290,106"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="429,152,500,177"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="308,102,422,144,420,149,306,107"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,225,76,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="83,179,58,216,54,213,79,176"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="101,225,175,251"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="99,176,124,213,120,216,95,179"/>
 </map>

@@ -1,0 +1,13 @@
+<map id="Magick::Montage" name="Magick::Montage">
+<area shape="rect" id="Node000001" title=" " alt="" coords="233,225,368,251"/>
+<area shape="rect" id="Node000002" href="$classMagick_1_1Color.html" title=" " alt="" coords="5,93,116,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,131,87,167,99,185,114,199,134,208,163,216,233,227,232,233,162,221,132,213,111,204,95,188,82,170,65,133"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="13,5,108,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="63,45,63,93,58,93,58,45"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="141,93,290,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="233,129,295,224,291,226,228,132"/>
+<area shape="rect" id="Node000005" href="$classMagick_1_1Geometry.html" title=" " alt="" coords="315,93,457,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="384,133,373,168,353,203,325,227,322,223,349,200,368,166,379,132"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="481,93,581,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="521,133,496,170,479,188,459,204,415,224,369,234,367,229,413,219,457,199,475,184,492,166,517,130"/>
+</map>

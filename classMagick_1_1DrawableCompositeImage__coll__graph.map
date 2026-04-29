@@ -1,0 +1,9 @@
+<map id="Magick::DrawableCompositeImage" name="Magick::DrawableCompositeImage">
+<area shape="rect" id="Node000001" title=" " alt="" coords="116,93,325,133"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,121,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,35,190,91,187,95,93,40"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="146,5,295,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,44,223,93,218,93,218,44"/>
+<area shape="rect" id="Node000004" href="$classMagick_1_1Image.html" title=" " alt="" coords="320,5,439,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="359,42,319,72,272,96,269,91,317,67,356,38"/>
+</map>

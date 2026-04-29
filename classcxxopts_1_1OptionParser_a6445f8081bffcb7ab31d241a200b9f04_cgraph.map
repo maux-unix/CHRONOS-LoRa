@@ -1,0 +1,19 @@
+<map id="cxxopts::OptionParser::add_to_option" name="cxxopts::OptionParser::add_to_option">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,113,168,153"/>
+<area shape="rect" id="Node000002" href="$classcxxopts_1_1OptionValue.html#aeec2951c8666eb4f7f562cf526fb656b" title=" " alt="" coords="216,63,407,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,110,247,89,248,94,166,115"/>
+<area shape="rect" id="Node000008" href="$classcxxopts_1_1OptionDetails.html#a02b918ea1873a2716cfd5ad909be3034" title=" " alt="" coords="227,113,396,153"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="168,130,213,130,213,135,168,135"/>
+<area shape="rect" id="Node000009" href="$classcxxopts_1_1OptionDetails.html#a3e5d1e478cc4a241d710f9ab792fcafb" title=" " alt="" coords="227,177,396,217"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="158,150,228,170,227,175,157,155"/>
+<area shape="rect" id="Node000003" href="$classcxxopts_1_1Value.html#ac7298b94e9168291835c18dab0b11799" title=" " alt="" coords="465,5,613,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="362,60,474,31,476,37,363,65"/>
+<area shape="rect" id="Node000004" href="$classcxxopts_1_1OptionValue.html#a5e62e7e64679e627ba8946c36a559f2a" title=" " alt="" coords="460,55,619,95"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="407,73,446,73,446,78,407,78"/>
+<area shape="rect" id="Node000007" href="$classcxxopts_1_1OptionDetails.html#a1b61b4570ee040ce1b9fc6e358e08b2d" title=" " alt="" coords="455,119,624,159"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="361,85,407,98,458,113,457,118,406,103,360,91"/>
+<area shape="rect" id="Node000005" href="$classcxxopts_1_1OptionDetails.html#a3ff160262711ae6eebb41649491e75e6" title=" " alt="" coords="672,55,841,95"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="619,73,658,73,658,78,619,78"/>
+<area shape="rect" id="Node000006" href="$classcxxopts_1_1Value.html#a17916d6a48e57c999c2dc23fa6b22539" title=" " alt="" coords="889,63,1048,88"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="841,73,875,73,875,78,841,78"/>
+</map>

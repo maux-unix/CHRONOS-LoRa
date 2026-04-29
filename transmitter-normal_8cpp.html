@@ -94,69 +94,42 @@ $(document).ready(function(){initNavTree('transmitter-normal_8cpp.html',''); ini
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">transmitter-normal.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="chronos_8hpp_source.html">chronos.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Module_8h_source.html">Module.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="TypeDef_8h_source.html">TypeDef.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="SX1262_8h_source.html">modules/SX126x/SX1262.h</a>&quot;</code><br />
+
+<p>CHRONOS-LoRa Transmitter program (Normal)  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="cxxopts_8hpp_source.html">cxxopts.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="PiHal_8h_source.html">hal/RPi/PiHal.h</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="RadioLib_8h_source.html">RadioLib.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="PiHal_8h_source.html">hal/RPi/PiHal.h</a>&gt;</code><br />
-<code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;cstddef&gt;</code><br />
-<code>#include &lt;cstdint&gt;</code><br />
 <code>#include &lt;cstdio&gt;</code><br />
-<code>#include &lt;cstring&gt;</code><br />
-<code>#include &lt;fcntl.h&gt;</code><br />
-<code>#include &lt;fstream&gt;</code><br />
-<code>#include &lt;iterator&gt;</code><br />
+<code>#include &lt;filesystem&gt;</code><br />
+<code>#include &lt;<a class="el" href="SX1262_8h_source.html">modules/SX126x/SX1262.h</a>&gt;</code><br />
 <code>#include &lt;print&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;termios.h&gt;</code><br />
-<code>#include &lt;unistd.h&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;<a class="el" href="PhysicalLayer_8h_source.html">protocols/PhysicalLayer/PhysicalLayer.h</a>&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for transmitter-normal.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="transmitter-normal_8cpp__incl.svg" width="4095" height="696"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="transmitter-normal_8cpp__incl.svg" width="4931" height="638"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a840291bc02cba5474a4cb46a9b9566fe" id="r_a840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="transmitter-normal_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe">main</a> (void)</td></tr>
-<tr class="separator:a840291bc02cba5474a4cb46a9b9566fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ac884f9005378d0dcce70475594e32c87" id="r_ac884f9005378d0dcce70475594e32c87"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="transmitter-normal_8cpp.html#ac884f9005378d0dcce70475594e32c87">CHUNK_SIZE</a> = 140</td></tr>
-<tr class="separator:ac884f9005378d0dcce70475594e32c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec0fcb50aaabef345a28f84b37d6120a" id="r_aec0fcb50aaabef345a28f84b37d6120a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="transmitter-normal_8cpp.html#aec0fcb50aaabef345a28f84b37d6120a">HEADER</a> = 0xAA</td></tr>
-<tr class="separator:aec0fcb50aaabef345a28f84b37d6120a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab154cd811f17f99aba5f20acc7fc2a1b" id="r_ab154cd811f17f99aba5f20acc7fc2a1b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="transmitter-normal_8cpp.html#ab154cd811f17f99aba5f20acc7fc2a1b">LORA_FREQ</a> = 920.5</td></tr>
-<tr class="separator:ab154cd811f17f99aba5f20acc7fc2a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b59cfe08891632453eb8ccaef5f63f5" id="r_a7b59cfe08891632453eb8ccaef5f63f5"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="transmitter-normal_8cpp.html#a7b59cfe08891632453eb8ccaef5f63f5">LORA_SF</a> = 8</td></tr>
-<tr class="separator:a7b59cfe08891632453eb8ccaef5f63f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2ea3203edabe1c0d527210aa77b065b" id="r_ae2ea3203edabe1c0d527210aa77b065b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="transmitter-normal_8cpp.html#ae2ea3203edabe1c0d527210aa77b065b">LORA_BW</a> = 125.0</td></tr>
-<tr class="separator:ae2ea3203edabe1c0d527210aa77b065b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4c6f67fecf4a6c25d42005c62db03b1" id="r_ae4c6f67fecf4a6c25d42005c62db03b1"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="transmitter-normal_8cpp.html#ae4c6f67fecf4a6c25d42005c62db03b1">LORA_CR</a> = 5</td></tr>
-<tr class="separator:ae4c6f67fecf4a6c25d42005c62db03b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4603ed3a9efa99913503522486f5a37e" id="r_a4603ed3a9efa99913503522486f5a37e"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="transmitter-normal_8cpp.html#a4603ed3a9efa99913503522486f5a37e">LORA_POWER</a> = 19</td></tr>
-<tr class="separator:a4603ed3a9efa99913503522486f5a37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8355757193e9f3bbb1504966020a4d6" id="r_ae8355757193e9f3bbb1504966020a4d6"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="transmitter-normal_8cpp.html#ae8355757193e9f3bbb1504966020a4d6">SLOT_MS</a> = 500</td></tr>
-<tr class="separator:ae8355757193e9f3bbb1504966020a4d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c1368df240eb66c4f16e0ebc5c4f6b0" id="r_a8c1368df240eb66c4f16e0ebc5c4f6b0"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="transmitter-normal_8cpp.html#a8c1368df240eb66c4f16e0ebc5c4f6b0">GNSS_PORT</a> = &quot;/dev/serial0&quot;</td></tr>
-<tr class="separator:a8c1368df240eb66c4f16e0ebc5c4f6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e7c7052878925426a28e59acc683b51" id="r_a6e7c7052878925426a28e59acc683b51"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="transmitter-normal_8cpp.html#a6e7c7052878925426a28e59acc683b51">BAUD</a> = B9600</td></tr>
-<tr class="separator:a6e7c7052878925426a28e59acc683b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627" id="r_a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="transmitter-normal_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
+<tr class="separator:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a840291bc02cba5474a4cb46a9b9566fe" name="a840291bc02cba5474a4cb46a9b9566fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a840291bc02cba5474a4cb46a9b9566fe">&#9670;&#160;</a></span>main()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>CHRONOS-LoRa Transmitter program (Normal) </p>
+<p>Provides a normal Transmitter program for Image Transmission via LoRa (without CHRONOS-LoRa)</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2026 Maulana M. Ali</dd></dl>
+<p>SPDX-License-Identifier: BSD-3-Clause </p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a3c04138a5bfe5d72780bb7e82a18e627" name="a3c04138a5bfe5d72780bb7e82a18e627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c04138a5bfe5d72780bb7e82a18e627">&#9670;&#160;</a></span>main()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -164,9 +137,19 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">int main </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -175,243 +158,8 @@ Variables</h2></td></tr>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="transmitter-normal_8cpp_a840291bc02cba5474a4cb46a9b9566fe_cgraph.svg" width="316" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="transmitter-normal_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.svg" width="1435" height="1423"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a6e7c7052878925426a28e59acc683b51" name="a6e7c7052878925426a28e59acc683b51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e7c7052878925426a28e59acc683b51">&#9670;&#160;</a></span>BAUD</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto BAUD = B9600</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac884f9005378d0dcce70475594e32c87" name="ac884f9005378d0dcce70475594e32c87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac884f9005378d0dcce70475594e32c87">&#9670;&#160;</a></span>CHUNK_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto CHUNK_SIZE = 140</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="transmitter-normal_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe">main()</a>.</p>
-
-</div>
-</div>
-<a id="a8c1368df240eb66c4f16e0ebc5c4f6b0" name="a8c1368df240eb66c4f16e0ebc5c4f6b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c1368df240eb66c4f16e0ebc5c4f6b0">&#9670;&#160;</a></span>GNSS_PORT</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto GNSS_PORT = &quot;/dev/serial0&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aec0fcb50aaabef345a28f84b37d6120a" name="aec0fcb50aaabef345a28f84b37d6120a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec0fcb50aaabef345a28f84b37d6120a">&#9670;&#160;</a></span>HEADER</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto HEADER = 0xAA</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="transmitter-normal_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe">main()</a>.</p>
-
-</div>
-</div>
-<a id="ae2ea3203edabe1c0d527210aa77b065b" name="ae2ea3203edabe1c0d527210aa77b065b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2ea3203edabe1c0d527210aa77b065b">&#9670;&#160;</a></span>LORA_BW</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto LORA_BW = 125.0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="transmitter-normal_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe">main()</a>.</p>
-
-</div>
-</div>
-<a id="ae4c6f67fecf4a6c25d42005c62db03b1" name="ae4c6f67fecf4a6c25d42005c62db03b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4c6f67fecf4a6c25d42005c62db03b1">&#9670;&#160;</a></span>LORA_CR</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto LORA_CR = 5</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="transmitter-normal_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe">main()</a>.</p>
-
-</div>
-</div>
-<a id="ab154cd811f17f99aba5f20acc7fc2a1b" name="ab154cd811f17f99aba5f20acc7fc2a1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab154cd811f17f99aba5f20acc7fc2a1b">&#9670;&#160;</a></span>LORA_FREQ</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto LORA_FREQ = 920.5</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="transmitter-normal_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe">main()</a>.</p>
-
-</div>
-</div>
-<a id="a4603ed3a9efa99913503522486f5a37e" name="a4603ed3a9efa99913503522486f5a37e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4603ed3a9efa99913503522486f5a37e">&#9670;&#160;</a></span>LORA_POWER</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto LORA_POWER = 19</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="transmitter-normal_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe">main()</a>.</p>
-
-</div>
-</div>
-<a id="a7b59cfe08891632453eb8ccaef5f63f5" name="a7b59cfe08891632453eb8ccaef5f63f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b59cfe08891632453eb8ccaef5f63f5">&#9670;&#160;</a></span>LORA_SF</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto LORA_SF = 8</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="transmitter-normal_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe">main()</a>.</p>
-
-</div>
-</div>
-<a id="ae8355757193e9f3bbb1504966020a4d6" name="ae8355757193e9f3bbb1504966020a4d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8355757193e9f3bbb1504966020a4d6">&#9670;&#160;</a></span>SLOT_MS</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto SLOT_MS = 500</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -420,7 +168,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="transmitter-normal_8cpp.html">transmitter-normal.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_73b6e01dc812ec222e8cee61b8ae0fa0.html">src</a></li><li class="navelem"><a class="el" href="transmitter-normal_8cpp.html">transmitter-normal.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>

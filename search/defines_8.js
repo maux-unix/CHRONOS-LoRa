@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['info_0',['INFO',['../nob_8h.html#ae1103fea1e1b3c41ca3322d5389f7162',1,'nob.h']]],
-  ['invalid_5ffd_1',['INVALID_FD',['../nob_8h.html#a15aaf7873d11ff616d7a5300a488fa6b',1,'nob.h']]],
-  ['invalid_5fproc_2',['INVALID_PROC',['../nob_8h.html#a35311a0904b93be1e1fa5d995def2f94',1,'nob.h']]]
+  ['hasx11_0',['HasX11',['../magick__config_8h.html#a3694294f57a6f211d4510150bf79c514',1,'magick_config.h']]],
+  ['hex_1',['HEX',['../BuildOpt_8h.html#a9075d93e0ab26ccd6e059fa06aa4e3de',1,'BuildOpt.h']]]
 ];

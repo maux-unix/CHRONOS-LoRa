@@ -1,7 +1,25 @@
 var searchData=
 [
-  ['frame_0',['Frame',['../structcrc32c_1_1Frame.html',1,'crc32c']]],
-  ['fsk4client_1',['FSK4Client',['../classFSK4Client.html',1,'']]],
-  ['fskpacketconfig_5ft_2',['FSKPacketConfig_t',['../structFSKPacketConfig__t.html',1,'']]],
-  ['fskrate_5ft_3',['FSKRate_t',['../structFSKRate__t.html',1,'']]]
+  ['error_0',['Error',['../classMagick_1_1Error.html',1,'Magick']]],
+  ['errorblob_1',['ErrorBlob',['../classMagick_1_1ErrorBlob.html',1,'Magick']]],
+  ['errorcache_2',['ErrorCache',['../classMagick_1_1ErrorCache.html',1,'Magick']]],
+  ['errorcoder_3',['ErrorCoder',['../classMagick_1_1ErrorCoder.html',1,'Magick']]],
+  ['errorconfigure_4',['ErrorConfigure',['../classMagick_1_1ErrorConfigure.html',1,'Magick']]],
+  ['errorcorruptimage_5',['ErrorCorruptImage',['../classMagick_1_1ErrorCorruptImage.html',1,'Magick']]],
+  ['errordelegate_6',['ErrorDelegate',['../classMagick_1_1ErrorDelegate.html',1,'Magick']]],
+  ['errordraw_7',['ErrorDraw',['../classMagick_1_1ErrorDraw.html',1,'Magick']]],
+  ['errorfileopen_8',['ErrorFileOpen',['../classMagick_1_1ErrorFileOpen.html',1,'Magick']]],
+  ['errorimage_9',['ErrorImage',['../classMagick_1_1ErrorImage.html',1,'Magick']]],
+  ['errormissingdelegate_10',['ErrorMissingDelegate',['../classMagick_1_1ErrorMissingDelegate.html',1,'Magick']]],
+  ['errormodule_11',['ErrorModule',['../classMagick_1_1ErrorModule.html',1,'Magick']]],
+  ['errormonitor_12',['ErrorMonitor',['../classMagick_1_1ErrorMonitor.html',1,'Magick']]],
+  ['erroroption_13',['ErrorOption',['../classMagick_1_1ErrorOption.html',1,'Magick']]],
+  ['errorregistry_14',['ErrorRegistry',['../classMagick_1_1ErrorRegistry.html',1,'Magick']]],
+  ['errorresourcelimit_15',['ErrorResourceLimit',['../classMagick_1_1ErrorResourceLimit.html',1,'Magick']]],
+  ['errorstream_16',['ErrorStream',['../classMagick_1_1ErrorStream.html',1,'Magick']]],
+  ['errortype_17',['ErrorType',['../classMagick_1_1ErrorType.html',1,'Magick']]],
+  ['errorundefined_18',['ErrorUndefined',['../classMagick_1_1ErrorUndefined.html',1,'Magick']]],
+  ['errorxserver_19',['ErrorXServer',['../classMagick_1_1ErrorXServer.html',1,'Magick']]],
+  ['exception_20',['exception',['../classcxxopts_1_1exceptions_1_1exception.html',1,'cxxopts::exceptions::exception'],['../classMagick_1_1Exception.html',1,'Magick::Exception']]],
+  ['externalradio_21',['ExternalRadio',['../classExternalRadio.html',1,'']]]
 ];

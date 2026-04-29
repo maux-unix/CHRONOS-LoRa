@@ -1,0 +1,5 @@
+<map id="chronos_convert_to_ppm_op" name="chronos_convert_to_ppm_op">
+<area shape="rect" id="Node000001" title="The operation to convert to PPM." alt="" coords="239,5,388,45"/>
+<area shape="rect" id="Node000002" href="$chronos_8cpp.html#a27732e3f3736db194dd933a3f7f511ec" title="Convert any GraphicsMagick supported image format to PPM image format." alt="" coords="5,13,191,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,28,191,28,191,23,225,23"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="/usr/include/GraphicsMagick/magick/analyze.h" name="/usr/include/GraphicsMagick/magick/analyze.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="221,5,427,45"/>
+<area shape="rect" id="Node000002" href="$image_8h.html" title=" " alt="" coords="261,93,387,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="327,46,327,79,321,79,321,46"/>
+<area shape="rect" id="Node000003" href="$forward_8h.html" title=" " alt="" coords="5,167,141,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="284,121,128,165,126,160,283,116"/>
+<area shape="rect" id="Node000004" href="$colorspace_8h.html" title=" " alt="" coords="166,167,322,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="313,121,269,160,265,156,309,117"/>
+<area shape="rect" id="Node000005" href="$error_8h.html" title=" " alt="" coords="346,167,462,192"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="339,117,383,156,379,160,335,121"/>
+<area shape="rect" id="Node000007" href="$timer_8h.html" title=" " alt="" coords="487,167,607,192"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="361,116,499,160,497,165,359,121"/>
+<area shape="rect" id="Node000006" href="$log_8h.html" title=" " alt="" coords="351,240,457,265"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="400,192,398,227,393,226,394,192"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="408,240,410,206,415,206,414,240"/>
+</map>

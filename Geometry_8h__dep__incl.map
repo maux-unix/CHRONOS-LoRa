@@ -1,0 +1,19 @@
+<map id="/usr/include/GraphicsMagick/Magick++/Geometry.h" name="/usr/include/GraphicsMagick/Magick++/Geometry.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="76,5,281,45"/>
+<area shape="rect" id="Node000002" href="$Drawable_8h.html" title=" " alt="" coords="76,93,281,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,59,181,93,176,93,176,59"/>
+<area shape="rect" id="Node000003" href="$Image_8h.html" title=" " alt="" coords="5,181,211,221"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="111,54,86,71,66,95,61,116,66,139,78,161,92,180,88,183,74,164,61,141,56,116,62,92,82,68,108,49"/>
+<area shape="rect" id="Node000007" href="$Montage_8h.html" title=" " alt="" coords="305,93,511,133"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="242,48,359,91,357,96,241,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="157,146,126,183,122,179,152,142"/>
+<area shape="rect" id="Node000006" href="$STL_8h.html" title=" " alt="" coords="260,181,465,221"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="233,137,324,179,321,184,230,142"/>
+<area shape="rect" id="Node000004" href="$Magick_09_09_8h.html" title=" " alt="" coords="120,357,325,397"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="103,235,100,272,103,291,110,308,135,335,167,355,164,359,132,340,106,311,98,292,95,272,97,235"/>
+<area shape="rect" id="Node000005" href="$Pixels_8h.html" title=" " alt="" coords="120,269,325,309"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="146,228,199,267,196,271,143,232"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="225,323,225,357,220,357,220,323"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="364,236,357,274,339,311,310,339,275,360,272,355,306,335,335,308,352,272,359,235"/>
+<area shape="poly" id="edge10_Node000007_Node000006" title=" " alt="" coords="394,147,375,182,370,180,389,144"/>
+</map>

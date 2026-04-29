@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sstvclient_0',['sstvclient',['../classPhysicalLayer.html#ae8dd4f2f60ef4fd1fa1868a7a630ab20',1,'PhysicalLayer::SSTVClient'],['../classAFSKClient.html#ae8dd4f2f60ef4fd1fa1868a7a630ab20',1,'AFSKClient::SSTVClient']]]
+  ['rttyclient_0',['rttyclient',['../classPhysicalLayer.html#a018393f703a257e39cd263cccf4ffad5',1,'PhysicalLayer::RTTYClient'],['../classAFSKClient.html#a018393f703a257e39cd263cccf4ffad5',1,'AFSKClient::RTTYClient']]]
 ];

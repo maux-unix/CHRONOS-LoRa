@@ -1,0 +1,9 @@
+<map id="Magick::DrawableTextUnderColor" name="Magick::DrawableTextUnderColor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="6,181,211,221"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,121,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,130,102,180,97,182,72,132"/>
+<area shape="rect" id="Node000003" href="$classMagick_1_1Color.html" title=" " alt="" coords="145,93,256,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,130,129,183,125,179,178,126"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="153,5,248,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="203,45,203,93,198,93,198,45"/>
+</map>

@@ -1,3 +1,13 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structModule_1_1SPIConfig__t.html" title="SPI configuration structure." alt="" coords="5,5,156,31"/>
+<area shape="rect" id="Node000000" href="$classAFSKClient.html" title="Client for audio&#45;based transmissions. Requires Arduino tone() function, and a module capable of direc..." alt="" coords="13,5,105,31"/>
+<area shape="rect" id="Node000001" href="$classBellClient.html" title="Client for Bell modem communication. The public interface is the same as Arduino Serial." alt="" coords="169,5,254,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="119,15,168,15,168,21,119,21"/>
+<area shape="rect" id="Node000002" href="$classRadioLibPrint.html" title="Printing class, based on Arduino Print class with additional encodings." alt="" coords="5,79,113,104"/>
+<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="98,70,183,28,185,33,100,75"/>
+<area shape="rect" id="Node000003" href="$classHellClient.html" title="Client for Hellschreiber transmissions." alt="" coords="168,55,255,80"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="127,78,167,71,168,77,128,83"/>
+<area shape="rect" id="Node000004" href="$classMorseClient.html" title="Client for Morse Code communication. The public interface is the same as Arduino Serial." alt="" coords="161,104,261,129"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="127,100,162,106,161,111,127,105"/>
+<area shape="rect" id="Node000005" href="$classRTTYClient.html" title="Client for RTTY communication. The public interface is the same as Arduino Serial." alt="" coords="166,153,257,179"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="100,108,186,151,183,156,97,113"/>
 </map>

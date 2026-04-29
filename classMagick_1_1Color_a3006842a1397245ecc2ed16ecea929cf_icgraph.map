@@ -1,0 +1,23 @@
+<map id="Magick::Color::operator=" name="Magick::Color::operator=">
+<area shape="rect" id="Node000001" title=" " alt="" coords="272,298,457,323"/>
+<area shape="rect" id="Node000002" href="$classMagick_1_1Montage.html#a6879b71728ca9da2f503e08b1df69e2f" title=" " alt="" coords="5,5,224,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="354,286,337,237,311,176,272,113,249,84,222,59,204,48,207,43,226,55,253,81,277,110,315,174,342,235,359,284"/>
+<area shape="rect" id="Node000003" href="$classMagick_1_1MontageFramed.html#a62bfa1b4b1927c4e99cc0a908bc19db1" title=" " alt="" coords="23,69,206,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="349,287,330,250,301,206,265,162,222,124,201,112,204,107,226,119,269,158,306,203,334,248,354,284"/>
+<area shape="rect" id="Node000004" href="$classMagick_1_1DrawableFillColor.html#a6e973a3eac7ebe1fe82d82b0db9a440c" title=" " alt="" coords="19,133,211,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="342,290,291,238,258,211,223,188,197,176,199,171,225,183,261,207,295,234,346,286"/>
+<area shape="rect" id="Node000005" href="$classMagick_1_1DrawableStrokeColor.html#a7b622a9744dfed8f33bc30acf9be24a3" title=" " alt="" coords="7,197,222,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="324,295,223,252,188,240,189,235,225,247,326,290"/>
+<area shape="rect" id="Node000006" href="$classMagick_1_1DrawableTextUnderColor.html#ac57dfeda5cd1b26e7d69cf4a8019833e" title=" " alt="" coords="12,261,217,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="258,301,217,296,218,291,259,296"/>
+<area shape="rect" id="Node000007" href="$classMagick_1_1Montage.html#a717233f38b7fe9f9ee57a6dba6c89ff4" title=" " alt="" coords="19,326,211,351"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="259,325,211,331,210,325,258,320"/>
+<area shape="rect" id="Node000008" href="$classMagick_1_1MontageFramed.html#a2042f5372987b62e42b4ba040349348a" title=" " alt="" coords="23,376,206,416"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="319,331,225,365,184,379,182,373,223,360,317,326"/>
+<area shape="rect" id="Node000009" href="$classMagick_1_1Montage.html#aeac3736523f0cfc4321dde69dc1c2b8e" title=" " alt="" coords="15,441,215,466"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="345,335,294,384,261,409,225,430,192,443,190,438,223,426,258,405,290,380,341,332"/>
+<area shape="rect" id="Node000010" href="$classMagick_1_1Montage.html#ae6ebf9d7ea8123d61e295453f7c4897b" title=" " alt="" coords="7,490,223,515"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="352,337,331,370,303,409,267,447,225,480,198,492,196,487,223,475,263,443,299,405,327,367,347,334"/>
+<area shape="rect" id="Node000011" href="$classMagick_1_1Montage.html#a60c868c7dcbd1874e123b7be5aa64ab2" title=" " alt="" coords="6,540,223,580"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="356,338,338,379,309,431,272,484,226,529,203,542,201,537,222,525,268,480,305,428,333,377,351,335"/>
+</map>

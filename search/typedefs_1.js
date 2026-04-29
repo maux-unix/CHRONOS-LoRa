@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['delaysecondscb_5ft_0',['delaysecondscb_t',['../classLoRaWANPackageManager.html#a51efda23e5b88763d85c625e64588cd8',1,'LoRaWANPackageManager::DelaySecondsCb_t'],['../classLoRaWANPackageTS009.html#a0e21e65af7f090a3ec5a12fd91f9ae7a',1,'LoRaWANPackageTS009::DelaySecondsCb_t']]]
+  ['affinematrix_0',['AffineMatrix',['../image_8h.html#aaec32288dd298b7024081664e519cfd1',1,'image.h']]],
+  ['ascii85info_1',['Ascii85Info',['../compress_8h.html#a52dca03567c37d90e5659edece850e53',1,'compress.h']]]
 ];

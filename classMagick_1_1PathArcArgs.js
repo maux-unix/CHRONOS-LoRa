@@ -1,0 +1,28 @@
+var classMagick_1_1PathArcArgs =
+[
+    [ "PathArcArgs", "classMagick_1_1PathArcArgs.html#a969f8b3760611f26a8babdb49364cf4d", null ],
+    [ "PathArcArgs", "classMagick_1_1PathArcArgs.html#addd4ab3ba315e7710da779612c529f1d", null ],
+    [ "PathArcArgs", "classMagick_1_1PathArcArgs.html#ab359e2e3d4976b2274468b35ad0b926f", null ],
+    [ "~PathArcArgs", "classMagick_1_1PathArcArgs.html#a80ea63b56836bff23a34747f374ce434", null ],
+    [ "largeArcFlag", "classMagick_1_1PathArcArgs.html#af97658877e81f4409eabf760b5a80613", null ],
+    [ "largeArcFlag", "classMagick_1_1PathArcArgs.html#af08ede4a39b0461925660e2988098d5c", null ],
+    [ "radiusX", "classMagick_1_1PathArcArgs.html#aa8d14fb6e1288f0a259749ac5ffbca03", null ],
+    [ "radiusX", "classMagick_1_1PathArcArgs.html#aa78f09b7a11f3bf260dc8ec059b84a25", null ],
+    [ "radiusY", "classMagick_1_1PathArcArgs.html#ac4098fa3519f76aeca0a2aff899db2af", null ],
+    [ "radiusY", "classMagick_1_1PathArcArgs.html#a57b4ec88f1c335c35a91635c6e5c1133", null ],
+    [ "sweepFlag", "classMagick_1_1PathArcArgs.html#ab85b7fca270b878730a866c47438c7d7", null ],
+    [ "sweepFlag", "classMagick_1_1PathArcArgs.html#a8ba72bf7dcf73a3de3edeebd8f7d4f77", null ],
+    [ "x", "classMagick_1_1PathArcArgs.html#a57dd36feb42a99c456f82496a8be863b", null ],
+    [ "x", "classMagick_1_1PathArcArgs.html#a6e25bbf64db28600465224a695875573", null ],
+    [ "xAxisRotation", "classMagick_1_1PathArcArgs.html#ae5ecb49ed1ae7ad3aea80d2fe0a2191b", null ],
+    [ "xAxisRotation", "classMagick_1_1PathArcArgs.html#ac10b82e7ea40a9a0eb3f7b589e58cc54", null ],
+    [ "y", "classMagick_1_1PathArcArgs.html#a07b5f6b816a6a09fa5f1b9874d704882", null ],
+    [ "y", "classMagick_1_1PathArcArgs.html#a6b75cc9a0d3e1cbb656a851d603a2977", null ],
+    [ "_largeArcFlag", "classMagick_1_1PathArcArgs.html#ad524365fad1764710b60d0f3cc902181", null ],
+    [ "_radiusX", "classMagick_1_1PathArcArgs.html#a5b750a4647fb60db788ca584957aa481", null ],
+    [ "_radiusY", "classMagick_1_1PathArcArgs.html#af973080de6944195d7a8bf935d08e268", null ],
+    [ "_sweepFlag", "classMagick_1_1PathArcArgs.html#a5490b8214132bdf0254f0617f9f62425", null ],
+    [ "_x", "classMagick_1_1PathArcArgs.html#ace8ab1869ff57adab4b215b62c702cd4", null ],
+    [ "_xAxisRotation", "classMagick_1_1PathArcArgs.html#a709a9871f013f36de9f5384a4da17c1b", null ],
+    [ "_y", "classMagick_1_1PathArcArgs.html#a846cb69ca104f81d8e63fb405e0fab38", null ]
+];

@@ -1,0 +1,7 @@
+<map id="Magick::DrawableGravity" name="Magick::DrawableGravity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="35,93,222,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,121,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,40,122,91,117,94,78,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="145,5,245,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,43,140,94,136,91,176,40"/>
+</map>

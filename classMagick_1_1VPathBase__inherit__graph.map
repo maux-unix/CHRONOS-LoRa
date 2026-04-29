@@ -1,0 +1,41 @@
+<map id="Magick::VPathBase" name="Magick::VPathBase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,449,152,475"/>
+<area shape="rect" id="Node000002" href="$classMagick_1_1PathArcAbs.html" title=" " alt="" coords="246,5,397,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,435,78,357,83,306,93,250,108,193,129,137,159,85,198,40,220,26,245,18,246,23,222,31,202,44,164,88,134,139,113,195,98,251,88,307,83,358,82,435"/>
+<area shape="rect" id="Node000003" href="$classMagick_1_1PathArcRel.html" title=" " alt="" coords="248,55,395,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="77,435,82,366,99,272,114,222,135,173,163,128,198,89,221,75,247,67,249,72,223,80,202,93,167,132,140,176,119,224,104,273,87,366,83,436"/>
+<area shape="rect" id="Node000004" href="$classMagick_1_1PathClosePath.html" title=" " alt="" coords="237,104,406,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="79,435,87,374,106,293,121,251,141,210,167,171,198,139,216,127,235,120,237,125,218,132,202,143,171,175,146,212,126,253,111,295,92,375,84,436"/>
+<area shape="rect" id="Node000005" href="$classMagick_1_1PathCurvetoAbs.html" title=" " alt="" coords="231,153,411,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="81,435,92,383,113,315,128,280,147,246,171,215,198,188,230,171,232,176,202,192,175,218,152,249,133,283,118,317,97,384,86,436"/>
+<area shape="rect" id="Node000006" href="$classMagick_1_1PathCurvetoRel.html" title=" " alt="" coords="233,203,410,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="84,435,98,391,120,337,154,283,174,258,199,237,231,221,233,226,201,242,178,262,158,286,125,339,103,393,89,436"/>
+<area shape="rect" id="Node000007" href="$classMagick_1_1PathLinetoAbs.html" title=" " alt="" coords="237,252,406,277"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="88,435,104,401,128,360,160,320,199,286,235,270,237,275,201,291,164,324,133,363,109,404,93,438"/>
+<area shape="rect" id="Node000008" href="$classMagick_1_1PathLinetoHorizontalAbs.html" title=" " alt="" coords="203,301,439,327"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="94,436,137,385,166,358,199,336,226,324,228,329,201,340,169,362,141,388,98,440"/>
+<area shape="rect" id="Node000009" href="$classMagick_1_1PathLinetoHorizontalRel.html" title=" " alt="" coords="205,351,438,376"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="106,439,148,410,199,385,235,374,237,379,201,390,151,415,109,443"/>
+<area shape="rect" id="Node000010" href="$classMagick_1_1PathLinetoRel.html" title=" " alt="" coords="238,400,405,425"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="153,444,199,434,255,423,256,428,201,439,154,449"/>
+<area shape="rect" id="Node000011" href="$classMagick_1_1PathLinetoVerticalAbs.html" title=" " alt="" coords="212,449,431,475"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="165,459,212,459,212,465,165,465"/>
+<area shape="rect" id="Node000012" href="$classMagick_1_1PathLinetoVerticalRel.html" title=" " alt="" coords="214,499,429,524"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="156,475,259,496,257,501,155,480"/>
+<area shape="rect" id="Node000013" href="$classMagick_1_1PathMovetoAbs.html" title=" " alt="" coords="232,548,411,573"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="109,481,152,508,201,533,242,545,240,550,199,538,149,513,107,485"/>
+<area shape="rect" id="Node000014" href="$classMagick_1_1PathMovetoRel.html" title=" " alt="" coords="234,597,409,623"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="98,484,141,535,170,561,201,582,235,596,233,601,199,587,166,565,137,538,94,487"/>
+<area shape="rect" id="Node000015" href="$classMagick_1_1PathQuadraticCurvetoAbs.html" title=" " alt="" coords="200,647,443,672"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="93,486,109,520,133,560,164,599,201,632,227,644,224,649,199,636,160,603,128,563,104,522,88,488"/>
+<area shape="rect" id="Node000016" href="$classMagick_1_1PathQuadraticCurvetoRel.html" title=" " alt="" coords="201,696,441,721"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="89,488,103,531,125,584,158,637,178,661,202,681,224,694,221,698,198,686,175,664,154,640,121,586,98,533,84,489"/>
+<area shape="rect" id="Node000017" href="$classMagick_1_1PathSmoothCurvetoAbs.html" title=" " alt="" coords="206,745,437,771"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="86,488,97,540,118,606,133,641,152,674,175,704,202,731,222,743,219,748,198,735,171,708,148,677,129,643,113,608,92,542,81,489"/>
+<area shape="rect" id="Node000018" href="$classMagick_1_1PathSmoothCurvetoRel.html" title=" " alt="" coords="208,795,435,820"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="84,488,92,549,111,628,126,670,146,711,171,748,202,780,221,792,218,797,198,784,167,751,142,713,122,672,106,630,87,550,79,489"/>
+<area shape="rect" id="Node000019" href="$classMagick_1_1PathSmoothQuadraticCurvetoAbs.html" title=" " alt="" coords="212,845,431,885"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="83,488,89,556,106,648,121,697,142,746,168,790,202,829,219,842,216,847,198,833,164,793,137,748,116,699,101,650,84,557,78,488"/>
+<area shape="rect" id="Node000020" href="$classMagick_1_1PathSmoothQuadraticCurvetoRel.html" title=" " alt="" coords="212,909,431,949"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="82,488,83,567,88,620,98,677,113,736,134,794,163,848,202,895,217,906,214,911,198,899,159,851,129,796,108,737,93,678,83,620,78,568,76,488"/>
+</map>

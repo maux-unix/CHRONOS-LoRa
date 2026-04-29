@@ -1,23 +1,11 @@
 var searchData=
 [
-  ['radiolibaes128_0',['RadioLibAES128',['../classRadioLibAES128.html',1,'']]],
-  ['radiolibbch_1',['RadioLibBCH',['../classRadioLibBCH.html',1,'']]],
-  ['radiolibcmacstate_2',['RadioLibCmacState',['../structRadioLibCmacState.html',1,'']]],
-  ['radiolibconvcode_3',['RadioLibConvCode',['../classRadioLibConvCode.html',1,'']]],
-  ['radiolibcrc_4',['RadioLibCRC',['../classRadioLibCRC.html',1,'']]],
-  ['radiolibhal_5',['RadioLibHal',['../classRadioLibHal.html',1,'']]],
-  ['radiolibprint_6',['RadioLibPrint',['../classRadioLibPrint.html',1,'']]],
-  ['radiomodeconfig_5ft_7',['RadioModeConfig_t',['../unionRadioModeConfig__t.html',1,'']]],
-  ['receiveconfig_5ft_8',['ReceiveConfig_t',['../structReceiveConfig__t.html',1,'']]],
-  ['rf69_9',['RF69',['../classRF69.html',1,'']]],
-  ['rfm22_10',['RFM22',['../classRFM22.html',1,'']]],
-  ['rfm23_11',['RFM23',['../classRFM23.html',1,'']]],
-  ['rfm95_12',['RFM95',['../classRFM95.html',1,'']]],
-  ['rfm96_13',['RFM96',['../classRFM96.html',1,'']]],
-  ['rfm97_14',['RFM97',['../classRFM97.html',1,'']]],
-  ['rfm98_15',['RFM98',['../classRFM98.html',1,'']]],
-  ['rfswitchmode_5ft_16',['RfSwitchMode_t',['../structModule_1_1RfSwitchMode__t.html',1,'Module']]],
-  ['rs_5fctx_5ft_17',['rs_ctx_t',['../structrs__ctx__t.html',1,'']]],
-  ['rssiscanconfig_5ft_18',['RSSIScanConfig_t',['../structRSSIScanConfig__t.html',1,'']]],
-  ['rttyclient_19',['RTTYClient',['../classRTTYClient.html',1,'']]]
+  ['magick_5funary_5ffunction_5fdrawcontext_5fref_5fbase_0',['MAGICK_UNARY_FUNCTION_DRAWCONTEXT_REF_BASE',['../classMagick_1_1MAGICK__UNARY__FUNCTION__DRAWCONTEXT__REF__BASE.html',1,'Magick']]],
+  ['magick_5funary_5ffunction_5fimage_5fref_5fbase_1',['MAGICK_UNARY_FUNCTION_IMAGE_REF_BASE',['../classMagick_1_1MAGICK__UNARY__FUNCTION__IMAGE__REF__BASE.html',1,'Magick']]],
+  ['missing_5fargument_2',['missing_argument',['../classcxxopts_1_1exceptions_1_1missing__argument.html',1,'cxxopts::exceptions']]],
+  ['module_3',['Module',['../classModule.html',1,'']]],
+  ['montage_4',['Montage',['../classMagick_1_1Montage.html',1,'Magick']]],
+  ['montageframed_5',['MontageFramed',['../classMagick_1_1MontageFramed.html',1,'Magick']]],
+  ['morseclient_6',['MorseClient',['../classMorseClient.html',1,'']]],
+  ['multicastgroup_5ft_7',['MulticastGroup_t',['../structMulticastGroup__t.html',1,'']]]
 ];

@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['nob_5ffile_5ftype_0',['Nob_File_Type',['../nob_8h.html#a94ac9b08c7c0a1da55eae0781d3562b3',1,'nob.h']]],
-  ['nob_5flog_5flevel_1',['Nob_Log_Level',['../nob_8h.html#aa7846a8c8f3c4a595e8ac19fc74a0498',1,'nob.h']]],
-  ['nob_5fwalk_5faction_2',['Nob_Walk_Action',['../nob_8h.html#aa582460944b590268b9a7d54f7477b7b',1,'nob.h']]]
+  ['endiantype_0',['EndianType',['../image_8h.html#ad3f8cd9685608d762e24f72b8858bdfb',1,'image.h']]],
+  ['exceptionbasetype_1',['ExceptionBaseType',['../error_8h.html#a9c241bb621bd17b04e5408be0c1d6d57',1,'error.h']]],
+  ['exceptiontype_2',['ExceptionType',['../error_8h.html#a0e0f0f1661d7aeb71ed9698bff6c6383',1,'error.h']]],
+  ['extensiontreatment_3',['ExtensionTreatment',['../magick_8h.html#aa8611149acd2b550684f2846eb55ed70',1,'magick.h']]]
 ];

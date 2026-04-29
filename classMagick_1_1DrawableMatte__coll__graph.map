@@ -1,0 +1,7 @@
+<map id="Magick::DrawableMatte" name="Magick::DrawableMatte">
+<area shape="rect" id="Node000001" title=" " alt="" coords="41,93,219,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,121,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,40,123,91,119,94,79,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="145,5,248,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,43,141,94,137,91,177,40"/>
+</map>

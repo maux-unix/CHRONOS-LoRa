@@ -1,0 +1,13 @@
+<map id="InitializeMagick" name="InitializeMagick">
+<area shape="rect" id="Node000001" title=" " alt="" coords="477,80,603,105"/>
+<area shape="rect" id="Node000002" href="$chronos_8cpp.html#a8c442ee2efdfad19f622ad860721ab3f" title="Process the Image in GraphicsMagick context." alt="" coords="245,5,423,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="501,76,428,45,391,33,393,28,430,39,503,71"/>
+<area shape="rect" id="Node000004" href="$chronos_8cpp.html#ab6e29349c1d27559eca20345417eec1a" title=" " alt="" coords="251,55,417,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="463,86,417,80,418,75,464,81"/>
+<area shape="rect" id="Node000005" href="$chronos_8cpp.html#a29a3494a090b272d667b2cbe3bae8203" title="Convert an image&#39;s colorspace, without changing file format, from RGB to Grayscale." alt="" coords="239,104,429,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="464,104,430,108,429,103,464,99"/>
+<area shape="rect" id="Node000006" href="$chronos_8cpp.html#a0c3f0d6ab9edd97cb75278bf820c5de1" title=" " alt="" coords="251,153,417,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="501,114,430,143,389,156,387,151,428,138,499,109"/>
+<area shape="rect" id="Node000003" href="$chronos_8cpp.html#a27732e3f3736db194dd933a3f7f511ec" title="Convert any GraphicsMagick supported image format to PPM image format." alt="" coords="5,5,191,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="231,21,191,21,191,15,231,15"/>
+</map>

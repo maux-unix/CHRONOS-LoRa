@@ -1,0 +1,9 @@
+<map id="Magick::WarningCoder" name="Magick::WarningCoder">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,225,173,251"/>
+<area shape="rect" id="Node000002" href="$classMagick_1_1Warning.html" title=" " alt="" coords="24,152,155,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,191,92,225,87,225,87,191"/>
+<area shape="rect" id="Node000003" href="$classMagick_1_1Exception.html" title=" " alt="" coords="19,79,160,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,118,92,152,87,152,87,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="32,5,147,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="92,44,92,79,87,79,87,44"/>
+</map>

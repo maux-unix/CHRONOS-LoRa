@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['radiolibirqtype_5ft_0',['RadioLibIrqType_t',['../PhysicalLayer_8h.html#affd1537e8ade587e83c1fd716746853e',1,'PhysicalLayer.h']]],
-  ['radiomodetype_5ft_1',['RadioModeType_t',['../PhysicalLayer_8h.html#a91a9a600d09ec90934d99f5527c7c78b',1,'PhysicalLayer.h']]]
+  ['geometryflags_0',['GeometryFlags',['../image_8h.html#a393b52d090301940c1cf5adcc859edd9',1,'image.h']]],
+  ['gradienttype_1',['GradientType',['../render_8h.html#a0bb3c96a5ae4411bf72bdafaaaaec12a',1,'render.h']]],
+  ['gravitytype_2',['GravityType',['../image_8h.html#afd1e527b17eba5305ea949fa7c717069',1,'image.h']]]
 ];

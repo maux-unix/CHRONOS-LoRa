@@ -1,5 +1,5 @@
 var crc32c_8hpp =
 [
-    [ "crc32c::Frame", "structcrc32c_1_1Frame.html", "structcrc32c_1_1Frame" ],
-    [ "encode", "crc32c_8hpp.html#adcecfd36687c120a8440b5f3201a69ba", null ]
+    [ "encode", "crc32c_8hpp.html#abc927199e4d21895169d7205fc2214f7", null ],
+    [ "encode_entire", "crc32c_8hpp.html#ab9955b981fab15a316757c5f024bc5de", null ]
 ];

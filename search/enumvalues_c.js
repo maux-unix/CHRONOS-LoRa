@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['nativeendian_0',['NativeEndian',['../image_8h.html#ad3f8cd9685608d762e24f72b8858bdfba2da69f7603da43f8912eefc9df2f602f',1,'image.h']]],
+  ['negatequantumop_1',['NegateQuantumOp',['../operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a2d6b5ee3fd59cb50171fc2de6c85faac',1,'operator.h']]],
+  ['newallocator_2',['NewAllocator',['../classMagick_1_1Blob.html#a320f999fa1ed7e9ee0e6f28858499e2ea8dfea41b347695cd3ee8cb88cc7123dd',1,'Magick::Blob']]],
+  ['nocompliance_3',['NoCompliance',['../color__lookup_8h.html#aa8673515c910773807778b398818f7f4a88c17ff55571b430ea2a9e901a958b41',1,'color_lookup.h']]],
+  ['nocompositeop_4',['NoCompositeOp',['../image_8h.html#a55ded0ef54def8597243db2375b987fba95facad3d47308634a3950bb6b48c68f',1,'image.h']]],
+  ['nocompression_5',['NoCompression',['../image_8h.html#affec749ed88365143745313ae9168263a07811fc593ce3b2fa03e5744517b0f13',1,'image.h']]],
+  ['nodecoration_6',['NoDecoration',['../render_8h.html#a4143b4a0092666c3cd88789b5b82b1f7a49486ecc8a7d9ebcdc9a77d9fca43e8f',1,'render.h']]],
+  ['noeventsmask_7',['NoEventsMask',['../log_8h.html#a5d4d59a282badd09dd3b71cb216cab60ad43a674aca5a2a8461cc30217b950d1c',1,'log.h']]],
+  ['nointerlace_8',['NoInterlace',['../image_8h.html#af89b808293a7faf805254d1b01e69dc2ab062f191507846d2869b7836c1444feb',1,'image.h']]],
+  ['noisegaussianquantumop_9',['NoiseGaussianQuantumOp',['../operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a35f317c78e9f1d0ef4c557cc9d533a10',1,'operator.h']]],
+  ['noiseimpulsequantumop_10',['NoiseImpulseQuantumOp',['../operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a7ddf0e6d6be3f68af6c3baaa0445e950',1,'operator.h']]],
+  ['noiselaplacianquantumop_11',['NoiseLaplacianQuantumOp',['../operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3abb56ea9b75d043f378bd505fb85ffef8',1,'operator.h']]],
+  ['noisemultiplicativequantumop_12',['NoiseMultiplicativeQuantumOp',['../operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a1b1d93fd8781ed5c7586d96453113619',1,'operator.h']]],
+  ['noisepoissonquantumop_13',['NoisePoissonQuantumOp',['../operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a26b07e91d19528b3bc0dae9ebfcc8a66',1,'operator.h']]],
+  ['noiserandomquantumop_14',['NoiseRandomQuantumOp',['../operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a71e26e24737b3df1fbe2f0e50e1c23bb',1,'operator.h']]],
+  ['noiseuniformquantumop_15',['NoiseUniformQuantumOp',['../operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3aabdac7ccefbfe69a584a41f8d1659b0c',1,'operator.h']]],
+  ['none_16',['NONE',['../ADSB_8h.html#a7b0aa3ed8b9d5eadaf415424064512ebab50339a10e1de285ac99d4c3990b8693',1,'ADSB.h']]],
+  ['nonedispose_17',['NoneDispose',['../image_8h.html#ac96180ee258945da50a5c268cf53f0c9ac55011a8cae682e8c4b31bb9570d0860',1,'image.h']]],
+  ['nonzerorule_18',['NonZeroRule',['../render_8h.html#a9a534b0377c9ca41983d53b0dae0d5a4aa6e65a41124421f17362dd81b48bae84',1,'render.h']]],
+  ['normalstretch_19',['NormalStretch',['../type_8h.html#abdf6bb23a1fdb150bb86496d5a8bafdba00218204ce616610e95ee511bc77543e',1,'type.h']]],
+  ['normalstyle_20',['NormalStyle',['../type_8h.html#ad87abf2741463b7ab84e9e214240220da63b4f52522afef00b3bf7f04ad5a16ef',1,'type.h']]],
+  ['northeastgravity_21',['NorthEastGravity',['../image_8h.html#afd1e527b17eba5305ea949fa7c717069a817fde8c074ea7e62dbf8319a1db69af',1,'image.h']]],
+  ['northgravity_22',['NorthGravity',['../image_8h.html#afd1e527b17eba5305ea949fa7c717069a6c9399177dfeffcb7c6bb3e4b6320aef',1,'image.h']]],
+  ['northwestgravity_23',['NorthWestGravity',['../image_8h.html#afd1e527b17eba5305ea949fa7c717069a365dc59850265386cc08eaad36b9e9f2',1,'image.h']]],
+  ['novalue_24',['NoValue',['../image_8h.html#a393b52d090301940c1cf5adcc859edd9a2e14b1169ebc7ebdacff0f6950a0c239',1,'image.h']]]
+];

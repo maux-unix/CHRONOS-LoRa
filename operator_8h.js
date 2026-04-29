@@ -1,0 +1,38 @@
+var operator_8h =
+[
+    [ "QuantumOperator", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3", [
+      [ "UndefinedQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3abe8b975bf80f235af55707ff805c6938", null ],
+      [ "AddQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a656d9a34e6b1c0bac74dd9d2414212ac", null ],
+      [ "AndQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a5dc6a7614d401cdd7ffd2665e32a7ba9", null ],
+      [ "AssignQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a8e61c51924be0de94043698f5e54432a", null ],
+      [ "DivideQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3ab46d5bd74752b95a153cc74678e888ac", null ],
+      [ "LShiftQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a16829a45f4f200e52d02cf9f8c30c03c", null ],
+      [ "MultiplyQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3af2bed31fa3344fe8d41859b5ba1e6d2b", null ],
+      [ "OrQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3ad9129b2c156d91095ebbed58fe133049", null ],
+      [ "RShiftQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a4c7deccea125e5b6b6bf8ee250950b4a", null ],
+      [ "SubtractQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a3c13d72cefd442738c5847dc3f3d3b1f", null ],
+      [ "ThresholdQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3aa78afc0f9b76fa0be02e0943308d2110", null ],
+      [ "ThresholdBlackQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a9b278634db110c14910fce21fbc53c72", null ],
+      [ "ThresholdWhiteQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a9e65ee0c7c18af31733f2be03f30fe25", null ],
+      [ "XorQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a7e6d31125c5bf6d4f91c72e8ba7a4475", null ],
+      [ "NoiseGaussianQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a35f317c78e9f1d0ef4c557cc9d533a10", null ],
+      [ "NoiseImpulseQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a7ddf0e6d6be3f68af6c3baaa0445e950", null ],
+      [ "NoiseLaplacianQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3abb56ea9b75d043f378bd505fb85ffef8", null ],
+      [ "NoiseMultiplicativeQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a1b1d93fd8781ed5c7586d96453113619", null ],
+      [ "NoisePoissonQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a26b07e91d19528b3bc0dae9ebfcc8a66", null ],
+      [ "NoiseUniformQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3aabdac7ccefbfe69a584a41f8d1659b0c", null ],
+      [ "NegateQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a2d6b5ee3fd59cb50171fc2de6c85faac", null ],
+      [ "GammaQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a873cad488ae8f4d9b58828869a192256", null ],
+      [ "DepthQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a9053c27a9c4d5bd0dcc07a6d83bb7664", null ],
+      [ "LogQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a21ea1f5508fde44d135980d6df5e84a3", null ],
+      [ "MaxQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a8f0ce972abc6fb1b3bdc01f7cf39e00e", null ],
+      [ "MinQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3aa9e44454b14e4fe2af6efe730f5998eb", null ],
+      [ "PowQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a0785e6f16a5eab88640d34cdc8dc6361", null ],
+      [ "NoiseRandomQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a71e26e24737b3df1fbe2f0e50e1c23bb", null ],
+      [ "ThresholdBlackNegateQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3a44f5b1ee93b9566b8115886c19abbb31", null ],
+      [ "ThresholdWhiteNegateQuantumOp", "operator_8h.html#ac25f2cff3f5d78ac75706b4cd4198ca3ac23a1ea2790e76b19da92f6928c9a719", null ]
+    ] ],
+    [ "QuantumOperatorImage", "operator_8h.html#a05de4aabb57719ee7a15594433ffcec3", null ],
+    [ "QuantumOperatorImageMultivalue", "operator_8h.html#a466af68f46f469c29deabf0c1ef205c9", null ],
+    [ "QuantumOperatorRegionImage", "operator_8h.html#a2a6a62ff1c6dd0c13f432bc6eaa99a64", null ]
+];

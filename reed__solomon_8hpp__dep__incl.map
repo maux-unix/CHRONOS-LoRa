@@ -1,9 +1,9 @@
 <map id="include/reed_solomon.hpp" name="include/reed_solomon.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="62,5,255,31"/>
-<area shape="rect" id="Node000002" href="$chronos_8hpp.html" title=" " alt="" coords="83,79,235,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,44,161,79,156,79,156,44"/>
-<area shape="rect" id="Node000003" href="$chronos_8cpp.html" title=" " alt="" coords="5,152,128,177"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="135,114,83,154,80,150,132,110"/>
-<area shape="rect" id="Node000004" href="$transmitter-normal_8cpp.html" title=" " alt="" coords="153,152,349,177"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="186,110,237,150,234,154,182,114"/>
+<area shape="rect" id="Node000001" title="Reed&#45;Solomon header for encoding and decoding RS codes." alt="" coords="85,5,278,31"/>
+<area shape="rect" id="Node000002" href="$chronos_8hpp.html" title=" " alt="" coords="5,79,157,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,41,99,81,96,76,153,36"/>
+<area shape="rect" id="Node000004" href="$transmitter-chronos_8cpp.html" title=" " alt="" coords="182,79,383,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="210,36,268,76,265,81,207,41"/>
+<area shape="rect" id="Node000003" href="$chronos_8cpp.html" title=" " alt="" coords="20,152,143,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,118,84,152,79,152,79,118"/>
 </map>

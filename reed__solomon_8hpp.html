@@ -95,29 +95,33 @@ $(document).ready(function(){initNavTree('reed__solomon_8hpp.html',''); initResi
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">reed_solomon.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;cstdint&gt;</code><br />
+
+<p>Reed-Solomon header for encoding and decoding RS codes.  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &lt;<a class="el" href="correct_8h_source.html">correct.h</a>&gt;</code><br />
+<code>#include &lt;cstdint&gt;</code><br />
 <code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="correct_8h_source.html">correct.h</a>&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for reed_solomon.hpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="reed__solomon_8hpp__incl.svg" width="507" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="reed__solomon_8hpp__incl.svg" width="506" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="reed__solomon_8hpp__dep__incl.svg" width="355" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="reed__solomon_8hpp__dep__incl.svg" width="390" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="reed__solomon_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -125,6 +129,11 @@ $(document).ready(function(){initNavTree('reed__solomon_8hpp.html',''); initResi
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrs__ctx__t.html">rs_ctx_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceReedSolomon" id="r_namespaceReedSolomon"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceReedSolomon.html">ReedSolomon</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
@@ -148,12 +157,17 @@ Functions</h2></td></tr>
 <tr class="separator:ab6fb0c3075530e4cd43c0b994f8b1ec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74d895c8c6cf05fbe6626998f10e2015" id="r_a74d895c8c6cf05fbe6626998f10e2015"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reed__solomon_8hpp.html#a74d895c8c6cf05fbe6626998f10e2015">rs_encode</a> (<a class="el" href="structrs__ctx__t.html">rs_ctx_t</a> *ctx, const uint8_t *input, uint8_t *out)</td></tr>
 <tr class="separator:a74d895c8c6cf05fbe6626998f10e2015"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b2d82acf2d9b97e19c30e3b6b9b3395" id="r_a7b2d82acf2d9b97e19c30e3b6b9b3395"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reed__solomon_8hpp.html#a7b2d82acf2d9b97e19c30e3b6b9b3395">rs_decode</a> (<a class="el" href="structrs__ctx__t.html">rs_ctx_t</a> *ctx, uint8_t *encoded, uint8_t *decoded)</td></tr>
-<tr class="separator:a7b2d82acf2d9b97e19c30e3b6b9b3395"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3dfad7f36d9de21caf1f615cc56ba35" id="r_ae3dfad7f36d9de21caf1f615cc56ba35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reed__solomon_8hpp.html#ae3dfad7f36d9de21caf1f615cc56ba35">rs_example</a> (void)</td></tr>
 <tr class="separator:ae3dfad7f36d9de21caf1f615cc56ba35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae04330bfaf4f93e6b13b3f77296872ab" id="r_ae04330bfaf4f93e6b13b3f77296872ab"><td class="memItemLeft" align="right" valign="top">ssize_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reed__solomon_8hpp.html#ae04330bfaf4f93e6b13b3f77296872ab">rs_decode</a> (<a class="el" href="structrs__ctx__t.html">rs_ctx_t</a> *ctx, uint8_t *encoded, uint8_t *decoded)</td></tr>
+<tr class="separator:ae04330bfaf4f93e6b13b3f77296872ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Reed-Solomon header for encoding and decoding RS codes. </p>
+<p>Provides encoding/decoding of RS codes</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2026 Maulana M. Ali</dd></dl>
+<p>SPDX-License-Identifier: BSD-3-Clause </p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a4b396987a229b9ca0fdd7f5a7370cac2" name="a4b396987a229b9ca0fdd7f5a7370cac2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b396987a229b9ca0fdd7f5a7370cac2">&#9670;&#160;</a></span>FRAG_SIZE</h2>
 
@@ -225,14 +239,17 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a7b2d82acf2d9b97e19c30e3b6b9b3395" name="a7b2d82acf2d9b97e19c30e3b6b9b3395"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b2d82acf2d9b97e19c30e3b6b9b3395">&#9670;&#160;</a></span>rs_decode()</h2>
+<a id="ae04330bfaf4f93e6b13b3f77296872ab" name="ae04330bfaf4f93e6b13b3f77296872ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae04330bfaf4f93e6b13b3f77296872ab">&#9670;&#160;</a></span>rs_decode()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int rs_decode </td>
+          <td class="memname">ssize_t rs_decode </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structrs__ctx__t.html">rs_ctx_t</a> *&#160;</td>
           <td class="paramname"><em>ctx</em>, </td>
@@ -255,6 +272,11 @@ Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -309,6 +331,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="transmitter-chronos_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe">main()</a>.</p>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="reed__solomon_8hpp_ae3dfad7f36d9de21caf1f615cc56ba35_icgraph.svg" width="212" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 <a id="ab6fb0c3075530e4cd43c0b994f8b1ec7" name="ab6fb0c3075530e4cd43c0b994f8b1ec7"></a>
@@ -352,7 +383,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="reed__solomon_8hpp.html">reed_solomon.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_6ce08dfeb0011581c764b9e6b5b1dd10.html">include</a></li><li class="navelem"><a class="el" href="reed__solomon_8hpp.html">reed_solomon.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>

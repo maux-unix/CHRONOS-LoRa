@@ -1,0 +1,5 @@
+<map id="chronos_process_image" name="chronos_process_image">
+<area shape="rect" id="Node000001" title="Process the Image in GraphicsMagick context." alt="" coords="239,5,417,31"/>
+<area shape="rect" id="Node000002" href="$chronos_8cpp.html#a27732e3f3736db194dd933a3f7f511ec" title="Convert any GraphicsMagick supported image format to PPM image format." alt="" coords="5,5,191,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,21,191,21,191,15,225,15"/>
+</map>

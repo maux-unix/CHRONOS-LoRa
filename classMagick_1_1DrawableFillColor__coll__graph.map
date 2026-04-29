@@ -1,0 +1,9 @@
+<map id="Magick::DrawableFillColor" name="Magick::DrawableFillColor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="13,181,205,207"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,121,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,130,105,180,100,182,74,132"/>
+<area shape="rect" id="Node000003" href="$classMagick_1_1Color.html" title=" " alt="" coords="145,93,256,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,130,123,183,120,179,176,126"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="153,5,248,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="203,45,203,93,198,93,198,45"/>
+</map>

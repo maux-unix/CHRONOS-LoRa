@@ -1,5 +1,19 @@
 var searchData=
 [
-  ['unreachable_0',['UNREACHABLE',['../nob_8h.html#a3af99897b60119951af8961dbd52dd3f',1,'nob.h']]],
-  ['unused_1',['UNUSED',['../nob_8h.html#addf5ec070e9499d36b7f2009ce736076',1,'nob.h']]]
+  ['scaleanytoquantum_0',['ScaleAnyToQuantum',['../image_8h.html#a4e1988f11e3ca00ce364bb4886928061',1,'image.h']]],
+  ['scalechartomap_1',['ScaleCharToMap',['../image_8h.html#ae5d793c8c35017a1699b19a0aa76797a',1,'image.h']]],
+  ['scalechartoquantum_2',['ScaleCharToQuantum',['../image_8h.html#a9e1ca83cac864bd569f9db8256be0945',1,'image.h']]],
+  ['scalelongtoquantum_3',['ScaleLongToQuantum',['../image_8h.html#ad3a84e8dd999adcd21d1aa22db436ee4',1,'image.h']]],
+  ['scalemaptochar_4',['ScaleMapToChar',['../image_8h.html#a5ff05acc1439b7da9713ff025df72fe9',1,'image.h']]],
+  ['scalemaptoquantum_5',['ScaleMapToQuantum',['../image_8h.html#a8992919910b69143f1efb8dde6867c2e',1,'image.h']]],
+  ['scalequantum_6',['ScaleQuantum',['../image_8h.html#aa3414c2e35548972b260054945eba88b',1,'image.h']]],
+  ['scalequantumtochar_7',['ScaleQuantumToChar',['../image_8h.html#a1113339dd2f1591cce8e14f468ef4887',1,'image.h']]],
+  ['scalequantumtoindex_8',['ScaleQuantumToIndex',['../image_8h.html#a7d6815632b9d45e1fa9564696a4ecbe7',1,'image.h']]],
+  ['scalequantumtolong_9',['ScaleQuantumToLong',['../image_8h.html#a69c9e22e8643317e44e2cb1962c8e700',1,'image.h']]],
+  ['scalequantumtomap_10',['ScaleQuantumToMap',['../image_8h.html#a2ad20eb42d985f5b99735c72e588727a',1,'image.h']]],
+  ['scalequantumtoshort_11',['ScaleQuantumToShort',['../image_8h.html#a0a92deb3f597b3e0ab3778b5c7f3a5c2',1,'image.h']]],
+  ['scaleshorttoquantum_12',['ScaleShortToQuantum',['../image_8h.html#a2b814eda1aab4ceabf1ca3dbdb9c5038',1,'image.h']]],
+  ['scaletoquantum_13',['ScaleToQuantum',['../image_8h.html#a0bde9b7c4d0fe7cd8dd5ffaad5d96d16',1,'image.h']]],
+  ['set_5fbit_5fin_5farray_5flsb_14',['SET_BIT_IN_ARRAY_LSB',['../Utils_8h.html#a230e44a8410552f43eb5ac15352ea02a',1,'Utils.h']]],
+  ['set_5fbit_5fin_5farray_5fmsb_15',['SET_BIT_IN_ARRAY_MSB',['../Utils_8h.html#a08bae70a608dcbad9c9e23b1622c3cc1',1,'Utils.h']]]
 ];

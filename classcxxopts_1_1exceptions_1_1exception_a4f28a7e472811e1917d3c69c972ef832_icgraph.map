@@ -1,0 +1,27 @@
+<map id="cxxopts::exceptions::exception::exception" name="cxxopts::exceptions::exception::exception">
+<area shape="rect" id="Node000001" title=" " alt="" coords="533,304,700,344"/>
+<area shape="rect" id="Node000002" href="$classcxxopts_1_1exceptions_1_1option__has__no__value.html#a565b705e844358a5265208dd2b94dd87" title=" " alt="" coords="301,225,467,279"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="537,302,467,280,468,275,539,297"/>
+<area shape="rect" id="Node000003" href="$classcxxopts_1_1exceptions_1_1parsing.html#ad40b741e8c5aba5e4be33c37d84cb09e" title=" " alt="" coords="309,304,459,344"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="519,327,459,327,459,321,519,321"/>
+<area shape="rect" id="Node000011" href="$classcxxopts_1_1exceptions_1_1specification.html#ade2f55e107104e36d4f35abf6f92424c" title=" " alt="" coords="283,595,485,635"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="593,357,403,596,399,593,589,353"/>
+<area shape="rect" id="Node000004" href="$classcxxopts_1_1exceptions_1_1gratuitous__argument__for__option.html#a3dda22bb1c74c6c5ade04692266f2f84" title=" " alt="" coords="35,5,205,75"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="295,305,281,292,263,266,255,240,253,215,255,189,257,164,256,139,249,114,233,88,203,65,207,61,237,85,254,112,261,138,263,164,260,190,258,215,260,239,267,264,285,289,298,300"/>
+<area shape="rect" id="Node000005" href="$classcxxopts_1_1exceptions_1_1incorrect__argument__type.html#a234feb9ae9c4c2e0060e743778af22bf" title=" " alt="" coords="5,99,235,154"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="295,303,281,293,268,277,260,260,256,228,252,197,245,182,233,167,219,156,222,152,237,163,250,180,257,196,261,228,266,259,272,274,285,289,298,299"/>
+<area shape="rect" id="Node000006" href="$classcxxopts_1_1exceptions_1_1invalid__option__syntax.html#a023b78b16ff3b18c19aff7ac1a3bd266" title=" " alt="" coords="33,178,207,233"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="296,301,281,293,266,281,257,269,247,258,233,246,206,232,208,227,236,242,251,254,261,266,270,277,284,288,298,296"/>
+<area shape="rect" id="Node000007" href="$classcxxopts_1_1exceptions_1_1missing__argument.html#ab02c55fc0dc1c6183c869b73d3b59a4c" title=" " alt="" coords="41,257,199,311"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="295,313,199,299,200,293,295,308"/>
+<area shape="rect" id="Node000008" href="$classcxxopts_1_1exceptions_1_1no__such__option.html#ae4982f66fe07b50b9a3f27b8a329d148" title=" " alt="" coords="43,335,197,390"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="296,340,198,354,197,349,295,334"/>
+<area shape="rect" id="Node000009" href="$classcxxopts_1_1exceptions_1_1option__requires__argument.html#af10356dd998a4886dbfdf15ca7b68707" title=" " alt="" coords="19,414,221,469"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="337,353,236,404,205,416,203,411,234,399,335,348"/>
+<area shape="rect" id="Node000010" href="$classcxxopts_1_1exceptions_1_1requested__option__not__present.html#aaf93c05e24c49edab256858dc61d8d16" title=" " alt="" coords="21,493,219,563"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="362,357,308,419,274,452,236,482,214,496,211,491,233,478,270,448,304,415,358,353"/>
+<area shape="rect" id="Node000012" href="$classcxxopts_1_1exceptions_1_1invalid__option__format.html#a4fbd03cbee7762eb7e4cfc4c9f31cf68" title=" " alt="" coords="33,587,207,642"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="269,617,207,617,207,612,269,612"/>
+<area shape="rect" id="Node000013" href="$classcxxopts_1_1exceptions_1_1option__already__exists.html#aeb541fc52c1d0c3da3e1be4c805bf448" title=" " alt="" coords="33,666,207,721"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="304,641,208,670,206,665,302,636"/>
+</map>

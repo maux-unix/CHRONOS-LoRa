@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['array_5fget_0',['ARRAY_GET',['../nob_8h.html#a3cc1ed8c4a643f7b12b7793f7dbc5459',1,'nob.h']]],
-  ['array_5flen_1',['ARRAY_LEN',['../nob_8h.html#abc6e4c7c6eb484462c07c2c5098cb892',1,'nob.h']]]
+  ['_5fmagick_5fconfig_5fh_0',['_MAGICK_CONFIG_H',['../Include_8h.html#a4a7f8f0339306702d7d434c56a4566ac',1,'Include.h']]]
 ];

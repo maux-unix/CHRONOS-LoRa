@@ -1,11 +1,11 @@
 <map id="thirdparty/libcorrect/include/correct.h" name="thirdparty/libcorrect/include/correct.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="83,5,234,45"/>
-<area shape="rect" id="Node000002" href="$reed__solomon_8hpp.html" title=" " alt="" coords="62,93,255,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,59,161,93,156,93,156,59"/>
-<area shape="rect" id="Node000003" href="$chronos_8hpp.html" title=" " alt="" coords="83,167,235,192"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="161,132,161,167,156,167,156,132"/>
-<area shape="rect" id="Node000004" href="$chronos_8cpp.html" title=" " alt="" coords="5,240,128,265"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="135,202,83,242,80,238,132,198"/>
-<area shape="rect" id="Node000005" href="$transmitter-normal_8cpp.html" title=" " alt="" coords="153,240,349,265"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="186,198,237,238,234,242,182,202"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="106,5,257,45"/>
+<area shape="rect" id="Node000002" href="$reed__solomon_8hpp.html" title="Reed&#45;Solomon header for encoding and decoding RS codes." alt="" coords="85,93,278,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,59,184,93,179,93,179,59"/>
+<area shape="rect" id="Node000003" href="$chronos_8hpp.html" title=" " alt="" coords="5,167,157,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="156,129,99,169,96,164,153,124"/>
+<area shape="rect" id="Node000005" href="$transmitter-chronos_8cpp.html" title=" " alt="" coords="182,167,383,192"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="210,124,268,164,265,169,207,129"/>
+<area shape="rect" id="Node000004" href="$chronos_8cpp.html" title=" " alt="" coords="20,240,143,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="84,206,84,240,79,240,79,206"/>
 </map>

@@ -1,5 +1,0 @@
-<map id="SX126x::setBandwidth" name="SX126x::setBandwidth">
-<area shape="rect" id="Node000001" title="Sets LoRa bandwidth. Allowed values are 7.8, 10.4, 15.6, 20.8, 31.25, 41.7, 62.5, 125...." alt="" coords="108,5,276,31"/>
-<area shape="rect" id="Node000002" href="$receiver-normal_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,5,60,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
-</map>

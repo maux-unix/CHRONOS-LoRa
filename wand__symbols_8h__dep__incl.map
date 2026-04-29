@@ -1,0 +1,22 @@
+<map id="/usr/include/GraphicsMagick/wand/wand_symbols.h" name="/usr/include/GraphicsMagick/wand/wand_symbols.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="244,5,449,45"/>
+<area shape="rect" id="Node000002" href="$drawing__wand_8h.html" title=" " alt="" coords="315,181,520,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="372,55,394,92,410,139,418,181,412,182,405,141,390,94,368,58"/>
+<area shape="rect" id="Node000003" href="$magick__wand_8h.html" title=" " alt="" coords="35,269,240,309"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="232,50,195,68,165,95,152,115,142,138,133,187,133,233,137,269,131,269,127,233,128,186,137,137,147,113,161,92,192,64,230,45"/>
+<area shape="rect" id="Node000004" href="$wand__api_8h.html" title=" " alt="" coords="253,357,459,397"/>
+<area shape="poly" id="edge13_Node000001_Node000004" title=" " alt="" coords="399,50,435,73,473,102,508,138,534,180,542,209,537,238,524,264,503,288,451,329,398,360,396,355,448,325,499,284,519,261,532,236,536,210,530,182,504,142,469,106,432,77,396,54"/>
+<area shape="rect" id="Node000007" href="$pixel__wand_8h.html" title=" " alt="" coords="175,93,380,133"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="325,58,295,95,291,91,321,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="344,228,199,272,198,267,342,223"/>
+<area shape="poly" id="edge7_Node000002_Node000004" title=" " alt="" coords="409,235,365,358,360,356,404,233"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="199,312,309,355,307,360,197,317"/>
+<area shape="rect" id="Node000005" href="$chronos_8hpp.html" title=" " alt="" coords="5,365,157,390"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="120,322,91,366,87,363,115,319"/>
+<area shape="rect" id="Node000006" href="$chronos_8cpp.html" title=" " alt="" coords="76,445,199,471"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="158,321,172,357,175,377,172,398,161,425,148,447,144,444,156,422,167,397,170,377,167,358,153,323"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="100,400,131,444,127,447,95,403"/>
+<area shape="poly" id="edge10_Node000007_Node000002" title=" " alt="" coords="321,138,388,179,385,184,318,143"/>
+<area shape="poly" id="edge11_Node000007_Node000003" title=" " alt="" coords="256,146,155,271,150,267,251,143"/>
+<area shape="poly" id="edge12_Node000007_Node000004" title=" " alt="" coords="287,147,305,221,351,356,346,358,300,222,282,148"/>
+</map>

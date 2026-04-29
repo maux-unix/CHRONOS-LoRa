@@ -1,11 +1,10 @@
 <map id="thirdparty/RadioLib/include/RadioLib/RadioLib.h" name="thirdparty/RadioLib/include/RadioLib/RadioLib.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="96,5,301,45"/>
-<area shape="rect" id="Node000002" href="$receiver-normal_8cpp.html" title=" " alt="" coords="5,196,181,221"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,55,128,73,110,95,100,121,95,149,95,196,89,196,89,149,94,119,106,92,124,69,147,51"/>
-<area shape="rect" id="Node000003" href="$transmitter-normal_8cpp.html" title=" " alt="" coords="211,196,407,221"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="249,51,272,69,292,92,304,119,310,148,313,196,307,196,305,149,299,121,287,95,269,73,246,55"/>
-<area shape="rect" id="Node000004" href="$PiHal_8h.html" title=" " alt="" coords="120,93,277,148"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="201,59,201,93,196,93,196,59"/>
-<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="158,159,109,198,106,194,154,154"/>
-<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="245,154,296,194,293,198,242,159"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="58,5,263,45"/>
+<area shape="rect" id="Node000002" href="$transmitter-normal_8cpp.html" title="CHRONOS&#45;LoRa Transmitter program (Normal)" alt="" coords="5,196,201,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,59,131,94,116,151,108,196,102,195,111,150,126,92,142,56"/>
+<area shape="rect" id="Node000003" href="$PiHal_8h.html" title=" " alt="" coords="141,93,298,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,55,205,92,201,95,178,58"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="175,158,121,198,118,194,171,154"/>
+<area shape="rect" id="Node000004" href="$receiver-normal_8cpp.html" title="CHRONOS&#45;LoRa Receiver program (Normal)" alt="" coords="226,196,402,221"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="260,155,303,194,299,198,257,159"/>
 </map>
