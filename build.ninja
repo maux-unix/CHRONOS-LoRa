@@ -14,12 +14,14 @@ gmc_wand = GraphicsMagickWand-config
 
 # Flags
 cflags_dev = -O0 -g3 -glldb -Wall -Wextra -std=c++23 -Wpedantic -Wformat $
-             -Wformat=2 -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=3 $
-             -Wno-unused-parameter -Wno-auto-decl-extensions $
+             -Wformat=2 -Wshadow -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=3 $
+             -Wno-unused-parameter -Wconversion -Wno-auto-decl-extensions $
              -Wno-inconsistent-missing-override $
              -Wno-overloaded-virtual -fstrict-flex-arrays=3 $
-             -fstack-protector-strong -fsanitize=undefined -fsanitize-trap $
-             -mbranch-protection=standard
+             -fstack-protector-strong $
+             -fno-limit-debug-info $
+             -fno-crash-diagnostics -D_GLIBCXX_DEBUG $
+             -mbranch-protection=standard -fno-omit-frame-pointer -flto
 
 cflags_rel = -O2 -Wall -Wextra -Wpedantic -Wformat -Wformat=2 -Wconversion $
              -Wimplicit-fallthrough -Werror=format-security -U_FORTIFY_SOURCE $
@@ -31,15 +33,32 @@ cflags_rel = -O2 -Wall -Wextra -Wpedantic -Wformat -Wformat=2 -Wconversion $
 cflags_crc          = -march=armv8-a+crc
 cflags_include      = -Iinclude/
 cflags_libcorrect   = -Ithirdparty/libcorrect/include/
-cflags_radiolib     = -Ithirdparty/RadioLib/include/RadioLib/
+cflags_radiolib     = -isystem thirdparty/RadioLib/include/RadioLib/
 cflags_chronos      = $cflags_crc $cflags_include $cflags_libcorrect
 cflags_transmission = $cflags_chronos $cflags_radiolib  $
                       @build/pkg-configs/gm_cppflags.txt
 
-lflags              = -fuse-ld=lld
-lflags_libcorrect   = -Lthirdparty/libcorrect/lib/ -l:libcorrect.a
+lflags              = -fuse-ld=lld -flto
+lflags_libcorrect   = -Lthirdparty/libcorrect/lib/
 lflags_lgpio        = -llgpio -lpthread
-lflags_radiolib     = -Lthirdparty/RadioLib/lib -l:libRadioLib.a
+lflags_radiolib     = -Lthirdparty/RadioLib/lib
+lflags_cxxopts      = -Lthirdparty/libcxxopts-dev/
+lflags_groups       = -L/usr/lib -L/usr/lib/aarch64-linux-gnu $lflags_cxxopts $
+                      -Wl,-z,relro -Wl,-z,now $
+                      -Wl,--start-group $
+                      -l:libcorrect.a -l:libRadioLib.a $
+                      -l:libGraphicsMagick++.a -l:libGraphicsMagick.a $
+                      -l:libtiff.a -l:libsharpyuv.a $
+                      -l:libwebp.a -l:libwebpmux.a -l:libjpeg.a -l:libpng16.a $
+                      -l:libXext.a -l:libSM.a -l:libICE.a -l:libX11.a $
+                      -l:libxml2.a -l:libzstd.a -l:liblzma.a -l:libz.a $
+                      -l:libbrotlicommon.a -l:libbrotlidec.a -l:libfreetype.a $
+                      -l:liblcms2.a -l:libbz2.a $
+                      -Wl,--end-group
+
+lflags_gm = -lheif -ljxl -lwmflite -ljbig -llcms2_fast_float -llcms2_threaded $
+            -lm -lpthread -lgomp
+
 
 
 # Rules
@@ -56,11 +75,11 @@ rule gm_wand_cppflags
   description = Generating GraphicsMagick Wand flags
 
 rule gm_libs
-  command     = $gmc_cpp --ldflags --libs > $out
+  command     = $gmc_cpp --libs > $out
   description = Generating GraphicsMagick link flags
 
 rule gm_wand_libs
-  command     = $gmc_wand --ldflags --libs > $out
+  command     = $gmc_wand --libs > $out
   description = Generating GraphicsMagick Wand link flags
 
 rule compile_chronos
@@ -69,7 +88,7 @@ rule compile_chronos
   description = Compiling Chronos $in
 
 rule compile_transmission
-  command = $cxx $cflags_dev -c $in $cflags_transmission -o $out
+  command     = $cxx $cflags_dev -c $in $cflags_transmission -o $out
   description = Compiling Transmission $in
 
 rule archive
@@ -77,33 +96,37 @@ rule archive
   description = Creating static library $out
 
 rule link_transmission
-  command     = $cxx $lflags $in -o $out @build/pkg-configs/gm_libs.txt $
-                $lflags_libcorrect $lflags_lgpio $lflags_radiolib
+  command     = $cxx $lflags $in -o $out $
+                $lflags_groups $
+                $lflags_gm $
+                $lflags_radiolib $lflags_libcorrect $lflags_lgpio
   description = Linking transmitter
 
 rule compile_commands
-  command = ninja -t compdb compile_chronos compile_transmission > $out
+  command     = ninja -t compdb compile_chronos compile_transmission > $out
   description = Generating compile_commands.json
 
 rule clean
-  command = rm -rf build
+  command     = rm -rf build/ docs/ ./.ninja_log
   description = Cleaning build directory
 
 
 # Directories
-build build: mkdir
-build build/bin: mkdir || build
-build build/lib: mkdir || build
+build build:             mkdir
+build build/bin:         mkdir || build
+build build/lib:         mkdir || build
 build build/pkg-configs: mkdir || build
-build dirs: phony build/bin build/lib build/pkg-configs
+
+build dirs:              phony build/bin build/lib build/pkg-configs
 
 
 # pkg-config generated files
-build build/pkg-configs/gm_cppflags.txt: gm_cppflags || dirs
+build build/pkg-configs/gm_cppflags.txt:      gm_cppflags || dirs
 build build/pkg-configs/gm_wand_cppflags.txt: gm_wand_cppflags || dirs
-build build/pkg-configs/gm_libs.txt: gm_libs || dirs
-build build/pkg-configs/gm_wand_libs.txt: gm_wand_libs || dirs
-build pkg-configs: phony build/pkg-configs/gm_cppflags.txt             $
+build build/pkg-configs/gm_libs.txt:          gm_libs || dirs
+build build/pkg-configs/gm_wand_libs.txt:     gm_wand_libs || dirs
+
+build pkg-configs: phony build/pkg-configs/gm_cppflags.txt $
   build/pkg-configs/gm_wand_cppflags.txt build/pkg-configs/gm_libs.txt $
   build/pkg-configs/gm_wand_libs.txt
 
@@ -114,11 +137,33 @@ build build/lib/libchronos.a: archive build/chronos.o || build/chronos.o
 build chronos: phony build/lib/libchronos.a
 
 
-# Transmitter binary
-build build/transmitter-normal.o: compile_transmission $
-                                  src/transmitter-normal.cpp || chronos
-build build/bin/transmitter-normal: link_transmission build/transmitter-normal.o
-build lora: phony build/bin/transmitter-normal
+# Transmitter-Receiver binaries
+build build/transmitter-normal.o:    compile_transmission $
+                                     src/transmitter-normal.cpp || chronos
+build build/transmitter-chronos.o:   compile_transmission $
+                                     src/transmitter-chronos.cpp || chronos
+build build/bin/transmitter-normal:  link_transmission $
+                                     build/transmitter-normal.o || $
+                                     build/transmitter-normal.o
+build build/bin/transmitter-chronos: link_transmission $
+                                     build/transmitter-chronos.o || $
+                                     build/transmitter-chronos.o
+build build/receiver-normal.o:       compile_transmission $
+                                     src/receiver-normal.cpp || chronos
+build build/receiver-chronos.o:      compile_transmission $
+                                     src/receiver-chronos.cpp || chronos
+build build/bin/receiver-normal:     link_transmission $
+                                     build/receiver-normal.o || $
+                                     build/receiver-normal.o
+build build/bin/receiver-chronos:    link_transmission $
+                                     build/receiver-chronos.o || $
+                                     build/receiver-chronos.o
+
+
+
+build lora: phony build/bin/transmitter-normal build/bin/transmitter-chronos $
+            build/bin/receiver-normal build/bin/receiver-chronos
+
 
 
 # Compile database
@@ -129,9 +174,10 @@ build build/compile_commands.json: compile_commands || lora
 build clean: clean
 
 
-# Default target
-build all: phony dirs pkg-configs chronos $
-           build/bin/transmitter-normal build/compile_commands.json
+# Default target & All PHONY
+
+
+build all: phony dirs pkg-configs chronos lora build/compile_commands.json
 
 
 default all

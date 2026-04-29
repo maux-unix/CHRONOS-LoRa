@@ -7,9 +7,9 @@
 #ifndef CHRONOS_HPP_
 #define CHRONOS_HPP_
 
+#include "canonical_huffman.hpp"
 #include "crc32c.hpp"
 #include "reed_solomon.hpp"
-#include "canonical_huffman.hpp"
 
 #include <magick/api.h>
 #include <magick/error.h>
@@ -47,10 +47,8 @@ void chronos_rgb_to_ycocg(char **argv);
  * @param *in_filename The input's filename
  * @param *out_filename The output's filename (must include .PPM or .ppm)
  */
-void chronos_convert_to_ppm(const char *in_filename,
-    const char *out_filename);
+void chronos_convert_to_ppm(const char *in_filename, const char *out_filename);
 
-void chronos_resize_image(const char *in_filename,
-    const char *out_filename);
+void chronos_resize_image(const char *in_filename, const char *out_filename);
 
 #endif /* CHRONOS_H_*/

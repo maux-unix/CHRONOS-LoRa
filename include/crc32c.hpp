@@ -12,25 +12,17 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-#ifndef CRC32C_HPP_
+#if !defined(CRC32C_HPP_)
 #define CRC32C_HPP_
+
+#include "chronos_types.hpp"
 
 #include <arm_acle.h>
 #include <cstddef>
 #include <cstdint>
 #include <print>
 
-namespace crc32c {
-
-/**
- * @struct Frame
- * @brief Represents a dynamic array for CRC32 processing.
- */
-struct Frame {
-    const std::uint8_t* data;
-    std::uint32_t length;
-    std::uint32_t crc;
-};
+namespace CRC32C {
 
 /**
  * @brief Compute the CRC32C checksum of a memory span.
@@ -50,7 +42,7 @@ struct Frame {
  * @note Requires ARMv8 or newer architecture with CRC32 instruction support.
  */
 [[nodiscard]] inline std::uint32_t
-encode(const Frame& frame, std::uint32_t previous_crc = 0)
+encode(ChronosTypes::CrcFrame &frame, std::uint32_t previous_crc = 0)
 {
     std::uint32_t crc = ~previous_crc;
     const auto *bytes = frame.data;
@@ -60,6 +52,12 @@ encode(const Frame& frame, std::uint32_t previous_crc = 0)
     }
 
     return ~crc;
+}
+
+[[nodiscard]] inline ChronosTypes::CrcFrame
+encode_entire(ChronosTypes::CrcFrame &frame)
+{
+    return frame;
 }
 
 }

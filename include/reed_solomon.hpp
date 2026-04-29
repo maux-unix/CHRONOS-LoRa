@@ -1,22 +1,26 @@
-/*
+/**
+ * @file reed_solomon.hpp
+ * @brief Reed-Solomon header for encoding and decoding RS codes
+ *
+ * Provides encoding/decoding of RS codes
+ *
+ * @copyright
  * Copyright (c) 2026 Maulana M. Ali
  *
  * SPDX-License-Identifier: BSD-3-Clause
- *
- * reed_solomon.h - Reed Solomon Codes Implmentation of libcorrect
  */
 
-#ifndef REED_SOLOMON_HPP_
+#if !defined(REED_SOLOMON_HPP_)
 #define REED_SOLOMON_HPP_
+
+extern "C" {
+#include <correct.h>
+}
 
 #include <cstdint>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-extern "C" {
-    #include <correct.h>
-}
 
 #define RS_K      223
 #define RS_N      255
@@ -24,6 +28,9 @@ extern "C" {
 #define FRAG_SIZE 32
 #define MAX_FRAGS ((RS_N + FRAG_SIZE - 1) / FRAG_SIZE)
 
+namespace ReedSolomon {
+
+}
 typedef struct {
     correct_reed_solomon *rs;
 } rs_ctx_t;
@@ -31,7 +38,7 @@ typedef struct {
 int rs_init(rs_ctx_t *ctx);
 void rs_free(rs_ctx_t *ctx);
 void rs_encode(rs_ctx_t *ctx, const uint8_t *input, uint8_t *out);
-int rs_decode(rs_ctx_t *ctx, uint8_t *encoded, uint8_t *decoded);
+// ssize_t rs_decode(rs_ctx_t *ctx, uint8_t *encoded, uint8_t *decoded);
 void rs_example(void);
 
 int
@@ -55,7 +62,7 @@ rs_encode(rs_ctx_t *ctx, const uint8_t *in, uint8_t *out)
     correct_reed_solomon_encode(ctx->rs, in, RS_K, out + RS_K);
 }
 
-int
+inline ssize_t
 rs_decode(rs_ctx_t *ctx, uint8_t *encoded, uint8_t *decoded)
 {
     return correct_reed_solomon_decode(ctx->rs, encoded, RS_N, decoded);

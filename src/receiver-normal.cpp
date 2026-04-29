@@ -1,30 +1,21 @@
-/*
+/**
+ * @file receiver-normal.cpp
+ * @brief CHRONOS-LoRa Receiver program (Normal)
+ *
+ * Provides a normal Receiver program for Image Transmission via LoRa
+ * (without CHRONOS-LoRa)
+ *
+ * @copyright
  * Copyright (c) 2026 Maulana M. Ali
  *
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-#include "Module.h"
-#include "TypeDef.h"
-#include "hal/RPi/PiHal.h"
-#include "modules/SX126x/SX1262.h"
-
-#include <RadioLib.h>
+#include <TypeDef.h>
 #include <cstddef>
 #include <cstdint>
-#include <cstring>
-#include <fstream>
-#include <iostream>
+#include <hal/RPi/PiHal.h>
 #include <print>
-
-constexpr auto CHUNK_SIZE = 180;
-constexpr auto MAX_PACKETS = 300;
-constexpr auto HEADER = 0xAA;
-constexpr auto LORA_FREQ = 920.5;
-constexpr auto LORA_SF = 9;
-constexpr auto LORA_BW = 125.0;
-constexpr auto LORA_CR = 5;
-// constexpr auto LORA_POWER = 19;
 
 namespace {
 
@@ -49,73 +40,66 @@ get_lora(void)
     return radio;
 }
 
-static uint8_t imageBuffer[CHUNK_SIZE * MAX_PACKETS];
-static bool received[MAX_PACKETS] = { false };
-static int packetSizes[MAX_PACKETS] = { 0 };
+volatile bool received_flag = false;
+
+void
+set_flag(void)
+{
+    received_flag = true;
+}
 
 }
 
 int
-main(void)
+main(int argc, char **argv)
 {
-    std::println("[INFO] Receiver starting...");
+    (void)argc;
+    (void)argv;
 
-    auto lora = get_lora();
-    int state = lora.begin(LORA_FREQ);
+    std::println("[RADIOLIB-INFO] SX1262 Initializing...");
+
+    // auto &hal = get_rpi_hal();
+    auto &radio = get_lora();
+    auto state = radio.begin();
 
     if (state != RADIOLIB_ERR_NONE) {
-        std::println("[ERROR] RadioLib init failed: {}", state);
-        return -1;
+        std::println("[RADIOLIB-ERROR] Failed with code: {}", state);
+        return (1);
     }
 
-    lora.setSpreadingFactor(LORA_SF);
-    lora.setBandwidth(LORA_BW);
-    lora.setCodingRate(LORA_CR);
+    radio.setPacketReceivedAction(set_flag);
 
-    int totalPackets = -1;
+    std::println("[SX1262-INFO] Starting to listen...");
+    state = radio.startReceive();
 
-    while (true) {
-        uint8_t buffer[256];
-        int state = lora.receive(buffer, sizeof(buffer));
+    if (state != RADIOLIB_ERR_NONE) {
+        std::println("[RADIOLIB-ERROR] Failed with code: {}", state);
+        return (1);
+    }
 
-        if (state == RADIOLIB_ERR_NONE) {
-            if (buffer[0] != HEADER) continue;
+    for (;;) {
+        if (received_flag) {
+            received_flag = false;
 
-            totalPackets = buffer[1];
-            auto index = buffer[2];
-            auto len = buffer[3];
+            std::uint8_t *byte_arr = nullptr;
+            auto num_bytes = radio.getPacketLength();
+            auto state_read = radio.readData(byte_arr, num_bytes);
 
-            memcpy(&imageBuffer[static_cast<ptrdiff_t>(index * CHUNK_SIZE)],
-                buffer + 4, len);
+            if (state_read == RADIOLIB_ERR_NONE) {
+                std::println("[SX1262-INFO] Received packet!");
 
-            received[index] = true;
-            packetSizes[index] = len;
-
-            std::println("[INFO] Got: {}", index);
-
-            // Check completion
-            bool complete = true;
-            for (int i = 0; i < totalPackets; i++) {
-                if (!received[i]) {
-                    complete = false;
-                    break;
-                }
-            }
-
-            if (complete) {
-                std::println("[INFO] Reconstructing image...");
-
-                std::ofstream out("output.jpg", std::ios::binary);
-
-                for (int i = 0; i < totalPackets; i++) {
-                    out.write((char *)&imageBuffer[static_cast<ptrdiff_t>(
-                                  i * CHUNK_SIZE)],
-                        packetSizes[i]);
+                for (size_t i = 0; i < num_bytes; ++i) {
+                    std::println("[SX1262-INFO] Data: {}", byte_arr[i]);
                 }
 
-                out.close();
-                std::println("[INFO] Saved as output.jpg");
-                break;
+                std::println("[SX1262-INFO] RSSI: {}dBm", radio.getRSSI());
+                std::println("[SX1262-INFO] SNR: {}dB", radio.getSNR());
+                std::println("[SX1262-INFO] Frequency error: {}Hz",
+                    radio.getFrequencyError());
+            } else if (state == RADIOLIB_ERR_CRC_MISMATCH) {
+                std::println("[SX1262-ERROR] CRC error!");
+            } else {
+                std::println("[RADIOLIB-ERROR] Failed with code: {}", state);
             }
         }
     }

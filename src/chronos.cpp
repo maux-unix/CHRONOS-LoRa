@@ -214,5 +214,4 @@ chronos_resize_image(const char *in_filename, const char *out_filename)
     DestroyMagick();
 }
 
-void chronos_scale_image(const char *in_filename,
-    const char *out_filename);
+void chronos_scale_image(const char *in_filename, const char *out_filename);
