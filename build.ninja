@@ -53,10 +53,10 @@ lflags_groups       = -L/usr/lib -L/usr/lib/aarch64-linux-gnu $
                       -l:libXext.a -l:libSM.a -l:libICE.a -l:libX11.a $
                       -l:libxml2.a -l:libzstd.a -l:liblzma.a -l:libz.a $
                       -l:libbrotlicommon.a -l:libbrotlidec.a -l:libfreetype.a $
-                      -l:liblcms2.a -l:libbz2.a $
+                      -l:libbz2.a $
                       -Wl,--end-group
 
-lflags_gm = -lheif -ljxl -lwmflite -ljbig -llcms2_fast_float -llcms2_threaded $
+lflags_gm = -lheif -ljxl -lwmflite -ljbig -llcms2 -llcms2_fast_float -llcms2_threaded $
             -lm -lpthread -lgomp
 
 
