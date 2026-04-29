@@ -19,6 +19,7 @@
 #include <filesystem>
 #include <modules/SX126x/SX1262.h>
 #include <print>
+#include <protocols/PhysicalLayer/PhysicalLayer.h>
 
 namespace {
 
@@ -37,7 +38,7 @@ get_lora_module(void)
 }
 
 static SX1262 &
-get_lora(void)
+get_lora()
 {
     static SX1262 radio(&get_lora_module());
     return radio;
@@ -53,10 +54,12 @@ main(int argc, char **argv)
     cxxopts::Options options("transmitter-normal", "CHRONOS-LoRa Transmitter");
 
     options.add_options()("h,help", "Print help information")("image",
-        "Input image file",
-        cxxopts::value<fs::path>())("freq", "Set LoRa frequency",
+        "Input image file", cxxopts::value<fs::path>())("freq",
+        "Set LoRa frequency (range 920 – 923 MHz for Indonesia)",
         cxxopts::value<float>()->default_value("920.5"))("bw",
-        "Set LoRa bandwith", cxxopts::value<float>()->default_value("125.0"));
+        "Set LoRa bandwith [7.8, 10.4, 15.6, 20.8, 31.25, 41.7, 62.5, 125.0 "
+        "(max for station), 250.0 (max for end-to-end)]",
+        cxxopts::value<float>()->default_value("125.0"));
 
     auto opt_result = options.parse(argc, argv);
 
@@ -71,7 +74,7 @@ main(int argc, char **argv)
     static auto &radio = get_lora();
     static auto state = radio.begin();
 
-    radio.setFrequency(920);
+    radio.setFrequency(920.0);
 
     if (state != RADIOLIB_ERR_NONE) {
         std::println("[RADIOLIB-ERROR] Failed with code {}.", state);

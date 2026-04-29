@@ -2,16 +2,17 @@
 
 Complex Coding Scheme for Image Transmission via LoRa.
 
-Coding Techniques that are used
-- CRC32C
-- ReedSolomon
-- CanonicalHuffman
+**Coding Techniques that are used**
 
-## Quick Links
+- CRC32-Castagnoli 
+- Reed-Solomon 
+- Canonical-Huffman
+
+**Quick Links**
 
 - https://github.com/maux-unix/CHRONOS-LoRa.git
 - https://maux-unix.github.io/CHRONOS-LoRa
 
-## Copyright
+**Copyright**
 
 Copyright (c) 2026 Maulana M. Ali

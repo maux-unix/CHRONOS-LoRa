@@ -37,13 +37,13 @@ cflags_radiolib     = -isystem thirdparty/RadioLib/include/RadioLib/
 cflags_chronos      = $cflags_crc $cflags_include $cflags_libcorrect
 cflags_transmission = $cflags_chronos $cflags_radiolib  $
                       @build/pkg-configs/gm_cppflags.txt
+cflags_cxxopts      = -Ithirdparty/libcxxopts-dev/
 
 lflags              = -fuse-ld=lld -flto
 lflags_libcorrect   = -Lthirdparty/libcorrect/lib/
 lflags_lgpio        = -llgpio -lpthread
 lflags_radiolib     = -Lthirdparty/RadioLib/lib
-lflags_cxxopts      = -Lthirdparty/libcxxopts-dev/
-lflags_groups       = -L/usr/lib -L/usr/lib/aarch64-linux-gnu $lflags_cxxopts $
+lflags_groups       = -L/usr/lib -L/usr/lib/aarch64-linux-gnu $
                       -Wl,-z,relro -Wl,-z,now $
                       -Wl,--start-group $
                       -l:libcorrect.a -l:libRadioLib.a $
@@ -88,7 +88,7 @@ rule compile_chronos
   description = Compiling Chronos $in
 
 rule compile_transmission
-  command     = $cxx $cflags_dev -c $in $cflags_transmission -o $out
+  command     = $cxx $cflags_dev -c $in $cflags_transmission $cflags_cxxopts -o $out
   description = Compiling Transmission $in
 
 rule archive
@@ -101,6 +101,9 @@ rule link_transmission
                 $lflags_gm $
                 $lflags_radiolib $lflags_libcorrect $lflags_lgpio
   description = Linking transmitter
+
+rule link_normal
+  command     = $cxx $lflags $in -o $out 
 
 rule compile_commands
   command     = ninja -t compdb compile_chronos compile_transmission > $out

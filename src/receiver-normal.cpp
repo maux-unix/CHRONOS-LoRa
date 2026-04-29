@@ -48,7 +48,7 @@ set_flag(void)
     received_flag = true;
 }
 
-}
+} /* namespace */
 
 int
 main(int argc, char **argv)
@@ -67,6 +67,7 @@ main(int argc, char **argv)
         return (1);
     }
 
+    radio.setFrequency(920.0);
     radio.setPacketReceivedAction(set_flag);
 
     std::println("[SX1262-INFO] Starting to listen...");
@@ -81,15 +82,18 @@ main(int argc, char **argv)
         if (received_flag) {
             received_flag = false;
 
-            std::uint8_t *byte_arr = nullptr;
-            auto num_bytes = radio.getPacketLength();
-            auto state_read = radio.readData(byte_arr, num_bytes);
-
+            std::uint8_t byte_arr[1024] {};
+            // auto len = radio.getPacketLength();
+            // std::println("{}", len);
+            // auto bla = radio.getLoRaRxHeaderInfo(, true);
+            auto state_read = radio.readData(byte_arr, sizeof(byte_arr));
+            // auto state_read = radio.receive(byte_arr, sizeof(byte_arr));
+            
             if (state_read == RADIOLIB_ERR_NONE) {
                 std::println("[SX1262-INFO] Received packet!");
 
-                for (size_t i = 0; i < num_bytes; ++i) {
-                    std::println("[SX1262-INFO] Data: {}", byte_arr[i]);
+                for (size_t i = 0; i < sizeof(byte_arr); ++i) {
+                    std::println("[SX1262-INFO] Data: {:c}", byte_arr[i]);
                 }
 
                 std::println("[SX1262-INFO] RSSI: {}dBm", radio.getRSSI());
