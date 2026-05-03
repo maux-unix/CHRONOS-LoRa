@@ -1,0 +1,9 @@
+<map id="detail::utf8_to_utf16::operator basic_string_view&lt; wchar_t &gt;" name="detail::utf8_to_utf16::operator basic_string_view&lt; wchar_t &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,30,172,85"/>
+<area shape="rect" id="Node000002" href="$classbasic__string__view.html#aae708273ca864680a424c10441799605" title=" " alt="" coords="225,5,370,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,42,211,36,211,41,172,47"/>
+<area shape="rect" id="Node000003" href="$classdetail_1_1utf8__to__utf16.html#ab55eaddf875d1b3b43e5a18b16235723" title=" " alt="" coords="220,69,375,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,67,207,73,206,78,172,73"/>
+<area shape="rect" id="Node000004" href="$classdetail_1_1buffer.html#a8685285932360c284d19003fc4ba3edc" title="Returns the size of this buffer." alt="" coords="423,77,561,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="375,87,409,87,409,92,375,92"/>
+</map>

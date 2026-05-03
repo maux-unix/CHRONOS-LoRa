@@ -17,6 +17,14 @@ var searchData=
   ['magickreallocfunc_14',['MagickReallocFunc',['../memory_8h.html#accbfd03352b880978b6557df2b0565da',1,'memory.h']]],
   ['magicktexttranslate_15',['MagickTextTranslate',['../utility_8h.html#adbc12be730e41a08ef6153ebbe6f86ae',1,'utility.h']]],
   ['magickwand_16',['MagickWand',['../magick__wand_8h.html#acd5e6ce5a27943cf26d7a89f5046a194',1,'magick_wand.h']]],
-  ['monitorhandler_17',['MonitorHandler',['../monitor_8h.html#aa4b1b3e9ef8bee950a635ad06edb8e5a',1,'monitor.h']]],
-  ['montageinfo_18',['MontageInfo',['../image_8h.html#a97f45a65fe7ac39125e0bc951135085b',1,'image.h']]]
+  ['make_5findex_5fsequence_17',['make_index_sequence',['../namespacedetail.html#a82dd889f447e7a1383b8757be27f66e9',1,'detail']]],
+  ['make_5funsigned_5ft_18',['make_unsigned_t',['../base_8h.html#a516efba7eeb1a4b9641df05bf175cdc5',1,'base.h']]],
+  ['map_5ftype_19',['map_type',['../structformatter_3_01R_00_01Char_00_01enable__if__t_3_01conjunction_3_01bool__constant_3_01range_a13f0e31fda27b580a18b8a82ce44337.html#aaf41df01fbfffd4cc45557722cecda2c',1,'formatter&lt; R, Char, enable_if_t&lt; conjunction&lt; bool_constant&lt; range_format_kind&lt; R, Char &gt;::value==range_format::map &gt;, detail::is_formattable_delayed&lt; R, Char &gt; &gt;::value &gt; &gt;']]],
+  ['mapped_5ft_20',['mapped_t',['../namespacedetail.html#a4dadd854a2494908b90210889c1cd520',1,'detail']]],
+  ['mapped_5ftype_5fconstant_21',['mapped_type_constant',['../namespacedetail.html#a963048d72789ebc50e687aace23fc61d',1,'detail']]],
+  ['maybe_5fconst_5frange_22',['maybe_const_range',['../namespacedetail.html#aa752d7c08f69ccbc3955f5f017b96a43',1,'detail']]],
+  ['memory_5fbuffer_23',['memory_buffer',['../format_8h.html#aaba5427d5f788f71959666ba2a3bf167',1,'format.h']]],
+  ['milliseconds_24',['milliseconds',['../structdetail_1_1duration__formatter.html#aa9712122ecbf5d3392d7ac02348786ef',1,'detail::duration_formatter']]],
+  ['monitorhandler_25',['MonitorHandler',['../monitor_8h.html#aa4b1b3e9ef8bee950a635ad06edb8e5a',1,'monitor.h']]],
+  ['montageinfo_26',['MontageInfo',['../image_8h.html#a97f45a65fe7ac39125e0bc951135085b',1,'image.h']]]
 ];

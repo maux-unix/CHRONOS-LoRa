@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['keyvalue_0',['KeyValue',['../classcxxopts_1_1KeyValue.html',1,'cxxopts']]]
+  ['join_5fview_0',['join_view',['../structjoin__view.html',1,'']]]
 ];

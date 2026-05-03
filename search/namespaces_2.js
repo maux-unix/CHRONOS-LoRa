@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['magick_0',['Magick',['../namespaceMagick.html',1,'']]],
-  ['magicklib_1',['MagickLib',['../namespaceMagickLib.html',1,'']]]
+  ['enums_0',['enums',['../namespaceenums.html',1,'']]]
 ];

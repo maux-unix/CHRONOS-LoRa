@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lorawannode_0',['LoRaWANNode',['../classPhysicalLayer.html#a9ec0776e58831979405850594429e2d2',1,'PhysicalLayer']]]
+  ['hellclient_0',['hellclient',['../classAFSKClient.html#afeb005bab389f137def61f1acc3714d3',1,'AFSKClient::HellClient'],['../classPhysicalLayer.html#afeb005bab389f137def61f1acc3714d3',1,'PhysicalLayer::HellClient']]]
 ];

@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['value_5ftype_0',['value_type',['../classcxxopts_1_1ParseResult_1_1Iterator.html#ad415f3d6f28ec474a22a90bda79dc668',1,'cxxopts::ParseResult::Iterator']]],
-  ['viewinfo_1',['ViewInfo',['../forward_8h.html#a79c1ec0b8c04ae44910754dd39216201',1,'forward.h']]],
-  ['vpathlist_2',['VPathList',['../namespaceMagick.html#af1fbe7aba872d47fc7a33929a3f20e29',1,'Magick']]]
+  ['value_5ftype_0',['value_type',['../classcxxopts_1_1ParseResult_1_1Iterator.html#ad415f3d6f28ec474a22a90bda79dc668',1,'cxxopts::ParseResult::Iterator::value_type'],['../classbasic__string__view.html#a642a12b7517f31a50e530a3e14055346',1,'basic_string_view::value_type'],['../classdetail_1_1buffer.html#a5924000772700e59f02fcfb81599e622',1,'detail::buffer::value_type'],['../classdetail_1_1container__buffer.html#a6ee252156e36f51b16895e11f1e767d0',1,'detail::container_buffer::value_type'],['../structstd_1_1iterator__traits_3_01fmt_1_1basic__appender_3_01T_01_4_01_4.html#aedb4187d9f9f129736f5990a7aebbefb',1,'std::iterator_traits&lt; fmt::basic_appender&lt; T &gt; &gt;::value_type'],['../structdetail_1_1allocator.html#a81aa9a513ca1731338cb6e7ec6a562d0',1,'detail::allocator::value_type'],['../classbasic__memory__buffer.html#aecbaa41beff571b3ff5d79a91a787524',1,'basic_memory_buffer::value_type'],['../structdetail_1_1integer__sequence.html#ad1483b15cf25402cf653f8ec3b485241',1,'detail::integer_sequence::value_type'],['../structformatter_3_01join__view_3_01It_00_01Sentinel_00_01Char_01_4_00_01Char_01_4.html#a419b9d1836d6a2209eeade0c3cf9e003',1,'formatter&lt; join_view&lt; It, Sentinel, Char &gt;, Char &gt;::value_type']]],
+  ['vargs_1',['vargs',['../base_8h.html#adc1c5695dc1dda75d5008c569c286875',1,'base.h']]],
+  ['view_2',['view',['../structformatter_3_01join__view_3_01It_00_01Sentinel_00_01Char_01_4_00_01Char_01_4.html#ab8f5d54ebd0cff915ef63b327d91e1f5',1,'formatter&lt; join_view&lt; It, Sentinel, Char &gt;, Char &gt;']]],
+  ['viewinfo_3',['ViewInfo',['../forward_8h.html#a79c1ec0b8c04ae44910754dd39216201',1,'forward.h']]],
+  ['void_5ft_4',['void_t',['../base_8h.html#ab8ddf9531fc4ac7ce28574db20c8f20e',1,'base.h']]],
+  ['vpathlist_5',['VPathList',['../namespaceMagick.html#af1fbe7aba872d47fc7a33929a3f20e29',1,'Magick']]]
 ];

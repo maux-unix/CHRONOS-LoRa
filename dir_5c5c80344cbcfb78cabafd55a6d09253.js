@@ -7,7 +7,7 @@ var dir_5c5c80344cbcfb78cabafd55a6d09253 =
     [ "blob.h", "blob_8h.html", "blob_8h" ],
     [ "cdl.h", "cdl_8h.html", "cdl_8h" ],
     [ "channel.h", "channel_8h.html", "channel_8h" ],
-    [ "color.h", "color_8h.html", "color_8h" ],
+    [ "color.h", "usr_2include_2GraphicsMagick_2magick_2color_8h.html", "usr_2include_2GraphicsMagick_2magick_2color_8h" ],
     [ "color_lookup.h", "color__lookup_8h.html", "color__lookup_8h" ],
     [ "colormap.h", "colormap_8h.html", "colormap_8h" ],
     [ "colorspace.h", "colorspace_8h.html", "colorspace_8h" ],

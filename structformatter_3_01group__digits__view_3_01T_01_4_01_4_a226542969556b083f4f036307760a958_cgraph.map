@@ -1,0 +1,19 @@
+<map id="formatter&lt; group_digits_view&lt; T &gt; &gt;::parse" name="formatter&lt; group_digits_view&lt; T &gt; &gt;::parse">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,184,87"/>
+<area shape="rect" id="Node000002" href="$classparse__context.html#a1d66dcf5888a1473d1ac88ee7848426b" title=" " alt="" coords="232,5,391,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,45,241,31,242,36,184,50"/>
+<area shape="rect" id="Node000003" href="$classparse__context.html#ad10a0f3a57fbac77c207ae4bf8475bc2" title="Returns an iterator past the end of the format string range being parsed." alt="" coords="238,55,385,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,65,224,65,224,70,184,70"/>
+<area shape="rect" id="Node000004" href="$namespacedetail.html#afbb7f1837c4f769e74317dec368c5206" title=" " alt="" coords="234,105,389,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,85,223,99,222,104,170,90"/>
+<area shape="rect" id="Node000005" href="$namespacedetail.html#a52a5e2ed06c229dcf95ea5c46d48d05e" title=" " alt="" coords="493,13,572,39"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="365,102,389,89,412,68,422,58,437,48,479,32,480,37,440,52,426,62,416,72,392,94,367,107"/>
+<area shape="rect" id="Node000006" href="$namespacedetail.html#a802c50a56a3495fdab6020b375ba1389" title=" " alt="" coords="439,63,627,88"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="389,105,461,88,462,94,390,110"/>
+<area shape="rect" id="Node000007" href="$namespacedetail.html#ac9e2fcbf2e068bb286f629946e0bb31d" title=" " alt="" coords="461,112,604,137"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="389,122,447,122,447,127,389,127"/>
+<area shape="rect" id="Node000008" href="$format-inl_8h.html#a5555893692b00b61b3886349332fd01f" title=" " alt="" coords="483,161,582,187"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="390,139,471,158,470,163,389,145"/>
+<area shape="rect" id="Node000009" href="$classbasic__specs.html#ae6d1338471c931505ddcaf600557e830" title=" " alt="" coords="451,211,615,236"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="343,142,388,170,440,196,464,204,462,209,438,200,385,174,341,147"/>
+</map>

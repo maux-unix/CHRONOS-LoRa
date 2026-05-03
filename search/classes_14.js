@@ -1,23 +1,12 @@
 var searchData=
 [
-  ['warning_0',['Warning',['../classMagick_1_1Warning.html',1,'Magick']]],
-  ['warningblob_1',['WarningBlob',['../classMagick_1_1WarningBlob.html',1,'Magick']]],
-  ['warningcache_2',['WarningCache',['../classMagick_1_1WarningCache.html',1,'Magick']]],
-  ['warningcoder_3',['WarningCoder',['../classMagick_1_1WarningCoder.html',1,'Magick']]],
-  ['warningconfigure_4',['WarningConfigure',['../classMagick_1_1WarningConfigure.html',1,'Magick']]],
-  ['warningcorruptimage_5',['WarningCorruptImage',['../classMagick_1_1WarningCorruptImage.html',1,'Magick']]],
-  ['warningdelegate_6',['WarningDelegate',['../classMagick_1_1WarningDelegate.html',1,'Magick']]],
-  ['warningdraw_7',['WarningDraw',['../classMagick_1_1WarningDraw.html',1,'Magick']]],
-  ['warningfileopen_8',['WarningFileOpen',['../classMagick_1_1WarningFileOpen.html',1,'Magick']]],
-  ['warningimage_9',['WarningImage',['../classMagick_1_1WarningImage.html',1,'Magick']]],
-  ['warningmissingdelegate_10',['WarningMissingDelegate',['../classMagick_1_1WarningMissingDelegate.html',1,'Magick']]],
-  ['warningmodule_11',['WarningModule',['../classMagick_1_1WarningModule.html',1,'Magick']]],
-  ['warningmonitor_12',['WarningMonitor',['../classMagick_1_1WarningMonitor.html',1,'Magick']]],
-  ['warningoption_13',['WarningOption',['../classMagick_1_1WarningOption.html',1,'Magick']]],
-  ['warningregistry_14',['WarningRegistry',['../classMagick_1_1WarningRegistry.html',1,'Magick']]],
-  ['warningresourcelimit_15',['WarningResourceLimit',['../classMagick_1_1WarningResourceLimit.html',1,'Magick']]],
-  ['warningstream_16',['WarningStream',['../classMagick_1_1WarningStream.html',1,'Magick']]],
-  ['warningtype_17',['WarningType',['../classMagick_1_1WarningType.html',1,'Magick']]],
-  ['warningundefined_18',['WarningUndefined',['../classMagick_1_1WarningUndefined.html',1,'Magick']]],
-  ['warningxserver_19',['WarningXServer',['../classMagick_1_1WarningXServer.html',1,'Magick']]]
+  ['ubitint_0',['ubitint',['../structdetail_1_1ubitint.html',1,'detail']]],
+  ['udl_5farg_1',['udl_arg',['../structdetail_1_1udl__arg.html',1,'detail']]],
+  ['uint128_2',['uint128',['../classdetail_1_1uint128.html',1,'detail']]],
+  ['use_5fformat_5fas_3',['use_format_as',['../structdetail_1_1use__format__as.html',1,'detail']]],
+  ['use_5fformat_5fas_3c_20t_2c_20bool_5fconstant_3c_20std_3a_3ais_5farithmetic_3c_20format_5fas_5fresult_3c_20t_20_3e_20_3e_3a_3avalue_20_3e_20_3e_4',['use_format_as&lt; T, bool_constant&lt; std::is_arithmetic&lt; format_as_result&lt; T &gt; &gt;::value &gt; &gt;',['../structdetail_1_1use__format__as_3_01T_00_01bool__constant_3_01std_1_1is__arithmetic_3_01format__439c79fefc40144049092c6814d868bd.html',1,'detail']]],
+  ['use_5fformat_5fas_5fmember_5',['use_format_as_member',['../structdetail_1_1use__format__as__member.html',1,'detail']]],
+  ['use_5fformat_5fas_5fmember_3c_20t_2c_20bool_5fconstant_3c_20std_3a_3ais_5farithmetic_3c_20format_5fas_5fmember_5fresult_3c_20t_20_3e_20_3e_3a_3avalue_20_3e_20_3e_6',['use_format_as_member&lt; T, bool_constant&lt; std::is_arithmetic&lt; format_as_member_result&lt; T &gt; &gt;::value &gt; &gt;',['../structdetail_1_1use__format__as__member_3_01T_00_01bool__constant_3_01std_1_1is__arithmetic_3_01d9c483d23c56ebeb3084e53206817470.html',1,'detail']]],
+  ['utc_5fclock_7',['utc_clock',['../structdetail_1_1utc__clock.html',1,'detail']]],
+  ['utf8_5fto_5futf16_8',['utf8_to_utf16',['../classdetail_1_1utf8__to__utf16.html',1,'detail']]]
 ];

@@ -1,0 +1,5 @@
+<map id="detail::is_buffer_appender&lt; It, bool_constant&lt; is_back_insert_iterator&lt; It &gt;::value &amp;&amp;std::is_base_of&lt; buffer&lt; typename It::container_type::value_type &gt;, typename It::container_type &gt;::value &gt; &gt;" name="detail::is_buffer_appender&lt; It, bool_constant&lt; is_back_insert_iterator&lt; It &gt;::value &amp;&amp;std::is_base_of&lt; buffer&lt; typename It::container_type::value_type &gt;, typename It::container_type &gt;::value &gt; &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,245,192"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="69,5,181,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,44,128,78,123,78,123,44"/>
+</map>

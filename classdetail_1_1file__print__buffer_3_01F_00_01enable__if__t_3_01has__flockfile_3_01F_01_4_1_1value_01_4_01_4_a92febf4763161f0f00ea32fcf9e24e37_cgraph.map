@@ -1,0 +1,9 @@
+<map id="detail::file_print_buffer&lt; F, enable_if_t&lt; has_flockfile&lt; F &gt;::value &gt; &gt;::~file_print_buffer" name="detail::file_print_buffer&lt; F, enable_if_t&lt; has_flockfile&lt; F &gt;::value &gt; &gt;::~file_print_buffer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,223,124"/>
+<area shape="rect" id="Node000002" href="$classdetail_1_1glibc__file.html#a18a296371710a56e3ac874f8fd410efd" title=" " alt="" coords="271,5,441,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,58,266,46,268,51,223,63"/>
+<area shape="rect" id="Node000003" href="$classdetail_1_1glibc__file.html#ad64e1a4c8d8b6caa0b61d7c1e7b15102" title=" " alt="" coords="293,69,419,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,87,280,87,280,92,223,92"/>
+<area shape="rect" id="Node000004" href="$classdetail_1_1buffer.html#a8685285932360c284d19003fc4ba3edc" title="Returns the size of this buffer." alt="" coords="287,134,425,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="223,112,289,128,288,133,222,118"/>
+</map>

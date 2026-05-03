@@ -190,7 +190,7 @@
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="transmitter-normal_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title=" ">
+<g id="a_Node000007"><a xlink:href="receiver-normal_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="41,-136.5 0,-136.5 0,-117.5 41,-117.5 41,-136.5"/>
 <text text-anchor="middle" x="20.5" y="-124.5" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>

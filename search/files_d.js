@@ -11,5 +11,6 @@ var searchData=
   ['pixels_2eh_8',['Pixels.h',['../Pixels_8h.html',1,'']]],
   ['plasma_2eh_9',['plasma.h',['../plasma_8h.html',1,'']]],
   ['print_2eh_10',['Print.h',['../Print_8h.html',1,'']]],
-  ['profile_2eh_11',['profile.h',['../profile_8h.html',1,'']]]
+  ['printf_2eh_11',['printf.h',['../printf_8h.html',1,'']]],
+  ['profile_2eh_12',['profile.h',['../profile_8h.html',1,'']]]
 ];

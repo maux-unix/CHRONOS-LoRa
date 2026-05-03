@@ -1,0 +1,4 @@
+var structformatter_3_01T_00_01Char_00_01void__t_3_01detail_1_1format__as__result_3_01T_01_4_01_4_01_4 =
+[
+    [ "format", "structformatter_3_01T_00_01Char_00_01void__t_3_01detail_1_1format__as__result_3_01T_01_4_01_4_01_4.html#a68dd1a1243ed440ecb2f4f002c77c886", null ]
+];

@@ -1,0 +1,12 @@
+<map id="context::arg" name="context::arg">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,41,105,66"/>
+<area shape="rect" id="Node000002" href="$classbasic__format__args.html#a3339d3a4e4daaf7bb0de1a8084e7f086" title="Returns the argument with the specified id." alt="" coords="153,41,324,66"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,51,140,51,140,56,106,56"/>
+<area shape="rect" id="Node000003" href="$classbasic__format__args.html#a812f954be08646744a14d71f20b97830" title=" " alt="" coords="599,5,749,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="281,38,324,27,372,19,482,13,585,15,585,21,482,18,372,24,326,32,282,43"/>
+<area shape="rect" id="Node000004" href="$classbasic__format__args.html#a7747894fe7c14fb78260b53ca7702782" title=" " alt="" coords="386,33,537,73"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="324,51,372,51,372,56,324,56"/>
+<area shape="rect" id="Node000005" href="$classbasic__format__args.html#a4d5e597c31ce51609d7fa770c83dad39" title=" " alt="" coords="372,98,551,123"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="289,63,399,92,397,97,288,69"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="536,41,585,34,586,40,537,46"/>
+</map>

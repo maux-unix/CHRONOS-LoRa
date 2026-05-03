@@ -1,3 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classMagick_1_1PathArcArgs.html" title=" " alt="" coords="5,5,160,31"/>
+<area shape="rect" id="Node000000" href="$classdetail_1_1buffer.html" title=" " alt="" coords="5,106,188,146"/>
+<area shape="rect" id="Node000001" href="$classdetail_1_1container__buffer.html" title=" " alt="" coords="236,42,447,82"/>
+<area shape="poly" id="edge15_Node000000_Node000001" title=" " alt="" coords="186,100,264,79,265,85,188,105"/>
+<area shape="rect" id="Node000003" href="$classdetail_1_1container__buffer.html" title=" " alt="" coords="255,106,428,146"/>
+<area shape="poly" id="edge17_Node000000_Node000003" title=" " alt="" coords="202,123,255,123,255,129,202,129"/>
+<area shape="rect" id="Node000004" href="$classdetail_1_1container__buffer.html" title=" " alt="" coords="255,170,428,210"/>
+<area shape="poly" id="edge18_Node000000_Node000004" title=" " alt="" coords="188,147,265,167,264,173,186,152"/>
+<area shape="rect" id="Node000002" href="$classdetail_1_1iterator__buffer_3_01OutputIt_00_01enable__if__t_3_01is__back__insert__iterator_3dbcdfc8aa7bc335c93517ca2df4baab3.html" title=" " alt="" coords="495,5,776,119"/>
+<area shape="poly" id="edge16_Node000001_Node000002" title=" " alt="" coords="460,59,494,59,494,65,460,65"/>
 </map>

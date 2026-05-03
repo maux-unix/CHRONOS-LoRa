@@ -121,51 +121,48 @@ $(document).ready(function(){initNavTree('crc32c_8hpp_source.html',''); initResi
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <a class="code" href="chronos__types_8hpp.html" title="Collection of CHRONOS-LoRa Types.">&quot;chronos_types.hpp&quot;</a></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">arm_acle</span><span class="preprocessor">.</span><span class="preprocessor">h</span><span class="preprocessor">&gt;</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">cstddef</span><span class="preprocessor">&gt;</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">cstdint</span><span class="preprocessor">&gt;</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">print</span><span class="preprocessor">&gt;</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="namespaceCRC32C.html">   25</a></span><span class="keyword">namespace</span> <a class="code hl_namespace" href="namespaceCRC32C.html">CRC32C</a> {</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">/**</span></div>
-<div class="line"><span class="lineno">   28</span><span class="comment"> * @brief Compute the CRC32C checksum of a memory span.</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="namespaceCRC32C.html">   22</a></span><span class="keyword">namespace</span> <a class="code hl_namespace" href="namespaceCRC32C.html">CRC32C</a> {</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">/**</span></div>
+<div class="line"><span class="lineno">   25</span><span class="comment"> * @brief Compute the CRC32C checksum of a memory span.</span></div>
+<div class="line"><span class="lineno">   26</span><span class="comment"> *</span></div>
+<div class="line"><span class="lineno">   27</span><span class="comment"> * Uses ARM hardware-accelerated CRC32C byte intrinsics for efficient</span></div>
+<div class="line"><span class="lineno">   28</span><span class="comment"> * byte-wise checksum computation.</span></div>
 <div class="line"><span class="lineno">   29</span><span class="comment"> *</span></div>
-<div class="line"><span class="lineno">   30</span><span class="comment"> * Uses ARM hardware-accelerated CRC32C byte intrinsics for efficient</span></div>
-<div class="line"><span class="lineno">   31</span><span class="comment"> * byte-wise checksum computation.</span></div>
+<div class="line"><span class="lineno">   30</span><span class="comment"> * Initial CRC seed is `0xFFFFFFFF`, and the final result is XOR&#39;d with</span></div>
+<div class="line"><span class="lineno">   31</span><span class="comment"> * `0xFFFFFFFF` per CRC32C standard conventions.</span></div>
 <div class="line"><span class="lineno">   32</span><span class="comment"> *</span></div>
-<div class="line"><span class="lineno">   33</span><span class="comment"> * Initial CRC seed is `0xFFFFFFFF`, and the final result is XOR&#39;d with</span></div>
-<div class="line"><span class="lineno">   34</span><span class="comment"> * `0xFFFFFFFF` per CRC32C standard conventions.</span></div>
-<div class="line"><span class="lineno">   35</span><span class="comment"> *</span></div>
-<div class="line"><span class="lineno">   36</span><span class="comment"> * Debug information is printed before and after processing.</span></div>
-<div class="line"><span class="lineno">   37</span><span class="comment"> *</span></div>
-<div class="line"><span class="lineno">   38</span><span class="comment"> * @param frame The memory frame to process.</span></div>
-<div class="line"><span class="lineno">   39</span><span class="comment"> *</span></div>
-<div class="line"><span class="lineno">   40</span><span class="comment"> * @return The finalized CRC32C checksum.</span></div>
-<div class="line"><span class="lineno">   41</span><span class="comment"> *</span></div>
-<div class="line"><span class="lineno">   42</span><span class="comment"> * @note Requires ARMv8 or newer architecture with CRC32 instruction support.</span></div>
-<div class="line"><span class="lineno">   43</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>[[<a class="code hl_namespace" href="namespaceCRC32C.html">nodiscard</a>]] <span class="keyword">inline</span> std::<a class="code hl_function" href="namespaceCRC32C.html#abc927199e4d21895169d7205fc2214f7">uint32_t</a></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="namespaceCRC32C.html#abc927199e4d21895169d7205fc2214f7">   45</a></span><a class="code hl_function" href="namespaceCRC32C.html#abc927199e4d21895169d7205fc2214f7">encode</a>(<a class="code hl_namespace" href="namespaceChronosTypes.html">ChronosTypes</a>::<a class="code hl_struct" href="structChronosTypes_1_1CrcFrame.html">CrcFrame</a> &amp;frame, std::uint32_t previous_crc = 0)</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>{</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    std::uint32_t crc = ~previous_crc;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">const</span> <span class="keyword">auto</span> *bytes = frame<a class="code hl_variable" href="structChronosTypes_1_1CrcFrame.html#af4aaa9af63e1063c68c1f3bf81271351">.</a><a class="code hl_variable" href="structChronosTypes_1_1CrcFrame.html#af4aaa9af63e1063c68c1f3bf81271351">data</a>;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordflow">for</span> (std::size_t i = 0; i &lt; frame<a class="code hl_variable" href="structChronosTypes_1_1CrcFrame.html#a30adef267fbc40d8051f85c1bb8e3711">.</a><a class="code hl_variable" href="structChronosTypes_1_1CrcFrame.html#a30adef267fbc40d8051f85c1bb8e3711">length</a>; ++i) {</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        crc = __crc32cb(crc, bytes[i]);</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    }</div>
+<div class="line"><span class="lineno">   33</span><span class="comment"> * Debug information is printed before and after processing.</span></div>
+<div class="line"><span class="lineno">   34</span><span class="comment"> *</span></div>
+<div class="line"><span class="lineno">   35</span><span class="comment"> * @param frame The memory frame to process.</span></div>
+<div class="line"><span class="lineno">   36</span><span class="comment"> *</span></div>
+<div class="line"><span class="lineno">   37</span><span class="comment"> * @return The finalized CRC32C checksum.</span></div>
+<div class="line"><span class="lineno">   38</span><span class="comment"> *</span></div>
+<div class="line"><span class="lineno">   39</span><span class="comment"> * @note Requires ARMv8 or newer architecture with CRC32 instruction support.</span></div>
+<div class="line"><span class="lineno">   40</span><span class="comment"> */</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>[[<a class="code hl_namespace" href="namespaceCRC32C.html">nodiscard</a>]] <span class="keyword">inline</span> <a class="code hl_namespace" href="namespacestd.html">std</a>::<a class="code hl_function" href="namespaceCRC32C.html#abc927199e4d21895169d7205fc2214f7">uint32_t</a></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="namespaceCRC32C.html#abc927199e4d21895169d7205fc2214f7">   42</a></span><a class="code hl_function" href="namespaceCRC32C.html#abc927199e4d21895169d7205fc2214f7">encode</a>(<a class="code hl_namespace" href="namespaceChronosTypes.html">ChronosTypes</a>::<a class="code hl_struct" href="structChronosTypes_1_1CrcFrame.html">CrcFrame</a> &amp;frame, <a class="code hl_namespace" href="namespacestd.html">std</a>::uint32_t previous_crc = 0)</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>{</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_namespace" href="namespacestd.html">std</a>::uint32_t crc = ~previous_crc;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">const</span> <span class="keyword">auto</span> *bytes = frame<a class="code hl_variable" href="structChronosTypes_1_1CrcFrame.html#af4aaa9af63e1063c68c1f3bf81271351">.</a><a class="code hl_variable" href="structChronosTypes_1_1CrcFrame.html#af4aaa9af63e1063c68c1f3bf81271351">data</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordflow">for</span> (<a class="code hl_namespace" href="namespacestd.html">std</a>::size_t i = 0; i &lt; frame<a class="code hl_variable" href="structChronosTypes_1_1CrcFrame.html#a30adef267fbc40d8051f85c1bb8e3711">.</a><a class="code hl_variable" href="structChronosTypes_1_1CrcFrame.html#a30adef267fbc40d8051f85c1bb8e3711">length</a>; ++i) {</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        crc = __crc32cb(crc, bytes[i]);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    }</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordflow">return</span> ~crc;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordflow">return</span> ~crc;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>}</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>[[<a class="code hl_namespace" href="namespaceCRC32C.html">nodiscard</a>]] <span class="keyword">inline</span> <a class="code hl_namespace" href="namespaceChronosTypes.html">ChronosTypes</a>::<a class="code hl_struct" href="structChronosTypes_1_1CrcFrame.html">CrcFrame</a></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="namespaceCRC32C.html#ab9955b981fab15a316757c5f024bc5de">   58</a></span><a class="code hl_function" href="namespaceCRC32C.html#ab9955b981fab15a316757c5f024bc5de">encode_entire</a>(<a class="code hl_namespace" href="namespaceChronosTypes.html">ChronosTypes</a>::<a class="code hl_struct" href="structChronosTypes_1_1CrcFrame.html">CrcFrame</a> &amp;frame)</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>{</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordflow">return</span> frame;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>}</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>}</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">/* CRC32C_HPP_ */</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>[[<a class="code hl_namespace" href="namespaceCRC32C.html">nodiscard</a>]] <span class="keyword">inline</span> <a class="code hl_namespace" href="namespaceChronosTypes.html">ChronosTypes</a>::<a class="code hl_struct" href="structChronosTypes_1_1CrcFrame.html">CrcFrame</a></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="namespaceCRC32C.html#ab9955b981fab15a316757c5f024bc5de">   55</a></span><a class="code hl_function" href="namespaceCRC32C.html#ab9955b981fab15a316757c5f024bc5de">encode_entire</a>(<a class="code hl_namespace" href="namespaceChronosTypes.html">ChronosTypes</a>::<a class="code hl_struct" href="structChronosTypes_1_1CrcFrame.html">CrcFrame</a> &amp;frame)</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>{</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordflow">return</span> frame;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>}</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>}</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">/* CRC32C_HPP_ */</span></div>
 <div class="ttc" id="achronos_8cpp_html_a0c3f0d6ab9edd97cb75278bf820c5de1"><div class="ttname"><a href="chronos_8cpp.html#a0c3f0d6ab9edd97cb75278bf820c5de1">chronos_rgb_to_ycocg</a></div><div class="ttdeci">void chronos_rgb_to_ycocg(char **argv)</div><div class="ttdef"><b>Definition</b> chronos.cpp:109</div></div>
 <div class="ttc" id="achronos_8cpp_html_a0fe71f212fc375c7e18f637bedda70c5"><div class="ttname"><a href="chronos_8cpp.html#a0fe71f212fc375c7e18f637bedda70c5">chronos_convert_to_ppm_op</a></div><div class="ttdeci">static Image * chronos_convert_to_ppm_op(Image *image, ExceptionInfo *exception_info)</div><div class="ttdoc">The operation to convert to PPM.</div><div class="ttdef"><b>Definition</b> chronos.cpp:178</div></div>
 <div class="ttc" id="achronos_8cpp_html_a1d40478f7931bc2280f6d1048a1cb496"><div class="ttname"><a href="chronos_8cpp.html#a1d40478f7931bc2280f6d1048a1cb496">chronos_clamp_quantum</a></div><div class="ttdeci">static Quantum chronos_clamp_quantum(double v)</div><div class="ttdoc">Clamp GraphicsMagick's Quantum value from signed to unisgned limit.</div><div class="ttdef"><b>Definition</b> chronos.cpp:29</div></div>
@@ -196,15 +193,16 @@ $(document).ready(function(){initNavTree('crc32c_8hpp_source.html',''); initResi
 <div class="ttc" id="amagick__wand_8h_html_a65b06287433da00d271e6a5f209a5abb"><div class="ttname"><a href="magick__wand_8h.html#a65b06287433da00d271e6a5f209a5abb">MagickReadImage</a></div><div class="ttdeci">WandExport unsigned int MagickReadImage(MagickWand *, const char *)</div></div>
 <div class="ttc" id="amagick__wand_8h_html_a7556788e3dc39f32499a6565aa8eb843"><div class="ttname"><a href="magick__wand_8h.html#a7556788e3dc39f32499a6565aa8eb843">NewMagickWand</a></div><div class="ttdeci">WandExport MagickWand * NewMagickWand(void)</div></div>
 <div class="ttc" id="amagick__wand_8h_html_acd5e6ce5a27943cf26d7a89f5046a194"><div class="ttname"><a href="magick__wand_8h.html#acd5e6ce5a27943cf26d7a89f5046a194">MagickWand</a></div><div class="ttdeci">struct _MagickWand MagickWand</div><div class="ttdef"><b>Definition</b> magick_wand.h:52</div></div>
-<div class="ttc" id="anamespaceCRC32C_html"><div class="ttname"><a href="namespaceCRC32C.html">CRC32C</a></div><div class="ttdef"><b>Definition</b> crc32c.hpp:25</div></div>
-<div class="ttc" id="anamespaceCRC32C_html_ab9955b981fab15a316757c5f024bc5de"><div class="ttname"><a href="namespaceCRC32C.html#ab9955b981fab15a316757c5f024bc5de">CRC32C::encode_entire</a></div><div class="ttdeci">ChronosTypes::CrcFrame encode_entire(ChronosTypes::CrcFrame &amp;frame)</div><div class="ttdef"><b>Definition</b> crc32c.hpp:58</div></div>
-<div class="ttc" id="anamespaceCRC32C_html_abc927199e4d21895169d7205fc2214f7"><div class="ttname"><a href="namespaceCRC32C.html#abc927199e4d21895169d7205fc2214f7">CRC32C::encode</a></div><div class="ttdeci">std::uint32_t encode(ChronosTypes::CrcFrame &amp;frame, std::uint32_t previous_crc=0)</div><div class="ttdoc">Compute the CRC32C checksum of a memory span.</div><div class="ttdef"><b>Definition</b> crc32c.hpp:45</div></div>
+<div class="ttc" id="anamespaceCRC32C_html"><div class="ttname"><a href="namespaceCRC32C.html">CRC32C</a></div><div class="ttdef"><b>Definition</b> crc32c.hpp:22</div></div>
+<div class="ttc" id="anamespaceCRC32C_html_ab9955b981fab15a316757c5f024bc5de"><div class="ttname"><a href="namespaceCRC32C.html#ab9955b981fab15a316757c5f024bc5de">CRC32C::encode_entire</a></div><div class="ttdeci">ChronosTypes::CrcFrame encode_entire(ChronosTypes::CrcFrame &amp;frame)</div><div class="ttdef"><b>Definition</b> crc32c.hpp:55</div></div>
+<div class="ttc" id="anamespaceCRC32C_html_abc927199e4d21895169d7205fc2214f7"><div class="ttname"><a href="namespaceCRC32C.html#abc927199e4d21895169d7205fc2214f7">CRC32C::encode</a></div><div class="ttdeci">std::uint32_t encode(ChronosTypes::CrcFrame &amp;frame, std::uint32_t previous_crc=0)</div><div class="ttdoc">Compute the CRC32C checksum of a memory span.</div><div class="ttdef"><b>Definition</b> crc32c.hpp:42</div></div>
 <div class="ttc" id="anamespaceCanonicalHuffman_html"><div class="ttname"><a href="namespaceCanonicalHuffman.html">CanonicalHuffman</a></div><div class="ttdef"><b>Definition</b> canonical_huffman.hpp:14</div></div>
 <div class="ttc" id="anamespaceChronosTypes_html"><div class="ttname"><a href="namespaceChronosTypes.html">ChronosTypes</a></div><div class="ttdef"><b>Definition</b> chronos_types.hpp:18</div></div>
 <div class="ttc" id="anamespaceImageProcessing_html"><div class="ttname"><a href="namespaceImageProcessing.html">ImageProcessing</a></div><div class="ttdef"><b>Definition</b> canonical_huffman.hpp:10</div></div>
+<div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition</b> format.h:151</div></div>
 <div class="ttc" id="apixel__cache_8h_html_a17558e5118ef7ce7d6d744cf43c03182"><div class="ttname"><a href="pixel__cache_8h.html#a17558e5118ef7ce7d6d744cf43c03182">GetImagePixels</a></div><div class="ttdeci">MagickExport PixelPacket * GetImagePixels(Image *image, const long x, const long y, const unsigned long columns, const unsigned long rows)</div></div>
 <div class="ttc" id="apixel__cache_8h_html_abf7cac45ca6049ace42595f65ddb3582"><div class="ttname"><a href="pixel__cache_8h.html#abf7cac45ca6049ace42595f65ddb3582">SyncImagePixels</a></div><div class="ttdeci">MagickExport MagickPassFail SyncImagePixels(Image *image)</div></div>
-<div class="ttc" id="areed__solomon_8hpp_html_a4b396987a229b9ca0fdd7f5a7370cac2"><div class="ttname"><a href="reed__solomon_8hpp.html#a4b396987a229b9ca0fdd7f5a7370cac2">FRAG_SIZE</a></div><div class="ttdeci">#define FRAG_SIZE</div><div class="ttdef"><b>Definition</b> reed_solomon.hpp:28</div></div>
+<div class="ttc" id="areed__solomon_8hpp_html_a4b396987a229b9ca0fdd7f5a7370cac2"><div class="ttname"><a href="reed__solomon_8hpp.html#a4b396987a229b9ca0fdd7f5a7370cac2">FRAG_SIZE</a></div><div class="ttdeci">#define FRAG_SIZE</div><div class="ttdef"><b>Definition</b> reed_solomon.hpp:29</div></div>
 <div class="ttc" id="aresize_8h_html_afd064deb275eea9d218c75cb53a37348"><div class="ttname"><a href="resize_8h.html#afd064deb275eea9d218c75cb53a37348">ResizeImage</a></div><div class="ttdeci">MagickExport Image * ResizeImage(const Image *, const unsigned long, const unsigned long, const FilterTypes, const double, ExceptionInfo *)</div></div>
 <div class="ttc" id="astructChronosTypes_1_1CrcFrame_html"><div class="ttname"><a href="structChronosTypes_1_1CrcFrame.html">ChronosTypes::CrcFrame</a></div><div class="ttdef"><b>Definition</b> chronos_types.hpp:19</div></div>
 <div class="ttc" id="astructChronosTypes_1_1CrcFrame_html_a30adef267fbc40d8051f85c1bb8e3711"><div class="ttname"><a href="structChronosTypes_1_1CrcFrame.html#a30adef267fbc40d8051f85c1bb8e3711">ChronosTypes::CrcFrame::length</a></div><div class="ttdeci">std::uint32_t length</div><div class="ttdef"><b>Definition</b> chronos_types.hpp:21</div></div>

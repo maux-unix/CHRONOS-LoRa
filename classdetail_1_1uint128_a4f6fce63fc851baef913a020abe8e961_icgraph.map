@@ -1,0 +1,24 @@
+<map id="detail::uint128::high" name="detail::uint128::high">
+<area shape="rect" id="Node000001" title=" " alt="" coords="487,315,639,340"/>
+<area shape="rect" id="Node000002" href="$structdetail_1_1dragonbox_1_1cache__accessor_3_01double_01_4.html#a12bd879453603d1ff68d19c2294f0f34" title=" " alt="" coords="246,5,429,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="553,302,539,254,516,193,482,130,461,101,437,75,420,62,424,58,440,71,465,97,487,127,521,191,544,252,558,300"/>
+<area shape="rect" id="Node000003" href="$structdetail_1_1dragonbox_1_1cache__accessor_3_01double_01_4.html#a4e6007b40fb31fbad47de9f9d35f0b2d" title=" " alt="" coords="240,85,435,154"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="546,304,502,238,472,201,437,168,420,156,423,152,440,164,475,197,506,235,550,301"/>
+<area shape="rect" id="Node000004" href="$structdetail_1_1dragonbox_1_1cache__accessor_3_01double_01_4.html#ae8b6d9661e9f0a2f71dc0db3c742588b" title=" " alt="" coords="5,491,188,545"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="550,354,506,413,476,444,440,470,395,485,330,498,188,514,188,509,329,493,393,480,437,465,472,440,502,410,545,350"/>
+<area shape="rect" id="Node000005" href="$structdetail_1_1dragonbox_1_1cache__accessor_3_01double_01_4.html#a08dcaeba4527995a6cec582f36782687" title=" " alt="" coords="5,200,188,255"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="519,312,438,283,308,256,188,239,189,234,309,251,439,278,521,307"/>
+<area shape="rect" id="Node000006" href="$structdetail_1_1dragonbox_1_1cache__accessor_3_01double_01_4.html#a806fff5c96c128ed929494071c1ecd27" title=" " alt="" coords="236,293,439,362"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="473,330,439,330,439,325,473,325"/>
+<area shape="rect" id="Node000007" href="$structdetail_1_1dragonbox_1_1cache__accessor_3_01double_01_4.html#ac61980cf0cd6b5eb717410fa727e1921" title=" " alt="" coords="240,386,435,455"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="520,348,423,388,420,383,517,343"/>
+<area shape="rect" id="Node000008" href="$namespacedetail.html#add861c358ea50b446b1a06080adb44ba" title=" " alt="" coords="23,581,170,607"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="560,354,549,405,527,469,512,502,492,533,468,561,440,584,404,603,366,615,326,622,285,625,209,620,146,609,147,604,209,615,285,619,325,617,364,610,402,598,437,580,465,557,488,530,507,499,523,467,544,404,555,353"/>
+<area shape="rect" id="Node000009" href="$namespacedetail_1_1dragonbox.html#ac836659b351ddf33f74fee7f87cbeefc" title=" " alt="" coords="264,178,411,218"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="535,308,490,273,437,239,397,221,400,216,440,234,494,269,538,303"/>
+<area shape="rect" id="Node000010" href="$namespacedetail_1_1dragonbox.html#ab9470405474ffc0d7b8bc15071b7d515" title=" " alt="" coords="264,530,411,570"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="553,354,511,432,479,475,440,513,409,532,406,528,437,509,475,472,506,429,548,351"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="251,211,189,219,188,214,250,206"/>
+<area shape="poly" id="edge11_Node000010_Node000004" title=" " alt="" coords="250,541,188,533,189,528,251,536"/>
+<area shape="poly" id="edge12_Node000010_Node000008" title=" " alt="" coords="251,568,167,584,166,579,250,563"/>
+</map>

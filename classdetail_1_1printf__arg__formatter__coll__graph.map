@@ -1,0 +1,38 @@
+<map id="detail::printf_arg_formatter&lt; Char &gt;" name="detail::printf_arg_formatter&lt; Char &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1664,223,1815,263"/>
+<area shape="rect" id="Node000002" href="$structdetail_1_1arg__formatter.html" title=" " alt="" coords="1397,254,1555,294"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1568,261,1664,249,1664,255,1569,266"/>
+<area shape="rect" id="Node000003" href="$classbasic__appender.html" title=" " alt="" coords="1121,209,1305,235"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1292,235,1397,256,1396,261,1291,240"/>
+<area shape="rect" id="Node000009" href="$classbasic__printf__context.html" title=" " alt="" coords="1399,177,1553,217"/>
+<area shape="poly" id="edge10_Node000009_Node000003" title=" " alt="" coords="1319,209,1398,201,1399,207,1319,214"/>
+<area shape="rect" id="Node000004" href="$classdetail_1_1buffer.html" title=" " alt="" coords="833,209,999,235"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1013,219,1121,219,1121,225,1013,225"/>
+<area shape="rect" id="Node000005" href="$classdetail_1_1buffer.html" title=" " alt="" coords="581,209,723,235"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="737,219,833,219,833,225,737,225"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="627,194,635,186,652,183,666,185,675,191,678,201,673,210,668,208,672,200,671,194,664,190,652,188,638,191,631,198"/>
+<area shape="rect" id="Node000006" href="$structformat__specs.html" title=" " alt="" coords="1158,272,1269,297"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="1282,285,1373,283,1397,281,1398,287,1373,289,1282,290"/>
+<area shape="rect" id="Node000007" href="$classbasic__specs.html" title=" " alt="" coords="866,272,966,297"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="980,282,1158,282,1158,287,980,287"/>
+<area shape="rect" id="Node000008" href="$classlocale__ref.html" title=" " alt="" coords="1170,321,1257,347"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="1270,324,1373,305,1418,291,1420,297,1374,310,1271,329"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="1567,210,1664,227,1663,233,1566,215"/>
+<area shape="rect" id="Node000010" href="$classbasic__format__args.html" title=" " alt="" coords="1127,131,1300,171"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="1314,166,1399,181,1398,186,1313,171"/>
+<area shape="rect" id="Node000011" href="$classdetail_1_1value.html" title=" " alt="" coords="576,87,728,127"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="742,104,800,106,949,116,1098,133,1127,136,1126,142,1097,138,949,121,800,111,742,110"/>
+<area shape="rect" id="Node000017" href="$classbasic__format__arg.html" title=" " alt="" coords="824,138,1008,178"/>
+<area shape="poly" id="edge19_Node000017_Node000011" title=" " alt="" coords="742,122,824,138,823,143,741,127"/>
+<area shape="rect" id="Node000012" href="$structmonostate.html" title=" " alt="" coords="305,5,397,31"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="411,28,553,66,604,85,602,90,551,71,409,33"/>
+<area shape="rect" id="Node000013" href="$structdetail_1_1string__value.html" title=" " alt="" coords="277,55,424,95"/>
+<area shape="poly" id="edge14_Node000011_Node000013" title=" " alt="" coords="438,82,576,97,576,102,438,87"/>
+<area shape="rect" id="Node000014" href="$structdetail_1_1custom__value.html" title=" " alt="" coords="259,119,443,159"/>
+<area shape="poly" id="edge15_Node000011_Node000014" title=" " alt="" coords="456,125,576,113,576,118,457,131"/>
+<area shape="rect" id="Node000015" href="$structdetail_1_1named__arg__value.html" title=" " alt="" coords="259,183,442,223"/>
+<area shape="poly" id="edge16_Node000011_Node000015" title=" " alt="" coords="444,177,551,145,603,125,605,130,553,150,446,182"/>
+<area shape="rect" id="Node000016" href="$structdetail_1_1named__arg__info.html" title=" " alt="" coords="5,183,177,223"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="191,201,259,201,259,206,191,206"/>
+<area shape="poly" id="edge18_Node000010_Node000017" title=" " alt="" coords="1022,153,1126,151,1127,156,1022,158"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="detail::dragonbox::umul192_upper128" name="detail::dragonbox::umul192_upper128">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,97,152,137"/>
+<area shape="rect" id="Node000002" href="$classdetail_1_1uint128.html#a4f6fce63fc851baef913a020abe8e961" title=" " alt="" coords="225,5,377,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,94,148,66,199,40,220,32,222,37,201,44,151,71,108,99"/>
+<area shape="rect" id="Node000003" href="$classdetail_1_1uint128.html#ad78164a856629bbf7f8111f518ce5cbd" title=" " alt="" coords="227,55,374,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="152,98,229,80,230,86,153,103"/>
+<area shape="rect" id="Node000004" href="$classdetail_1_1uint128.html#a8605bfd967e879deaf9c105ed1a0354e" title=" " alt="" coords="200,104,401,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="152,114,186,114,186,119,152,119"/>
+<area shape="rect" id="Node000006" href="$namespacedetail.html#a79d19c16611e9ed84eb710d8380f9199" title=" " alt="" coords="239,153,363,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="153,130,230,148,229,153,152,136"/>
+<area shape="rect" id="Node000008" href="$namespacedetail_1_1dragonbox.html#afb57aa963bc4232fb4bc88b845581d5a" title=" " alt="" coords="229,203,373,243"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="109,135,152,162,201,189,218,196,216,201,199,194,149,167,107,139"/>
+<area shape="rect" id="Node000005" href="$namespacedetail.html#a75ed2634319883d038944529dbb954e2" title=" " alt="" coords="465,93,607,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="401,112,452,111,452,117,401,118"/>
+<area shape="rect" id="Node000007" href="$classdetail_1_1uint128.html#a31da8740f7bc5629bda4b1be76041612" title=" " alt="" coords="449,157,623,183"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="363,164,436,166,435,171,363,170"/>
+</map>

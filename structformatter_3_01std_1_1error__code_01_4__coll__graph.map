@@ -1,0 +1,11 @@
+<map id="formatter&lt; std::error_code &gt;" name="formatter&lt; std::error_code &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="64,196,223,236"/>
+<area shape="rect" id="Node000002" href="$structformat__specs.html" title=" " alt="" coords="5,108,116,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,142,129,194,125,198,78,146"/>
+<area shape="rect" id="Node000003" href="$classbasic__specs.html" title=" " alt="" coords="11,13,111,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="63,52,63,108,58,108,58,52"/>
+<area shape="rect" id="Node000004" href="$uniondetail_1_1arg__ref.html" title=" " alt="" coords="141,108,311,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="209,146,162,198,158,194,205,142"/>
+<area shape="rect" id="Node000005" href="$classbasic__string__view.html" title=" " alt="" coords="151,5,301,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="229,59,229,108,223,108,223,59"/>
+</map>

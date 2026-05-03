@@ -1,0 +1,14 @@
+<map id="detail::loc_writer&lt; Char &gt;" name="detail::loc_writer&lt; Char &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="117,269,247,309"/>
+<area shape="rect" id="Node000002" href="$classbasic__appender.html" title=" " alt="" coords="5,181,188,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,215,167,267,163,271,114,218"/>
+<area shape="rect" id="Node000003" href="$classdetail_1_1buffer.html" title=" " alt="" coords="15,93,178,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,133,99,181,94,181,94,133"/>
+<area shape="rect" id="Node000004" href="$classdetail_1_1buffer.html" title=" " alt="" coords="25,5,168,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="99,45,99,93,94,93,94,45"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="183,10,195,18,186,26,169,28,168,23,184,21,189,18,180,14"/>
+<area shape="rect" id="Node000005" href="$structformat__specs.html" title=" " alt="" coords="212,181,323,207"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="250,218,201,271,197,267,246,215"/>
+<area shape="rect" id="Node000006" href="$classbasic__specs.html" title=" " alt="" coords="217,93,317,119"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="270,133,270,181,265,181,265,133"/>
+</map>

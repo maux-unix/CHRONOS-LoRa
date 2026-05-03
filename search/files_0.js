@@ -6,7 +6,8 @@ var searchData=
   ['api_2eh_3',['api.h',['../api_8h.html',1,'']]],
   ['aprs_2eh_4',['APRS.h',['../APRS_8h.html',1,'']]],
   ['arduinohal_2eh_5',['ArduinoHal.h',['../ArduinoHal_8h.html',1,'']]],
-  ['attribute_2eh_6',['attribute.h',['../attribute_8h.html',1,'']]],
-  ['average_2eh_7',['average.h',['../average_8h.html',1,'']]],
-  ['ax25_2eh_8',['AX25.h',['../AX25_8h.html',1,'']]]
+  ['args_2eh_6',['args.h',['../args_8h.html',1,'']]],
+  ['attribute_2eh_7',['attribute.h',['../attribute_8h.html',1,'']]],
+  ['average_2eh_8',['average.h',['../average_8h.html',1,'']]],
+  ['ax25_2eh_9',['AX25.h',['../AX25_8h.html',1,'']]]
 ];

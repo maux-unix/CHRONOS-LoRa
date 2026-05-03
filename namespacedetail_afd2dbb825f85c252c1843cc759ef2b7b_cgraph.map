@@ -1,0 +1,11 @@
+<map id="detail::reset_color" name="detail::reset_color">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,77,144,102"/>
+<area shape="rect" id="Node000002" href="$classbasic__string__view.html#a039a92fee947263a6c75dc6afd879719" title=" " alt="" coords="204,5,349,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,74,199,47,201,52,117,79"/>
+<area shape="rect" id="Node000004" href="$classbasic__string__view.html#a50d08a55660173ee8f89dee436207da3" title=" " alt="" coords="204,69,349,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="144,87,190,87,190,92,144,92"/>
+<area shape="rect" id="Node000005" href="$classbasic__string__view.html#a12fc892d9a99adbf90ed0e9c88f87a02" title=" " alt="" coords="192,134,361,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="121,99,219,128,218,133,120,105"/>
+<area shape="rect" id="Node000003" href="$namespacedetail.html#a75ed2634319883d038944529dbb954e2" title=" " alt="" coords="409,5,551,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="350,23,396,23,396,28,350,28"/>
+</map>

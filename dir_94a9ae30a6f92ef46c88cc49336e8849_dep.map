@@ -1,10 +1,10 @@
 <map id="thirdparty/RadioLib/include/RadioLib/protocols/LoRaWAN" name="thirdparty/RadioLib/include/RadioLib/protocols/LoRaWAN">
 <area shape="rect" id="node1" href="dir_4c37c7dee4ba953c0d56b440e9ccb8db.html" title="PhysicalLayer" alt="" coords="27,125,139,151"/>
 <area shape="rect" id="node2" href="dir_94a9ae30a6f92ef46c88cc49336e8849.html" title="LoRaWAN" alt="" coords="47,52,132,77"/>
-<area shape="poly" id="edge2" href="dir_000020_000030.html" alt="" coords="91,78,88,112,82,112,86,77"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000020_000030.html" title="1" alt="" coords="89,101,99,115"/>
+<area shape="poly" id="edge2" href="dir_000023_000033.html" alt="" coords="91,78,88,112,82,112,86,77"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000023_000033.html" title="1" alt="" coords="89,101,99,115"/>
 <area shape="rect" id="node3" href="dir_17052dd408e5e1c4238389a790f78764.html" title="utils" alt="" coords="163,125,213,151"/>
-<area shape="poly" id="edge1" href="dir_000020_000049.html" alt="" coords="107,75,162,115,159,119,104,80"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000020_000049.html" title="1" alt="" coords="157,100,167,115"/>
+<area shape="poly" id="edge1" href="dir_000023_000052.html" alt="" coords="107,75,162,115,159,119,104,80"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000023_000052.html" title="1" alt="" coords="157,100,167,115"/>
 <area shape="rect" id="clust1" href="dir_163606cfde595d82b017aa4b479a42c8.html" title="protocols" alt="" coords="16,16,149,161"/>
 </map>

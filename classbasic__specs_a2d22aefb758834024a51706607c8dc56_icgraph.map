@@ -1,0 +1,11 @@
+<map id="basic_specs::dynamic_precision" name="basic_specs::dynamic_precision">
+<area shape="rect" id="Node000001" title=" " alt="" coords="232,101,396,141"/>
+<area shape="rect" id="Node000002" href="$structformatter_3_01bytes_01_4.html#a241e55955c26ece96e7df9029b3cf5a4" title=" " alt="" coords="19,5,170,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="262,97,183,60,153,48,155,43,185,55,264,93"/>
+<area shape="rect" id="Node000003" href="$structdetail_1_1native__formatter.html#af6f15bad58e42d84e9e3a55324b30492" title=" " alt="" coords="6,69,183,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="218,110,183,105,184,100,219,105"/>
+<area shape="rect" id="Node000004" href="$structformatter_3_01group__digits__view_3_01T_01_4_01_4.html#ad4a94105ce2e3ca473930da056b3edbb" title=" " alt="" coords="5,133,184,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="219,138,184,143,184,138,218,133"/>
+<area shape="rect" id="Node000005" href="$structformatter_3_01std_1_1chrono_1_1duration_3_01Rep_00_01Period_01_4_00_01Char_01_4.html#a4a5f18da796aba79bd0604170d0d3b4e" title=" " alt="" coords="8,198,181,253"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="262,150,185,188,158,200,156,195,183,183,259,145"/>
+</map>

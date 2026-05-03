@@ -1,0 +1,14 @@
+<map id="detail::bigint::subtract_aligned" name="detail::bigint::subtract_aligned">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,117,171,157"/>
+<area shape="rect" id="Node000002" href="$classdetail_1_1bigint.html#ae750f01e552f13e9f3e7001ac78163d1" title=" " alt="" coords="220,60,383,100"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,115,212,101,214,106,164,120"/>
+<area shape="rect" id="Node000004" href="$classdetail_1_1buffer.html#a8685285932360c284d19003fc4ba3edc" title="Returns the size of this buffer." alt="" coords="444,121,583,146"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="171,134,430,131,430,137,171,139"/>
+<area shape="rect" id="Node000006" href="$classdetail_1_1bigint.html#a58e6d906eab89170f8d83865302bb8cb" title=" " alt="" coords="219,175,384,215"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="164,155,214,168,212,174,162,160"/>
+<area shape="rect" id="Node000003" href="$classbasic__memory__buffer.html#a9a5d3f229ccaf48e4176d7cdcfd84383" title=" " alt="" coords="432,5,595,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="379,57,422,46,423,51,380,63"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="382,97,449,115,448,120,381,103"/>
+<area shape="rect" id="Node000005" href="$namespacedetail.html#a4855e668246c731a97484efc329f2aac" title=" " alt="" coords="440,70,587,95"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="383,78,426,79,426,84,383,84"/>
+</map>

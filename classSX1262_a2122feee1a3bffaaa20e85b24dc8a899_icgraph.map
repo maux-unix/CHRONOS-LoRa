@@ -1,5 +1,5 @@
 <map id="SX1262::setFrequency" name="SX1262::setFrequency">
 <area shape="rect" id="Node000001" title="Sets carrier frequency. Allowed values are in range from 150.0 to 960.0 MHz. Will automatically perfo..." alt="" coords="108,5,275,31"/>
-<area shape="rect" id="Node000002" href="$receiver-normal_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,31"/>
+<area shape="rect" id="Node000002" href="$transmitter-normal_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
 </map>

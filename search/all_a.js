@@ -2,10 +2,12 @@ var searchData=
 [
   ['jbig1compression_0',['JBIG1Compression',['../image_8h.html#affec749ed88365143745313ae9168263af6684f32b7a0633ffc8289a78de7efdd',1,'image.h']]],
   ['jbig2compression_1',['JBIG2Compression',['../image_8h.html#affec749ed88365143745313ae9168263aeaaa9cb1d3e6bf21f94592ce27c35ca5',1,'image.h']]],
-  ['joineui_2',['joinEUI',['../classLoRaWANNode.html#a4179f33545b06a96c913bfaa162a524f',1,'LoRaWANNode']]],
-  ['joinnonce_3',['joinnonce',['../structLoRaWANJoinEvent__t.html#a935bc95eb2c02242c61f192fa2c68d8b',1,'LoRaWANJoinEvent_t::joinNonce'],['../classLoRaWANNode.html#a6c769c199561a232fdfca1d7839be01b',1,'LoRaWANNode::joinNonce']]],
-  ['jpeg2000compression_4',['JPEG2000Compression',['../image_8h.html#affec749ed88365143745313ae9168263a2810f2510aea3aec53eba8c6ef491fe3',1,'image.h']]],
-  ['jpegcompression_5',['JPEGCompression',['../image_8h.html#affec749ed88365143745313ae9168263af12cfcbf02d10ead40da97c1394e0c04',1,'image.h']]],
-  ['jpegpreview_6',['JPEGPreview',['../image_8h.html#a22b599867262862da379e1191c4a1e46ae73c8e3c275ffdfa7ed55eb4fbd67984',1,'image.h']]],
-  ['jsintkey_7',['jSIntKey',['../classLoRaWANNode.html#a64bf30b6563043f692b443d4b1872654',1,'LoRaWANNode']]]
+  ['join_2',['join',['../xchar_8h.html#aa4a01c91a523aac917b8089b547c3a6f',1,'join(const Tuple &amp;tuple, S &amp;&amp;sep) -&gt; tuple_join_view&lt; Tuple, Char &gt;:&#160;xchar.h'],['../xchar_8h.html#a55fdf7d568d5d48760c07379200f246b',1,'join(std::initializer_list&lt; T &gt; list, wstring_view sep) -&gt; join_view&lt; const T *, const T *, wchar_t &gt;:&#160;xchar.h'],['../xchar_8h.html#ae06a620c3329da5f216de5ae5b4e7096',1,'join(Range &amp;&amp;range, S &amp;&amp;sep) -&gt; join_view&lt; decltype(std::begin(range)), decltype(std::end(range)), Char &gt;:&#160;xchar.h'],['../xchar_8h.html#a32e83c1ba102d4847eda7cc06bff45e0',1,'join(It begin, Sentinel end, S &amp;&amp;sep) -&gt; join_view&lt; It, Sentinel, Char &gt;:&#160;xchar.h'],['../ranges_8h.html#af2dc540ad9150689c247f7ab4fb6d95a',1,'join(std::initializer_list&lt; T &gt; list, string_view sep) -&gt; join_view&lt; const T *, const T * &gt;:&#160;ranges.h'],['../ranges_8h.html#a703e3555a519a55eae7986580660994c',1,'join(It begin, Sentinel end, string_view sep) -&gt; join_view&lt; It, Sentinel &gt;:&#160;ranges.h'],['../ranges_8h.html#a61b6eacf79b3adf08269406e6030f297',1,'join(Range &amp;&amp;r, string_view sep) -&gt; join_view&lt; decltype(detail::range_begin(r)), decltype(detail::range_end(r))&gt;:&#160;ranges.h'],['../ranges_8h.html#a00c27086a22a1f621025132b93ca0152',1,'join(const Tuple &amp;tuple FMT_LIFETIMEBOUND, string_view sep) -&gt; tuple_join_view&lt; Tuple, char &gt;:&#160;ranges.h']]],
+  ['join_5fview_3',['join_view',['../structjoin__view.html#a44c6331d74f29c6bbcae157d76f8969e',1,'join_view::join_view()'],['../structjoin__view.html',1,'join_view&lt; It, Sentinel, Char &gt;']]],
+  ['joineui_4',['joinEUI',['../classLoRaWANNode.html#a4179f33545b06a96c913bfaa162a524f',1,'LoRaWANNode']]],
+  ['joinnonce_5',['joinnonce',['../classLoRaWANNode.html#a6c769c199561a232fdfca1d7839be01b',1,'LoRaWANNode::joinNonce'],['../structLoRaWANJoinEvent__t.html#a935bc95eb2c02242c61f192fa2c68d8b',1,'LoRaWANJoinEvent_t::joinNonce']]],
+  ['jpeg2000compression_6',['JPEG2000Compression',['../image_8h.html#affec749ed88365143745313ae9168263a2810f2510aea3aec53eba8c6ef491fe3',1,'image.h']]],
+  ['jpegcompression_7',['JPEGCompression',['../image_8h.html#affec749ed88365143745313ae9168263af12cfcbf02d10ead40da97c1394e0c04',1,'image.h']]],
+  ['jpegpreview_8',['JPEGPreview',['../image_8h.html#a22b599867262862da379e1191c4a1e46ae73c8e3c275ffdfa7ed55eb4fbd67984',1,'image.h']]],
+  ['jsintkey_9',['jSIntKey',['../classLoRaWANNode.html#a64bf30b6563043f692b443d4b1872654',1,'LoRaWANNode']]]
 ];

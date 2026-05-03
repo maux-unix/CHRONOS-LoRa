@@ -1,16 +1,15 @@
 <map id="thirdparty/RadioLib/include/RadioLib/protocols/LoRaWAN/LoRaWANPacMan.h" name="thirdparty/RadioLib/include/RadioLib/protocols/LoRaWAN/LoRaWANPacMan.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="309,5,527,60"/>
-<area shape="rect" id="Node000002" href="$RadioLib_8h.html" title=" " alt="" coords="58,115,263,155"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="339,67,210,118,208,113,337,63"/>
-<area shape="rect" id="Node000006" href="$LoRaWANPackageTS003_8h.html" title=" " alt="" coords="287,108,549,163"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="421,74,421,108,415,108,415,74"/>
-<area shape="rect" id="Node000007" href="$LoRaWANPackageTS009_8h.html" title=" " alt="" coords="573,108,834,163"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="506,62,630,105,628,110,504,67"/>
-<area shape="rect" id="Node000003" href="$transmitter-normal_8cpp.html" title="CHRONOS&#45;LoRa Transmitter program (Normal)" alt="" coords="5,313,201,339"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="148,169,131,211,116,268,108,314,103,313,111,267,126,210,143,167"/>
-<area shape="rect" id="Node000004" href="$PiHal_8h.html" title=" " alt="" coords="141,211,298,265"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="181,166,206,209,202,212,176,169"/>
-<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="175,276,121,315,118,311,171,271"/>
-<area shape="rect" id="Node000005" href="$receiver-normal_8cpp.html" title="CHRONOS&#45;LoRa Receiver program (Normal)" alt="" coords="226,313,402,339"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="260,273,303,311,299,315,257,277"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="347,5,565,60"/>
+<area shape="rect" id="Node000002" href="$RadioLib_8h.html" title=" " alt="" coords="96,115,301,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="377,67,248,118,246,113,375,63"/>
+<area shape="rect" id="Node000006" href="$LoRaWANPackageTS003_8h.html" title=" " alt="" coords="325,108,587,163"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="459,74,459,108,453,108,453,74"/>
+<area shape="rect" id="Node000007" href="$LoRaWANPackageTS009_8h.html" title=" " alt="" coords="611,108,872,163"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="544,62,668,105,666,110,542,67"/>
+<area shape="rect" id="Node000003" href="$PiHal_8h.html" title=" " alt="" coords="120,211,277,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="201,169,201,210,196,210,196,169"/>
+<area shape="rect" id="Node000004" href="$receiver-normal_8cpp.html" title="CHRONOS&#45;LoRa Receiver program (Normal)" alt="" coords="5,313,181,339"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="158,276,109,315,106,311,154,272"/>
+<area shape="rect" id="Node000005" href="$transmitter-normal_8cpp.html" title="CHRONOS&#45;LoRa Transmitter program (Normal)" alt="" coords="206,313,402,339"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="243,272,291,311,288,315,240,276"/>
 </map>

@@ -1,0 +1,22 @@
+<map id="detail::duration_formatter::write_sign" name="detail::duration_formatter::write_sign">
+<area shape="rect" id="Node000001" title=" " alt="" coords="721,133,912,173"/>
+<area shape="rect" id="Node000002" href="$structdetail_1_1duration__formatter.html#ac825a1b64912178dd2ed23c317b8ef96" title=" " alt="" coords="483,101,673,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="707,141,673,137,674,131,708,136"/>
+<area shape="rect" id="Node000003" href="$structdetail_1_1duration__formatter.html#a05833dd5c29a4b5991f31b3907f7c793" title=" " alt="" coords="483,165,673,205"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="708,171,674,175,673,170,707,165"/>
+<area shape="rect" id="Node000004" href="$structdetail_1_1duration__formatter.html#a826af0d208367e0816601e6fe710665d" title=" " alt="" coords="244,5,435,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="487,160,481,155,463,131,456,106,450,82,433,59,416,48,419,43,437,55,455,80,461,105,467,128,485,151,490,156"/>
+<area shape="rect" id="Node000005" href="$structdetail_1_1duration__formatter.html#ae0a16e2a89a6aaa61d36dc069d70421f" title=" " alt="" coords="244,69,435,109"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="497,163,481,156,457,140,433,124,406,112,408,107,436,119,460,135,484,151,499,158"/>
+<area shape="rect" id="Node000006" href="$structdetail_1_1duration__formatter.html#a46f7670012d8edd7186c2961725c8894" title=" " alt="" coords="244,133,435,173"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="469,173,434,169,435,163,469,168"/>
+<area shape="rect" id="Node000008" href="$structdetail_1_1duration__formatter.html#a27bb9bcca257513d9966428a0d705089" title=" " alt="" coords="244,197,435,237"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="469,203,435,207,434,202,469,197"/>
+<area shape="rect" id="Node000009" href="$structdetail_1_1duration__formatter.html#abe4a8e5797458144ae64f6c10ede01f1" title=" " alt="" coords="244,261,435,301"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="524,214,436,252,404,264,402,259,434,247,521,209"/>
+<area shape="rect" id="Node000010" href="$structdetail_1_1duration__formatter.html#a5eaa3651f2774bf273f23c4a6cb232a2" title=" " alt="" coords="244,325,435,365"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="552,217,501,267,470,293,436,316,412,328,409,323,433,311,467,289,498,263,548,213"/>
+<area shape="rect" id="Node000007" href="$structdetail_1_1duration__formatter.html#a8044d0b686a0080acbb954da3cab168d" title=" " alt="" coords="5,229,196,269"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="264,181,245,188,145,232,143,227,243,183,262,176"/>
+<area shape="poly" id="edge10_Node000010_Node000007" title=" " alt="" coords="262,323,243,316,143,272,145,267,245,311,264,318"/>
+</map>

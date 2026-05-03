@@ -1,0 +1,32 @@
+<map id="formatted_size" name="formatted_size">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,82,125,107"/>
+<area shape="rect" id="Node000002" href="$classdetail_1_1counting__buffer.html#ac5caa7bdfd7e1cb4019287c3dcb4ff5d" title=" " alt="" coords="173,11,341,51"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,79,183,53,184,58,105,84"/>
+<area shape="rect" id="Node000003" href="$classdetail_1_1counting__buffer.html#adafc31050da4053e1593583cdcdd33f1" title=" " alt="" coords="173,75,341,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="126,92,160,92,160,97,126,97"/>
+<area shape="rect" id="Node000005" href="$namespacedetail.html#a374a461d344b73468831b40acf5e4635" title=" " alt="" coords="188,209,327,234"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="87,105,227,199,224,203,84,110"/>
+<area shape="rect" id="Node000004" href="$classdetail_1_1counting__buffer.html#a670db06293f85dbf8f6c99bab65b6f15" title=" " alt="" coords="393,5,561,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="321,72,399,47,401,52,322,77"/>
+<area shape="rect" id="Node000006" href="$classbasic__appender.html#a3f0cd72d9279e98079287ae5c6cc53c0" title=" " alt="" coords="393,69,560,109"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="271,206,321,165,388,119,401,113,403,117,391,124,324,169,274,210"/>
+<area shape="rect" id="Node000007" href="$classbasic__string__view.html#a39cdfe061dc6d64a3adc230b62d8a026" title=" " alt="" coords="389,134,564,159"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="288,206,388,168,412,161,414,166,390,173,290,211"/>
+<area shape="rect" id="Node000008" href="$namespacedetail.html#a60a15c04518d5955ecfae225402491bb" title=" " alt="" coords="421,183,532,209"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="327,211,408,201,408,207,328,216"/>
+<area shape="rect" id="Node000009" href="$classbasic__format__args.html#a3339d3a4e4daaf7bb0de1a8084e7f086" title="Returns the argument with the specified id." alt="" coords="391,233,562,258"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="328,226,378,232,377,237,327,232"/>
+<area shape="rect" id="Node000013" href="$classparse__context.html#a9da9230b8f03bb6579efdcaae4b18003" title=" " alt="" coords="397,283,556,323"/>
+<area shape="poly" id="edge13_Node000005_Node000013" title=" " alt="" coords="293,232,410,275,408,280,292,237"/>
+<area shape="rect" id="Node000014" href="$namespacedetail.html#a90b356f92e340e20002ede151cfc6fab" title=" " alt="" coords="399,347,554,387"/>
+<area shape="poly" id="edge14_Node000005_Node000014" title=" " alt="" coords="272,232,321,280,355,308,391,332,402,339,400,343,388,337,351,312,318,284,269,236"/>
+<area shape="rect" id="Node000015" href="$classbasic__string__view.html#a216bbe1b012b590698d7bb4e96d1af3f" title=" " alt="" coords="391,411,562,437"/>
+<area shape="poly" id="edge15_Node000005_Node000015" title=" " alt="" coords="267,233,284,266,311,310,347,357,391,397,403,404,400,408,388,401,343,360,306,313,279,269,262,236"/>
+<area shape="rect" id="Node000010" href="$classbasic__format__args.html#a812f954be08646744a14d71f20b97830" title=" " alt="" coords="839,197,989,237"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="520,230,564,219,612,211,722,205,825,207,825,213,722,210,612,216,565,224,521,235"/>
+<area shape="rect" id="Node000011" href="$classbasic__format__args.html#a7747894fe7c14fb78260b53ca7702782" title=" " alt="" coords="626,225,777,265"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="563,243,612,243,612,248,563,248"/>
+<area shape="rect" id="Node000012" href="$classbasic__format__args.html#a4d5e597c31ce51609d7fa770c83dad39" title=" " alt="" coords="612,290,791,315"/>
+<area shape="poly" id="edge12_Node000009_Node000012" title=" " alt="" coords="528,255,639,284,637,289,527,261"/>
+<area shape="poly" id="edge11_Node000011_Node000010" title=" " alt="" coords="776,233,825,226,826,232,777,238"/>
+</map>

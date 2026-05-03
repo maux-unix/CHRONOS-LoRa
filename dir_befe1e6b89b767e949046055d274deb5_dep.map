@@ -1,10 +1,10 @@
 <map id="thirdparty/RadioLib/include/RadioLib/modules/LR2021" name="thirdparty/RadioLib/include/RadioLib/modules/LR2021">
 <area shape="rect" id="node1" href="dir_3aa0d7312f6bc18f587e20649af4810e.html" title="LR11x0" alt="" coords="27,125,98,151"/>
 <area shape="rect" id="node2" href="dir_befe1e6b89b767e949046055d274deb5.html" title="LR2021" alt="" coords="27,52,98,77"/>
-<area shape="poly" id="edge2" href="dir_000022_000021.html" alt="" coords="65,78,65,112,60,112,60,78"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000022_000021.html" title="1" alt="" coords="66,100,76,114"/>
+<area shape="poly" id="edge2" href="dir_000025_000024.html" alt="" coords="65,78,65,112,60,112,60,78"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000025_000024.html" title="1" alt="" coords="66,100,76,114"/>
 <area shape="rect" id="node3" href="dir_163606cfde595d82b017aa4b479a42c8.html" title="protocols" alt="" coords="123,125,205,151"/>
-<area shape="poly" id="edge1" href="dir_000022_000032.html" alt="" coords="80,75,138,115,135,119,77,80"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000022_000032.html" title="1" alt="" coords="133,100,142,115"/>
+<area shape="poly" id="edge1" href="dir_000025_000035.html" alt="" coords="80,75,138,115,135,119,77,80"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000025_000035.html" title="1" alt="" coords="133,100,142,115"/>
 <area shape="rect" id="clust1" href="dir_a48384f2308c177e6a33c0a7e7bdc595.html" title="modules" alt="" coords="16,16,109,161"/>
 </map>

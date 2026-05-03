@@ -1,0 +1,5 @@
+<map id="formatter&lt; std::reference_wrapper&lt; T &gt;, Char, enable_if_t&lt; is_formattable&lt; remove_cvref_t&lt; T &gt;, Char &gt;::value &amp;&amp;!detail::has_format_as&lt; T &gt;::value &amp;&amp;!detail::has_format_as_member&lt; T &gt;::value &gt; &gt;" name="formatter&lt; std::reference_wrapper&lt; T &gt;, Char, enable_if_t&lt; is_formattable&lt; remove_cvref_t&lt; T &gt;, Char &gt;::value &amp;&amp;!detail::has_format_as&lt; T &gt;::value &amp;&amp;!detail::has_format_as_member&lt; T &gt;::value &gt; &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,93,241,207"/>
+<area shape="rect" id="Node000002" href="$structformatter.html" title=" " alt="" coords="29,5,218,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,59,126,93,121,93,121,59"/>
+</map>

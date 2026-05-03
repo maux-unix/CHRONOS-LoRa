@@ -1,0 +1,21 @@
+<map id="detail::dragonbox::cache_accessor&lt; double &gt;::compute_mul" name="detail::dragonbox::cache_accessor&lt; double &gt;::compute_mul">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,41,188,96"/>
+<area shape="rect" id="Node000002" href="$classdetail_1_1uint128.html#a4f6fce63fc851baef913a020abe8e961" title=" " alt="" coords="455,5,607,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,53,236,47,441,24,442,30,236,53,188,59"/>
+<area shape="rect" id="Node000003" href="$classdetail_1_1uint128.html#ad78164a856629bbf7f8111f518ce5cbd" title=" " alt="" coords="458,56,605,81"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,66,445,66,445,71,188,71"/>
+<area shape="rect" id="Node000004" href="$namespacedetail_1_1dragonbox.html#ab9470405474ffc0d7b8bc15071b7d515" title=" " alt="" coords="236,106,383,146"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="189,91,223,100,222,105,188,96"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="333,104,376,72,430,41,452,32,454,37,432,46,379,76,336,108"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="381,103,430,90,462,82,463,87,431,95,382,108"/>
+<area shape="rect" id="Node000005" href="$classdetail_1_1uint128.html#a8605bfd967e879deaf9c105ed1a0354e" title=" " alt="" coords="431,105,632,131"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="383,121,417,119,417,125,383,126"/>
+<area shape="rect" id="Node000007" href="$namespacedetail.html#a79d19c16611e9ed84eb710d8380f9199" title=" " alt="" coords="469,155,593,180"/>
+<area shape="poly" id="edge8_Node000004_Node000007" title=" " alt="" coords="384,137,456,151,455,156,383,142"/>
+<area shape="rect" id="Node000009" href="$namespacedetail_1_1dragonbox.html#afb57aa963bc4232fb4bc88b845581d5a" title=" " alt="" coords="459,205,603,245"/>
+<area shape="poly" id="edge10_Node000004_Node000009" title=" " alt="" coords="344,144,432,190,450,197,448,202,430,195,342,149"/>
+<area shape="rect" id="Node000006" href="$namespacedetail.html#a75ed2634319883d038944529dbb954e2" title=" " alt="" coords="696,94,837,134"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="632,114,682,113,682,118,632,119"/>
+<area shape="rect" id="Node000008" href="$classdetail_1_1uint128.html#a31da8740f7bc5629bda4b1be76041612" title=" " alt="" coords="680,159,853,184"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="594,166,666,167,666,172,594,171"/>
+</map>

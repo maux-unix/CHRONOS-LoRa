@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['reedsolomon_0',['ReedSolomon',['../namespaceReedSolomon.html',1,'']]]
+  ['imageprocessing_0',['ImageProcessing',['../namespaceImageProcessing.html',1,'']]]
 ];

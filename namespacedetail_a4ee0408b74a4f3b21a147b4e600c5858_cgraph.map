@@ -1,0 +1,11 @@
+<map id="detail::print" name="detail::print">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,103,80"/>
+<area shape="rect" id="Node000002" href="$classbasic__string__view.html#a39cdfe061dc6d64a3adc230b62d8a026" title=" " alt="" coords="151,5,325,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,52,176,32,177,37,103,57"/>
+<area shape="rect" id="Node000003" href="$namespacedetail.html#a794a1985e3f6c245a917fd80a66950bd" title=" " alt="" coords="175,55,301,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="103,65,161,65,161,70,103,70"/>
+<area shape="rect" id="Node000005" href="$classbasic__string__view.html#a216bbe1b012b590698d7bb4e96d1af3f" title=" " alt="" coords="153,104,323,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="103,77,177,98,176,103,101,83"/>
+<area shape="rect" id="Node000004" href="$format_8h.html#a0558467fc6b6aa30ea74d60aafdf7821" title=" " alt="" coords="373,55,481,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="301,65,359,65,359,70,301,70"/>
+</map>

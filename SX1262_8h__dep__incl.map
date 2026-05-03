@@ -1,20 +1,19 @@
 <map id="thirdparty/RadioLib/include/RadioLib/modules/SX126x/SX1262.h" name="thirdparty/RadioLib/include/RadioLib/modules/SX126x/SX1262.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="57,5,251,60"/>
-<area shape="rect" id="Node000002" href="$transmitter-normal_8cpp.html" title="CHRONOS&#45;LoRa Transmitter program (Normal)" alt="" coords="5,504,201,529"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,74,115,107,98,148,86,192,81,237,81,335,83,384,89,433,103,503,98,505,84,433,78,385,75,335,75,237,80,191,93,146,110,105,128,71"/>
-<area shape="rect" id="Node000003" href="$RadioLib_8h.html" title=" " alt="" coords="155,313,361,353"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="146,74,138,116,135,165,139,216,146,241,156,264,180,291,210,311,207,316,176,295,152,267,141,243,134,217,129,165,133,115,140,73"/>
-<area shape="rect" id="Node000006" href="$LLCC68_8h.html" title=" " alt="" coords="167,211,360,265"/>
-<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="168,72,185,116,207,161,242,209,237,212,202,164,180,118,164,74"/>
-<area shape="rect" id="Node000007" href="$SX1261_8h.html" title=" " alt="" coords="217,108,411,163"/>
-<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="208,65,273,106,271,110,206,69"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="216,363,192,382,169,403,149,430,133,458,110,505,106,503,128,455,145,427,165,400,188,378,213,359"/>
-<area shape="rect" id="Node000004" href="$PiHal_8h.html" title=" " alt="" coords="179,401,337,456"/>
-<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="261,367,261,401,255,401,255,367"/>
-<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="200,465,125,506,123,502,198,460"/>
-<area shape="rect" id="Node000005" href="$receiver-normal_8cpp.html" title="CHRONOS&#45;LoRa Receiver program (Normal)" alt="" coords="226,504,402,529"/>
-<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="285,466,309,502,304,505,280,469"/>
-<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="264,279,262,313,256,313,258,279"/>
-<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="352,172,367,193,378,217,382,242,375,267,349,296,316,315,314,311,346,291,370,264,377,242,373,219,362,196,347,175"/>
-<area shape="poly" id="edge11_Node000007_Node000006" title=" " alt="" coords="297,176,279,212,274,209,292,174"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="73,5,266,60"/>
+<area shape="rect" id="Node000002" href="$receiver-normal_8cpp.html" title="CHRONOS&#45;LoRa Receiver program (Normal)" alt="" coords="5,504,181,529"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,74,130,107,114,148,101,192,96,237,96,335,96,504,91,504,91,335,91,237,96,191,109,146,126,105,143,71"/>
+<area shape="rect" id="Node000003" href="$RadioLib_8h.html" title=" " alt="" coords="176,313,381,353"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,74,153,116,150,165,154,216,161,241,172,264,196,291,227,311,224,315,192,295,167,267,156,243,149,217,144,165,148,115,156,73"/>
+<area shape="rect" id="Node000006" href="$LLCC68_8h.html" title=" " alt="" coords="182,211,375,265"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="184,72,200,116,222,161,257,209,253,212,218,164,195,118,179,74"/>
+<area shape="rect" id="Node000007" href="$SX1261_8h.html" title=" " alt="" coords="233,108,426,163"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="224,65,289,106,286,110,221,69"/>
+<area shape="rect" id="Node000004" href="$PiHal_8h.html" title=" " alt="" coords="200,401,357,456"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="281,367,281,401,276,401,276,367"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="211,464,119,506,117,501,208,459"/>
+<area shape="rect" id="Node000005" href="$transmitter-normal_8cpp.html" title="CHRONOS&#45;LoRa Transmitter program (Normal)" alt="" coords="206,504,402,529"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="293,468,303,503,298,504,288,470"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="281,279,281,313,276,313,276,279"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="368,171,381,190,391,210,398,238,397,252,390,267,365,295,333,315,331,311,362,291,386,264,392,250,393,239,385,212,376,192,364,174"/>
+<area shape="poly" id="edge10_Node000007_Node000006" title=" " alt="" coords="312,176,294,212,290,209,308,174"/>
 </map>

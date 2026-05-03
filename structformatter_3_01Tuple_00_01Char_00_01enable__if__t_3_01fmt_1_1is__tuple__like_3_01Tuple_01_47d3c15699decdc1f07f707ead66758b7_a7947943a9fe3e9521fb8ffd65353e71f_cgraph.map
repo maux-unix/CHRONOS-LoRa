@@ -1,0 +1,9 @@
+<map id="formatter&lt; Tuple, Char, enable_if_t&lt; fmt::is_tuple_like&lt; Tuple &gt;::value &amp;&amp;fmt::is_tuple_formattable&lt; Tuple, Char &gt;::value &gt; &gt;::parse" name="formatter&lt; Tuple, Char, enable_if_t&lt; fmt::is_tuple_like&lt; Tuple &gt;::value &amp;&amp;fmt::is_tuple_formattable&lt; Tuple, Char &gt;::value &gt; &gt;::parse">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,63,248,147"/>
+<area shape="rect" id="Node000002" href="$format-inl_8h.html#a5555893692b00b61b3886349332fd01f" title=" " alt="" coords="353,5,451,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,60,295,41,338,29,340,34,297,46,238,65"/>
+<area shape="rect" id="Node000003" href="$structformatter_3_01Tuple_00_01Char_00_01enable__if__t_3_01fmt_1_1is__tuple__like_3_01Tuple_01_47d3c15699decdc1f07f707ead66758b7.html#a385ac63a4631424bafc37094a59ec8f2" title=" " alt="" coords="296,55,508,154"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="248,102,282,102,282,107,248,107"/>
+<area shape="rect" id="Node000004" href="$structformatter_3_01Tuple_00_01Char_00_01enable__if__t_3_01fmt_1_1is__tuple__like_3_01Tuple_01_47d3c15699decdc1f07f707ead66758b7.html#a709fe7746b61cc11b6ae2bf7f08ca4a2" title=" " alt="" coords="296,178,508,277"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="223,144,284,172,282,177,220,149"/>
+</map>

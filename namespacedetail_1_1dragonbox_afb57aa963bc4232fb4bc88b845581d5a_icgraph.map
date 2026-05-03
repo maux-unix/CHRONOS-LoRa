@@ -1,0 +1,16 @@
+<map id="detail::dragonbox::umul128_upper64" name="detail::dragonbox::umul128_upper64">
+<area shape="rect" id="Node000001" title=" " alt="" coords="459,107,603,147"/>
+<area shape="rect" id="Node000002" href="$namespacedetail_1_1dragonbox.html#a1e63f7809d3939ec0f724e6ac65f5e8c" title=" " alt="" coords="236,5,411,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="472,104,383,62,385,58,475,99"/>
+<area shape="rect" id="Node000003" href="$namespacedetail.html#add861c358ea50b446b1a06080adb44ba" title=" " alt="" coords="23,81,170,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="445,123,170,102,170,97,445,118"/>
+<area shape="rect" id="Node000004" href="$namespacedetail_1_1dragonbox.html#ab9470405474ffc0d7b8bc15071b7d515" title=" " alt="" coords="250,135,397,175"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="445,142,397,148,397,143,445,136"/>
+<area shape="rect" id="Node000006" href="$namespacedetail_1_1dragonbox.html#aac8b701acbc705b1921215a4bc14f024" title=" " alt="" coords="251,206,395,246"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="479,156,412,190,371,208,369,203,410,185,477,151"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="237,134,187,121,145,109,147,104,189,115,238,129"/>
+<area shape="rect" id="Node000005" href="$structdetail_1_1dragonbox_1_1cache__accessor_3_01double_01_4.html#ae8b6d9661e9f0a2f71dc0db3c742588b" title=" " alt="" coords="5,131,188,185"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="236,159,188,160,188,154,236,154"/>
+<area shape="rect" id="Node000007" href="$structdetail_1_1dragonbox_1_1cache__accessor_3_01float_01_4.html#a8a10a5af08a2e3fe4c79137ab5fd96dc" title=" " alt="" coords="13,209,181,264"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="238,233,181,235,181,230,238,227"/>
+</map>

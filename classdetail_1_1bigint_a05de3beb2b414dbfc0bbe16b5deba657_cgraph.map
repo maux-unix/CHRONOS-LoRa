@@ -1,0 +1,13 @@
+<map id="detail::bigint::align" name="detail::bigint::align">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,112,149,137"/>
+<area shape="rect" id="Node000002" href="$classdetail_1_1buffer.html#aeb33e0a2d2be2bbca9e0236c148089c8" title="Returns a pointer to the buffer data (not null&#45;terminated)." alt="" coords="207,5,350,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,110,137,75,196,40,212,33,214,38,199,44,140,80,95,114"/>
+<area shape="rect" id="Node000003" href="$namespacedetail.html#a818b390bd30ad25b638f7b067cb50f15" title=" " alt="" coords="229,55,328,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="122,109,220,81,221,86,123,115"/>
+<area shape="rect" id="Node000004" href="$classbasic__memory__buffer.html#a9a5d3f229ccaf48e4176d7cdcfd84383" title=" " alt="" coords="197,105,360,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="150,122,184,122,184,127,150,127"/>
+<area shape="rect" id="Node000005" href="$classdetail_1_1buffer.html#a8685285932360c284d19003fc4ba3edc" title="Returns the size of this buffer." alt="" coords="209,169,348,195"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="123,135,221,163,220,168,122,140"/>
+<area shape="rect" id="Node000006" href="$namespacedetail.html#a4855e668246c731a97484efc329f2aac" title=" " alt="" coords="205,219,352,244"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="96,135,141,169,199,204,217,212,215,217,196,208,138,173,93,140"/>
+</map>

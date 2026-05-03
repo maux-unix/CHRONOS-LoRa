@@ -1,0 +1,16 @@
+<map id="detail::dragonbox::cache_accessor&lt; double &gt;::compute_mul_parity" name="detail::dragonbox::cache_accessor&lt; double &gt;::compute_mul_parity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,40,188,95"/>
+<area shape="rect" id="Node000002" href="$classdetail_1_1uint128.html#a4f6fce63fc851baef913a020abe8e961" title=" " alt="" coords="431,5,583,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,53,236,47,417,26,417,31,236,53,189,59"/>
+<area shape="rect" id="Node000003" href="$classdetail_1_1uint128.html#ad78164a856629bbf7f8111f518ce5cbd" title=" " alt="" coords="433,56,580,81"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,65,419,66,419,71,188,70"/>
+<area shape="rect" id="Node000004" href="$namespacedetail_1_1dragonbox.html#ac836659b351ddf33f74fee7f87cbeefc" title=" " alt="" coords="236,105,383,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="189,89,223,99,222,104,188,95"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="335,102,378,71,429,41,448,33,450,38,432,46,381,76,338,107"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="380,102,447,83,448,88,381,107"/>
+<area shape="rect" id="Node000005" href="$classdetail_1_1uint128.html#a31da8740f7bc5629bda4b1be76041612" title=" " alt="" coords="631,135,804,160"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="383,126,617,139,617,144,383,131"/>
+<area shape="rect" id="Node000006" href="$namespacedetail.html#a79d19c16611e9ed84eb710d8380f9199" title=" " alt="" coords="445,160,569,185"/>
+<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="384,140,441,154,440,159,383,145"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="568,163,616,157,617,162,569,168"/>
+</map>

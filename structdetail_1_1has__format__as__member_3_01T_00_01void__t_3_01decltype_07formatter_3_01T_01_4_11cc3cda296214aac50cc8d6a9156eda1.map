@@ -1,0 +1,5 @@
+<map id="detail::has_format_as_member&lt; T, void_t&lt; decltype(formatter&lt; T &gt;::format_as(std::declval&lt; const T &amp; &gt;()))&gt; &gt;" name="detail::has_format_as_member&lt; T, void_t&lt; decltype(formatter&lt; T &gt;::format_as(std::declval&lt; const T &amp; &gt;()))&gt; &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,220,163"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="57,5,169,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,44,115,79,110,79,110,44"/>
+</map>

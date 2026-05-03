@@ -1,0 +1,97 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,1156,121,1181"/>
+<area shape="rect" id="Node000001" href="$classMagick_1_1DrawableAffine.html" title=" " alt="" coords="203,5,381,31"/>
+<area shape="poly" id="edge41_Node000000_Node000001" title=" " alt="" coords="63,1142,70,914,87,563,101,385,119,227,141,106,153,65,167,40,183,27,202,19,204,24,186,32,171,44,158,68,146,108,124,227,107,385,93,564,75,915,68,1143"/>
+<area shape="rect" id="Node000002" href="$classMagick_1_1DrawableArc.html" title=" " alt="" coords="212,55,372,80"/>
+<area shape="poly" id="edge42_Node000000_Node000002" title=" " alt="" coords="63,1142,71,923,89,588,103,417,120,267,142,152,154,114,167,90,187,74,211,66,213,71,190,79,171,93,159,116,147,154,126,268,108,418,94,588,76,923,68,1142"/>
+<area shape="rect" id="Node000003" href="$classMagick_1_1DrawableBezier.html" title=" " alt="" coords="202,104,382,129"/>
+<area shape="poly" id="edge43_Node000000_Node000003" title=" " alt="" coords="63,1142,71,931,91,612,105,450,122,307,143,199,154,162,167,139,183,126,200,118,203,123,185,131,171,142,159,164,148,200,127,308,110,451,96,613,77,932,68,1142"/>
+<area shape="rect" id="Node000004" href="$classMagick_1_1DrawableCircle.html" title=" " alt="" coords="204,153,380,179"/>
+<area shape="poly" id="edge44_Node000000_Node000004" title=" " alt="" coords="63,1142,72,941,92,637,106,484,123,348,144,245,155,210,167,188,184,175,203,167,205,172,187,180,171,192,160,212,149,246,129,349,112,484,97,638,78,941,68,1143"/>
+<area shape="rect" id="Node000005" href="$classMagick_1_1DrawableClipPath.html" title=" " alt="" coords="196,203,388,228"/>
+<area shape="poly" id="edge45_Node000000_Node000005" title=" " alt="" coords="63,1142,73,950,94,662,108,517,125,389,144,291,155,258,167,238,194,219,197,224,171,241,160,260,150,293,130,389,113,517,99,663,79,950,68,1143"/>
+<area shape="rect" id="Node000006" href="$classMagick_1_1DrawableColor.html" title=" " alt="" coords="205,252,379,277"/>
+<area shape="poly" id="edge46_Node000000_Node000006" title=" " alt="" coords="63,1142,74,960,95,688,110,551,127,431,146,339,156,308,167,288,184,275,204,266,206,271,187,279,171,292,161,310,151,340,132,431,115,552,101,689,80,960,69,1143"/>
+<area shape="rect" id="Node000007" href="$classMagick_1_1DrawableCompositeImage.html" title=" " alt="" coords="187,302,397,342"/>
+<area shape="poly" id="edge47_Node000000_Node000007" title=" " alt="" coords="62,1142,62,982,74,746,86,623,105,510,132,416,148,380,167,352,186,337,189,341,171,356,153,383,137,418,111,511,92,623,79,746,68,983,67,1142"/>
+<area shape="rect" id="Node000008" href="$classMagick_1_1DrawableDashArray.html" title=" " alt="" coords="189,367,395,392"/>
+<area shape="poly" id="edge48_Node000000_Node000008" title=" " alt="" coords="62,1142,63,991,75,768,88,653,107,547,133,461,149,427,167,401,187,387,190,391,171,405,153,430,138,463,112,549,93,654,80,769,68,991,67,1142"/>
+<area shape="rect" id="Node000009" href="$classMagick_1_1DrawableDashOffset.html" title=" " alt="" coords="187,416,397,441"/>
+<area shape="poly" id="edge49_Node000000_Node000009" title=" " alt="" coords="62,1142,65,999,78,791,91,684,110,586,135,506,150,474,167,451,185,437,188,442,171,455,154,477,140,508,115,587,96,685,83,791,70,999,67,1142"/>
+<area shape="rect" id="Node000010" href="$classMagick_1_1DrawableEllipse.html" title=" " alt="" coords="201,465,383,491"/>
+<area shape="poly" id="edge50_Node000000_Node000010" title=" " alt="" coords="62,1142,67,1008,81,815,94,716,113,625,137,551,151,522,167,500,182,488,199,481,201,485,185,493,171,504,156,525,141,553,118,627,100,717,87,816,72,1008,68,1142"/>
+<area shape="rect" id="Node000011" href="$classMagick_1_1DrawableFillColor.html" title=" " alt="" coords="196,515,388,540"/>
+<area shape="poly" id="edge51_Node000000_Node000011" title=" " alt="" coords="63,1142,68,1017,84,839,98,748,116,664,138,596,152,570,168,549,195,532,197,536,171,553,157,572,143,598,121,666,103,748,90,839,74,1017,68,1142"/>
+<area shape="rect" id="Node000012" href="$classMagick_1_1DrawableFillOpacity.html" title=" " alt="" coords="188,564,396,589"/>
+<area shape="poly" id="edge52_Node000000_Node000012" title=" " alt="" coords="63,1142,70,1026,88,863,101,779,119,703,140,641,153,617,167,599,186,585,189,589,171,603,158,620,145,643,124,705,106,780,93,863,76,1026,68,1143"/>
+<area shape="rect" id="Node000013" href="$classMagick_1_1DrawableFillRule.html" title=" " alt="" coords="199,613,385,639"/>
+<area shape="poly" id="edge53_Node000000_Node000013" title=" " alt="" coords="64,1141,72,1034,91,886,105,811,122,742,142,686,167,648,197,630,200,634,171,652,147,689,127,744,110,812,96,887,78,1034,69,1142"/>
+<area shape="rect" id="Node000014" href="$classMagick_1_1DrawableFont.html" title=" " alt="" coords="209,663,375,688"/>
+<area shape="poly" id="edge54_Node000000_Node000014" title=" " alt="" coords="64,1142,74,1044,94,911,108,843,125,782,144,732,167,697,186,684,208,676,210,681,189,689,171,701,149,734,130,783,113,844,99,911,80,1045,69,1143"/>
+<area shape="rect" id="Node000015" href="$classMagick_1_1DrawableGravity.html" title=" " alt="" coords="199,712,385,737"/>
+<area shape="poly" id="edge55_Node000000_Node000015" title=" " alt="" coords="65,1142,77,1053,98,935,112,875,128,821,146,777,168,747,197,729,200,733,171,751,151,779,133,823,117,876,103,936,82,1054,70,1143"/>
+<area shape="rect" id="Node000016" href="$classMagick_1_1DrawableLine.html" title=" " alt="" coords="209,761,375,787"/>
+<area shape="poly" id="edge56_Node000000_Node000016" title=" " alt="" coords="66,1142,79,1063,101,959,131,860,148,822,167,796,186,783,208,775,209,780,189,788,171,800,153,825,136,862,106,960,84,1064,71,1143"/>
+<area shape="rect" id="Node000017" href="$classMagick_1_1DrawableMatte.html" title=" " alt="" coords="203,811,381,836"/>
+<area shape="poly" id="edge57_Node000000_Node000017" title=" " alt="" coords="62,1142,67,1081,82,1000,95,958,114,917,137,878,168,845,184,834,202,826,204,831,186,839,171,849,142,882,118,919,100,960,87,1002,72,1081,68,1142"/>
+<area shape="rect" id="Node000018" href="$classMagick_1_1DrawableMiterLimit.html" title=" " alt="" coords="189,860,395,885"/>
+<area shape="poly" id="edge58_Node000000_Node000018" title=" " alt="" coords="64,1142,72,1090,89,1022,102,987,120,953,141,922,168,895,187,882,190,887,171,899,145,925,124,956,107,989,94,1024,77,1091,69,1143"/>
+<area shape="rect" id="Node000019" href="$classMagick_1_1DrawablePath.html" title=" " alt="" coords="209,909,375,935"/>
+<area shape="poly" id="edge59_Node000000_Node000019" title=" " alt="" coords="67,1142,77,1098,96,1044,126,990,145,965,168,944,187,932,208,925,209,930,189,937,171,948,149,969,130,993,101,1046,82,1099,72,1143"/>
+<area shape="rect" id="Node000020" href="$classMagick_1_1DrawablePoint.html" title=" " alt="" coords="206,959,378,984"/>
+<area shape="poly" id="edge60_Node000000_Node000020" title=" " alt="" coords="70,1142,84,1107,104,1067,132,1027,168,993,204,976,206,981,171,998,136,1030,109,1070,89,1110,75,1144"/>
+<area shape="rect" id="Node000021" href="$classMagick_1_1DrawablePointSize.html" title=" " alt="" coords="193,1008,391,1033"/>
+<area shape="poly" id="edge61_Node000000_Node000021" title=" " alt="" coords="76,1142,113,1091,138,1064,168,1042,193,1031,195,1036,171,1047,142,1068,117,1094,81,1145"/>
+<area shape="rect" id="Node000022" href="$classMagick_1_1DrawablePolygon.html" title=" " alt="" coords="197,1057,387,1083"/>
+<area shape="poly" id="edge62_Node000000_Node000022" title=" " alt="" coords="87,1145,124,1117,168,1092,202,1080,203,1085,170,1096,127,1121,91,1149"/>
+<area shape="rect" id="Node000023" href="$classMagick_1_1DrawablePolyline.html" title=" " alt="" coords="197,1107,387,1132"/>
+<area shape="poly" id="edge63_Node000000_Node000023" title=" " alt="" coords="128,1150,169,1141,223,1129,224,1135,170,1146,129,1155"/>
+<area shape="rect" id="Node000024" href="$classMagick_1_1DrawablePopClipPath.html" title=" " alt="" coords="184,1156,400,1181"/>
+<area shape="poly" id="edge64_Node000000_Node000024" title=" " alt="" coords="135,1166,184,1166,184,1171,135,1171"/>
+<area shape="rect" id="Node000025" href="$classMagick_1_1DrawablePopGraphicContext.html" title=" " alt="" coords="185,1206,399,1246"/>
+<area shape="poly" id="edge65_Node000000_Node000025" title=" " alt="" coords="129,1182,212,1203,211,1209,127,1187"/>
+<area shape="rect" id="Node000026" href="$classMagick_1_1DrawablePopPattern.html" title=" " alt="" coords="187,1271,397,1296"/>
+<area shape="poly" id="edge66_Node000000_Node000026" title=" " alt="" coords="87,1190,124,1224,171,1256,204,1268,202,1273,168,1260,120,1229,83,1194"/>
+<area shape="rect" id="Node000027" href="$classMagick_1_1DrawablePushClipPath.html" title=" " alt="" coords="181,1320,403,1345"/>
+<area shape="poly" id="edge67_Node000000_Node000027" title=" " alt="" coords="79,1192,114,1250,140,1280,171,1305,197,1318,195,1322,168,1310,137,1284,110,1253,74,1195"/>
+<area shape="rect" id="Node000028" href="$classMagick_1_1DrawablePushGraphicContext.html" title=" " alt="" coords="182,1370,402,1410"/>
+<area shape="poly" id="edge68_Node000000_Node000028" title=" " alt="" coords="74,1194,87,1230,107,1274,135,1317,171,1355,192,1368,189,1372,168,1359,131,1321,103,1276,82,1232,69,1195"/>
+<area shape="rect" id="Node000029" href="$classMagick_1_1DrawablePushPattern.html" title=" " alt="" coords="184,1435,400,1460"/>
+<area shape="poly" id="edge69_Node000000_Node000029" title=" " alt="" coords="70,1195,79,1244,97,1305,127,1368,147,1396,171,1420,191,1432,188,1437,168,1424,143,1399,122,1370,92,1307,74,1245,65,1196"/>
+<area shape="rect" id="Node000030" href="$classMagick_1_1DrawableRectangle.html" title=" " alt="" coords="190,1484,394,1509"/>
+<area shape="poly" id="edge70_Node000000_Node000030" title=" " alt="" coords="68,1194,74,1252,90,1327,103,1366,121,1404,143,1439,171,1469,191,1482,188,1487,168,1473,139,1442,116,1407,98,1368,85,1328,69,1253,63,1195"/>
+<area shape="rect" id="Node000031" href="$classMagick_1_1DrawableRotation.html" title=" " alt="" coords="195,1533,389,1559"/>
+<area shape="poly" id="edge71_Node000000_Node000031" title=" " alt="" coords="67,1195,70,1261,83,1349,96,1395,115,1441,139,1483,171,1519,196,1534,193,1539,168,1523,135,1486,110,1443,91,1397,78,1350,64,1262,61,1195"/>
+<area shape="rect" id="Node000032" href="$classMagick_1_1DrawableRoundRectangle.html" title=" " alt="" coords="169,1583,415,1608"/>
+<area shape="poly" id="edge72_Node000000_Node000032" title=" " alt="" coords="71,1195,83,1280,104,1393,134,1500,152,1541,171,1568,189,1580,186,1585,167,1572,147,1543,129,1501,99,1394,78,1281,65,1196"/>
+<area shape="rect" id="Node000033" href="$classMagick_1_1DrawableScaling.html" title=" " alt="" coords="199,1632,385,1657"/>
+<area shape="poly" id="edge73_Node000000_Node000033" title=" " alt="" coords="70,1195,81,1289,101,1417,115,1481,131,1539,150,1586,171,1617,200,1635,197,1639,167,1621,145,1589,126,1541,110,1482,96,1418,75,1290,64,1195"/>
+<area shape="rect" id="Node000034" href="$classMagick_1_1DrawableSkewX.html" title=" " alt="" coords="201,1681,383,1707"/>
+<area shape="poly" id="edge74_Node000000_Node000034" title=" " alt="" coords="69,1195,79,1299,98,1441,111,1513,128,1578,148,1631,171,1667,185,1678,202,1685,199,1690,182,1682,167,1670,143,1634,123,1580,106,1514,92,1442,73,1299,64,1196"/>
+<area shape="rect" id="Node000035" href="$classMagick_1_1DrawableSkewY.html" title=" " alt="" coords="201,1731,383,1756"/>
+<area shape="poly" id="edge75_Node000000_Node000035" title=" " alt="" coords="69,1195,77,1308,94,1465,108,1545,125,1618,146,1677,158,1699,171,1716,185,1727,202,1735,200,1740,183,1732,167,1720,154,1702,141,1679,120,1619,103,1546,89,1466,71,1309,63,1195"/>
+<area shape="rect" id="Node000036" href="$classMagick_1_1DrawableStrokeAntialias.html" title=" " alt="" coords="173,1780,411,1805"/>
+<area shape="poly" id="edge76_Node000000_Node000036" title=" " alt="" coords="68,1195,75,1317,91,1489,105,1577,122,1657,144,1722,157,1747,171,1765,187,1778,184,1782,167,1769,153,1750,139,1724,117,1658,99,1578,86,1490,69,1318,63,1196"/>
+<area shape="rect" id="Node000037" href="$classMagick_1_1DrawableStrokeColor.html" title=" " alt="" coords="185,1829,399,1855"/>
+<area shape="poly" id="edge77_Node000000_Node000037" title=" " alt="" coords="68,1195,73,1325,88,1512,101,1608,119,1696,142,1767,156,1794,171,1815,187,1827,184,1831,167,1819,152,1797,137,1769,114,1697,96,1609,83,1513,67,1326,62,1195"/>
+<area shape="rect" id="Node000038" href="$classMagick_1_1DrawableStrokeLineCap.html" title=" " alt="" coords="176,1879,408,1904"/>
+<area shape="poly" id="edge78_Node000000_Node000038" title=" " alt="" coords="67,1195,71,1334,85,1536,98,1640,116,1735,140,1812,155,1842,171,1864,187,1876,184,1881,167,1868,150,1845,135,1814,111,1736,93,1641,80,1537,66,1335,62,1195"/>
+<area shape="rect" id="Node000039" href="$classMagick_1_1DrawableStrokeLineJoin.html" title=" " alt="" coords="177,1928,407,1953"/>
+<area shape="poly" id="edge79_Node000000_Node000039" title=" " alt="" coords="67,1195,69,1344,82,1560,95,1672,113,1774,139,1858,154,1890,171,1913,187,1926,184,1930,167,1917,149,1892,134,1860,108,1775,89,1673,77,1561,64,1344,62,1195"/>
+<area shape="rect" id="Node000040" href="$classMagick_1_1DrawableStrokeOpacity.html" title=" " alt="" coords="177,1977,407,2003"/>
+<area shape="poly" id="edge80_Node000000_Node000040" title=" " alt="" coords="67,1195,68,1351,79,1583,91,1703,110,1813,137,1903,153,1937,171,1963,186,1975,183,1979,167,1967,148,1940,132,1905,105,1814,86,1704,73,1583,62,1351,62,1195"/>
+<area shape="rect" id="Node000041" href="$classMagick_1_1DrawableStrokeWidth.html" title=" " alt="" coords="183,2027,401,2052"/>
+<area shape="poly" id="edge81_Node000000_Node000041" title=" " alt="" coords="69,1195,80,1372,102,1632,116,1763,133,1879,151,1966,161,1995,171,2012,186,2024,183,2028,167,2016,156,1997,146,1967,128,1880,111,1764,97,1633,75,1372,63,1195"/>
+<area shape="rect" id="Node000042" href="$classMagick_1_1DrawableText.html" title=" " alt="" coords="209,2076,375,2101"/>
+<area shape="poly" id="edge82_Node000000_Node000042" title=" " alt="" coords="69,1195,79,1381,100,1657,115,1797,131,1919,150,2012,161,2043,171,2062,188,2075,209,2083,207,2088,186,2080,167,2065,156,2045,145,2014,126,1920,109,1797,95,1658,74,1381,63,1195"/>
+<area shape="rect" id="Node000043" href="$classMagick_1_1DrawableTextAntialias.html" title=" " alt="" coords="181,2125,403,2151"/>
+<area shape="poly" id="edge83_Node000000_Node000043" title=" " alt="" coords="68,1195,78,1390,99,1682,113,1830,130,1960,149,2059,160,2091,171,2111,186,2123,183,2127,167,2114,155,2094,144,2060,125,1961,108,1831,93,1683,73,1391,63,1195"/>
+<area shape="rect" id="Node000044" href="$classMagick_1_1DrawableTextDecoration.html" title=" " alt="" coords="173,2175,411,2200"/>
+<area shape="poly" id="edge84_Node000000_Node000044" title=" " alt="" coords="68,1195,77,1399,97,1707,111,1863,128,2001,149,2105,160,2140,171,2160,186,2172,183,2177,167,2164,155,2142,143,2106,123,2001,106,1864,92,1708,72,1400,63,1195"/>
+<area shape="rect" id="Node000045" href="$classMagick_1_1DrawableTextUnderColor.html" title=" " alt="" coords="189,2225,395,2265"/>
+<area shape="poly" id="edge85_Node000000_Node000045" title=" " alt="" coords="68,1195,77,1408,97,1731,111,1895,128,2040,148,2150,160,2187,171,2210,190,2225,187,2230,167,2213,155,2189,143,2152,123,2041,106,1896,91,1731,72,1408,63,1195"/>
+<area shape="rect" id="Node000046" href="$classMagick_1_1DrawableTranslation.html" title=" " alt="" coords="187,2289,397,2315"/>
+<area shape="poly" id="edge86_Node000000_Node000046" title=" " alt="" coords="68,1195,76,1420,94,1765,107,1940,125,2095,146,2212,158,2252,171,2275,188,2288,185,2292,167,2278,153,2254,141,2214,120,2096,102,1941,88,1765,70,1421,63,1195"/>
+<area shape="rect" id="Node000047" href="$classMagick_1_1DrawableViewbox.html" title=" " alt="" coords="195,2339,389,2364"/>
+<area shape="poly" id="edge87_Node000000_Node000047" title=" " alt="" coords="68,1195,75,1428,92,1789,106,1973,123,2135,145,2258,158,2300,171,2324,196,2341,193,2346,167,2328,153,2302,140,2260,118,2136,100,1973,87,1789,69,1429,63,1195"/>
+</map>

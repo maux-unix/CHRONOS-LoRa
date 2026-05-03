@@ -1,0 +1,19 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$structformatter_3_01std_1_1tm_00_01Char_01_4.html" title=" " alt="" coords="5,170,155,210"/>
+<area shape="rect" id="Node000001" href="$structformatter_3_01day_00_01Char_01_4.html" title=" " alt="" coords="212,5,388,31"/>
+<area shape="poly" id="edge98_Node000000_Node000001" title=" " alt="" coords="97,156,140,97,168,67,201,41,228,28,230,33,204,46,172,71,144,101,102,160"/>
+<area shape="rect" id="Node000002" href="$structformatter_3_01local__time_3_01Duration_01_4_00_01Char_01_4.html" title=" " alt="" coords="217,55,383,95"/>
+<area shape="poly" id="edge99_Node000000_Node000002" title=" " alt="" coords="116,159,156,131,201,105,230,93,232,98,204,110,159,136,119,164"/>
+<area shape="rect" id="Node000003" href="$structformatter_3_01month_00_01Char_01_4.html" title=" " alt="" coords="203,120,397,145"/>
+<area shape="poly" id="edge100_Node000000_Node000003" title=" " alt="" coords="167,165,250,143,251,148,169,170"/>
+<area shape="rect" id="Node000004" href="$structformatter_3_01sys__time_3_01Duration_01_4_00_01Char_01_4.html" title=" " alt="" coords="219,170,381,210"/>
+<area shape="poly" id="edge101_Node000000_Node000004" title=" " alt="" coords="169,187,219,187,219,193,169,193"/>
+<area shape="rect" id="Node000006" href="$structformatter_3_01weekday_00_01Char_01_4.html" title=" " alt="" coords="219,234,381,274"/>
+<area shape="poly" id="edge103_Node000000_Node000006" title=" " alt="" coords="163,211,231,231,230,237,162,216"/>
+<area shape="rect" id="Node000007" href="$structformatter_3_01year_00_01Char_01_4.html" title=" " alt="" coords="209,299,391,324"/>
+<area shape="poly" id="edge104_Node000000_Node000007" title=" " alt="" coords="113,217,154,252,204,284,236,296,234,301,201,288,151,256,110,222"/>
+<area shape="rect" id="Node000008" href="$structformatter_3_01year__month__day_00_01Char_01_4.html" title=" " alt="" coords="211,349,389,389"/>
+<area shape="poly" id="edge105_Node000000_Node000008" title=" " alt="" coords="103,220,145,278,173,307,204,333,228,346,226,351,201,338,169,311,141,281,98,224"/>
+<area shape="rect" id="Node000005" href="$structformatter_3_01utc__time_3_01Duration_01_4_00_01Char_01_4.html" title=" " alt="" coords="445,170,607,210"/>
+<area shape="poly" id="edge102_Node000004_Node000005" title=" " alt="" coords="394,187,445,187,445,193,394,193"/>
+</map>

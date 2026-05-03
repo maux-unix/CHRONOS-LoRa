@@ -1,0 +1,5 @@
+<map id="detail::has_insert&lt; OutputIt, T, void_t&lt; decltype(get_container(std::declval&lt; OutputIt &gt;()) .insert({}, std::declval&lt; T &gt;(), std::declval&lt; T &gt;()))&gt; &gt;" name="detail::has_insert&lt; OutputIt, T, void_t&lt; decltype(get_container(std::declval&lt; OutputIt &gt;()) .insert({}, std::declval&lt; T &gt;(), std::declval&lt; T &gt;()))&gt; &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,243,177"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="68,5,180,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,44,127,78,121,78,121,44"/>
+</map>

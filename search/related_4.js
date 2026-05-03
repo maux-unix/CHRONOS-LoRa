@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['image_0',['Image',['../classMagick_1_1TypeMetric.html#a5d6b29a75202aeeaef335faca9eb55e2',1,'Magick::TypeMetric']]]
+  ['get_5ffile_0',['get_file',['../classdetail_1_1file__access.html#af51f63dee287e36393a2af522d0f2f67',1,'detail::file_access']]]
 ];

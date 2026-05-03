@@ -1,0 +1,26 @@
+<map id="detail::bigint::divmod_assign" name="detail::bigint::divmod_assign">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,166,167,206"/>
+<area shape="rect" id="Node000002" href="$classdetail_1_1bigint.html#a05de3beb2b414dbfc0bbe16b5deba657" title=" " alt="" coords="439,52,583,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,163,451,79,452,84,158,169"/>
+<area shape="rect" id="Node000006" href="$classdetail_1_1buffer.html#a8685285932360c284d19003fc4ba3edc" title="Returns the size of this buffer." alt="" coords="653,229,792,255"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="160,203,215,215,330,231,445,239,639,242,639,247,445,244,329,236,214,221,159,209"/>
+<area shape="rect" id="Node000008" href="$classdetail_1_1bigint.html#a4cc50c379f6ee3a9a7dc19c1a864ae4f" title=" " alt="" coords="215,166,380,206"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="167,183,201,183,201,189,167,189"/>
+<area shape="rect" id="Node000003" href="$classdetail_1_1buffer.html#aeb33e0a2d2be2bbca9e0236c148089c8" title="Returns a pointer to the buffer data (not null&#45;terminated)." alt="" coords="651,55,794,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="583,63,638,64,638,69,583,68"/>
+<area shape="rect" id="Node000004" href="$namespacedetail.html#a818b390bd30ad25b638f7b067cb50f15" title=" " alt="" coords="673,5,772,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="569,49,659,29,660,34,570,55"/>
+<area shape="rect" id="Node000005" href="$classbasic__memory__buffer.html#a9a5d3f229ccaf48e4176d7cdcfd84383" title=" " alt="" coords="641,165,804,205"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="568,75,595,88,611,101,620,115,629,129,643,143,663,156,660,160,640,147,625,132,616,118,607,105,592,92,566,80"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="576,75,595,88,608,104,616,121,620,153,624,185,631,200,643,215,650,220,647,225,639,219,626,202,619,186,615,154,611,122,604,107,592,92,573,80"/>
+<area shape="rect" id="Node000007" href="$namespacedetail.html#a4855e668246c731a97484efc329f2aac" title=" " alt="" coords="649,108,796,133"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="560,75,661,102,660,107,559,80"/>
+<area shape="poly" id="edge13_Node000008_Node000006" title=" " alt="" coords="371,203,428,215,538,229,640,236,639,241,538,234,428,221,370,209"/>
+<area shape="rect" id="Node000009" href="$classdetail_1_1bigint.html#ae750f01e552f13e9f3e7001ac78163d1" title=" " alt="" coords="429,166,592,206"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="380,183,415,183,415,189,380,189"/>
+<area shape="rect" id="Node000010" href="$classdetail_1_1bigint.html#a58e6d906eab89170f8d83865302bb8cb" title=" " alt="" coords="428,102,593,142"/>
+<area shape="poly" id="edge14_Node000008_Node000010" title=" " alt="" coords="364,163,430,143,431,149,366,168"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="592,183,628,183,628,188,592,188"/>
+<area shape="poly" id="edge11_Node000009_Node000006" title=" " alt="" coords="588,203,661,223,660,228,586,209"/>
+<area shape="poly" id="edge12_Node000009_Node000007" title=" " alt="" coords="576,163,667,135,668,140,577,168"/>
+</map>

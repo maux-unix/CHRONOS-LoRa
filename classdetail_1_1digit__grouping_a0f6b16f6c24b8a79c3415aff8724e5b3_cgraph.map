@@ -1,0 +1,31 @@
+<map id="detail::digit_grouping::apply" name="detail::digit_grouping::apply">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,237,165,277"/>
+<area shape="rect" id="Node000002" href="$classbasic__memory__buffer.html#a7a9300acfadb00a835b36a86a198f433" title=" " alt="" coords="219,79,390,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,235,147,183,178,154,212,129,223,123,225,127,215,134,181,158,151,186,104,238"/>
+<area shape="rect" id="Node000009" href="$classdetail_1_1digit__grouping.html#a35896d09fe42092f3fcc1d510458660f" title=" " alt="" coords="225,143,385,183"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="124,234,212,193,230,186,232,191,214,198,127,239"/>
+<area shape="rect" id="Node000010" href="$classdetail_1_1digit__grouping.html#abd1d32b1db7e21849b55dea24882a82a" title=" " alt="" coords="225,207,385,247"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="165,243,211,237,212,242,166,249"/>
+<area shape="rect" id="Node000012" href="$classdetail_1_1buffer.html#a49016d0c600f79917e00d9e3458c8c92" title=" " alt="" coords="213,272,396,297"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="166,264,200,269,199,274,165,269"/>
+<area shape="rect" id="Node000014" href="$classdetail_1_1buffer.html#a8685285932360c284d19003fc4ba3edc" title="Returns the size of this buffer." alt="" coords="235,321,374,347"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="131,274,214,307,239,315,237,320,212,313,129,279"/>
+<area shape="rect" id="Node000015" href="$namespacedetail.html#a4855e668246c731a97484efc329f2aac" title=" " alt="" coords="231,371,378,396"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="108,275,154,317,183,338,215,357,230,364,228,369,212,362,181,343,151,321,104,279"/>
+<area shape="rect" id="Node000003" href="$classbasic__memory__buffer.html#a97d9a0a0f9827c9277e2eea97fa0309b" title=" " alt="" coords="444,47,607,87"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="390,84,430,78,431,84,391,90"/>
+<area shape="rect" id="Node000008" href="$namespacedetail.html#a75ed2634319883d038944529dbb954e2" title=" " alt="" coords="455,111,596,151"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="391,109,441,116,440,122,390,114"/>
+<area shape="rect" id="Node000004" href="$namespacedetail.html#a9d0b4b56d52390d7c8a4be7baa5e2382" title=" " alt="" coords="655,5,825,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="606,46,670,31,672,36,607,51"/>
+<area shape="rect" id="Node000006" href="$namespacedetail.html#a208b54c1c61a9bce9df4531a657a0c64" title=" " alt="" coords="681,55,799,80"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="607,65,667,65,667,70,607,70"/>
+<area shape="rect" id="Node000007" href="$base_8h.html#a67ebc2a5b1748c4692931267cd6f89bf" title=" " alt="" coords="705,104,775,129"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="607,83,692,103,691,108,606,89"/>
+<area shape="rect" id="Node000005" href="$namespacedetail.html#a1fe84ebaf96215ce0665d95b3124c2df" title=" " alt="" coords="873,5,1036,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="826,15,859,15,859,21,826,21"/>
+<area shape="rect" id="Node000011" href="$namespacedetail.html#a45c2130c44ebe54179eafcee3cda2bfb" title=" " alt="" coords="456,215,595,240"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="385,225,442,225,442,230,385,230"/>
+<area shape="rect" id="Node000013" href="$classdetail_1_1buffer.html#a91bcecc177b01b84d693028111fbd8eb" title=" " alt="" coords="460,265,591,305"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="397,282,447,282,447,287,397,287"/>
+</map>

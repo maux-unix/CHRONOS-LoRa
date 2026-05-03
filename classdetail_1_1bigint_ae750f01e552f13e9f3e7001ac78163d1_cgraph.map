@@ -1,0 +1,9 @@
+<map id="detail::bigint::remove_leading_zeros" name="detail::bigint::remove_leading_zeros">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,63,168,103"/>
+<area shape="rect" id="Node000002" href="$classbasic__memory__buffer.html#a9a5d3f229ccaf48e4176d7cdcfd84383" title=" " alt="" coords="216,5,379,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,60,210,46,211,52,161,65"/>
+<area shape="rect" id="Node000003" href="$classdetail_1_1buffer.html#a8685285932360c284d19003fc4ba3edc" title="Returns the size of this buffer." alt="" coords="228,70,367,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,80,214,80,214,85,168,85"/>
+<area shape="rect" id="Node000004" href="$namespacedetail.html#a4855e668246c731a97484efc329f2aac" title=" " alt="" coords="224,119,371,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="169,99,230,114,228,119,168,104"/>
+</map>

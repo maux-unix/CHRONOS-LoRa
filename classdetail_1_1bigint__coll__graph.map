@@ -1,0 +1,14 @@
+<map id="detail::bigint" name="detail::bigint">
+<area shape="rect" id="Node000001" title=" " alt="" coords="151,299,255,324"/>
+<area shape="rect" id="Node000002" href="$classbasic__memory__buffer.html" title=" " alt="" coords="110,196,297,236"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,250,206,298,201,298,201,250"/>
+<area shape="rect" id="Node000003" href="$classdetail_1_1buffer.html" title=" " alt="" coords="52,101,195,126"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="143,135,190,194,186,198,139,138"/>
+<area shape="rect" id="Node000004" href="$classdetail_1_1buffer.html" title=" " alt="" coords="5,5,148,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="91,42,120,99,115,102,86,44"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="163,10,175,18,166,26,149,28,148,23,164,21,169,18,160,14"/>
+<area shape="rect" id="Node000005" href="$structdetail_1_1allocator.html" title=" " alt="" coords="237,93,372,133"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="278,145,224,198,220,194,274,141"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="241,5,387,31"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="314,45,309,93,304,93,309,44"/>
+</map>

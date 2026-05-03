@@ -12,10 +12,10 @@
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="189,-239 44,-239 44,-198 189,-198 189,-239"/>
-<text text-anchor="start" x="52" y="-227" font-family="Helvetica,sans-Serif" font-size="10.00">thirdparty/RadioLib</text>
-<text text-anchor="start" x="52" y="-216" font-family="Helvetica,sans-Serif" font-size="10.00">/include/RadioLib/modules</text>
-<text text-anchor="middle" x="116.5" y="-205" font-family="Helvetica,sans-Serif" font-size="10.00">/SX127x/SX1276.h</text>
+<polygon fill="#999999" stroke="#666666" points="217.5,-239 72.5,-239 72.5,-198 217.5,-198 217.5,-239"/>
+<text text-anchor="start" x="80.5" y="-227" font-family="Helvetica,sans-Serif" font-size="10.00">thirdparty/RadioLib</text>
+<text text-anchor="start" x="80.5" y="-216" font-family="Helvetica,sans-Serif" font-size="10.00">/include/RadioLib/modules</text>
+<text text-anchor="middle" x="145" y="-205" font-family="Helvetica,sans-Serif" font-size="10.00">/SX127x/SX1276.h</text>
 </a>
 </g>
 </g>
@@ -23,9 +23,9 @@
 <g id="Node000002" class="node">
 <title>Node2</title>
 <g id="a_Node000002"><a xlink:href="RadioLib_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="193.5,-162 39.5,-162 39.5,-132 193.5,-132 193.5,-162"/>
-<text text-anchor="start" x="47.5" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00">thirdparty/RadioLib</text>
-<text text-anchor="middle" x="116.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">/include/RadioLib/RadioLib.h</text>
+<polygon fill="white" stroke="#666666" points="222,-162 68,-162 68,-132 222,-132 222,-162"/>
+<text text-anchor="start" x="76" y="-150" font-family="Helvetica,sans-Serif" font-size="10.00">thirdparty/RadioLib</text>
+<text text-anchor="middle" x="145" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">/include/RadioLib/RadioLib.h</text>
 </a>
 </g>
 </g>
@@ -33,17 +33,19 @@
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M116.5,-187.66C116.5,-178.76 116.5,-169.42 116.5,-162.04"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="113,-187.77 116.5,-197.77 120,-187.77 113,-187.77"/>
+<path fill="none" stroke="#63b8ff" d="M145,-187.66C145,-178.76 145,-169.42 145,-162.04"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="141.5,-187.77 145,-197.77 148.5,-187.77 141.5,-187.77"/>
 </a>
 </g>
 </g>
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="transmitter-normal_8cpp.html" target="_top" xlink:title="CHRONOS&#45;LoRa Transmitter program (Normal)">
-<polygon fill="white" stroke="#666666" points="147,-19 0,-19 0,0 147,0 147,-19"/>
-<text text-anchor="middle" x="73.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">src/transmitter&#45;normal.cpp</text>
+<g id="a_Node000003"><a xlink:href="PiHal_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="204,-96 86,-96 86,-55 204,-55 204,-96"/>
+<text text-anchor="start" x="94" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">thirdparty/RadioLib</text>
+<text text-anchor="start" x="94" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">/include/RadioLib/hal</text>
+<text text-anchor="middle" x="145" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">/RPi/PiHal.h</text>
 </a>
 </g>
 </g>
@@ -51,55 +53,44 @@
 <g id="edge2_Node000002_Node000003" class="edge">
 <title>Node2&#45;&gt;Node3</title>
 <g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M104.03,-122.86C99.93,-114.56 95.62,-105.03 92.5,-96 83.05,-68.7 77.16,-34.82 74.75,-19.17"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="101,-124.62 108.67,-131.93 107.23,-121.43 101,-124.62"/>
+<path fill="none" stroke="#63b8ff" d="M145,-121.91C145,-113.47 145,-104.1 145,-96.07"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="141.5,-121.94 145,-131.94 148.5,-121.94 141.5,-121.94"/>
 </a>
 </g>
 </g>
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="PiHal_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="219.5,-96 101.5,-96 101.5,-55 219.5,-55 219.5,-96"/>
-<text text-anchor="start" x="109.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">thirdparty/RadioLib</text>
-<text text-anchor="start" x="109.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">/include/RadioLib/hal</text>
-<text text-anchor="middle" x="160.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">/RPi/PiHal.h</text>
+<g id="a_Node000004"><a xlink:href="receiver-normal_8cpp.html" target="_top" xlink:title="CHRONOS&#45;LoRa Receiver program (Normal)">
+<polygon fill="white" stroke="#666666" points="132,-19 0,-19 0,0 132,0 132,-19"/>
+<text text-anchor="middle" x="66" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">src/receiver&#45;normal.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node4 -->
-<g id="edge3_Node000002_Node000004" class="edge">
-<title>Node2&#45;&gt;Node4</title>
-<g id="a_edge3_Node000002_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M130.87,-123.31C136.43,-114.52 142.74,-104.55 148.11,-96.07"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="127.8,-121.61 125.4,-131.94 133.71,-125.36 127.8,-121.61"/>
-</a>
-</g>
-</g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge5_Node000004_Node000003" class="edge">
-<title>Node4&#45;&gt;Node3</title>
-<g id="a_edge5_Node000004_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M125.71,-48.9C111.41,-38.39 95.8,-26.9 85.41,-19.26"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="123.8,-51.84 133.92,-54.95 127.94,-46.21 123.8,-51.84"/>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge3_Node000003_Node000004" class="edge">
+<title>Node3&#45;&gt;Node4</title>
+<g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M113.04,-48.61C100.16,-38.17 86.16,-26.83 76.81,-19.26"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="110.89,-51.37 120.87,-54.95 115.3,-45.94 110.89,-51.37"/>
 </a>
 </g>
 </g>
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="receiver-normal_8cpp.html" target="_top" xlink:title="CHRONOS&#45;LoRa Receiver program (Normal)">
-<polygon fill="white" stroke="#666666" points="297.5,-19 165.5,-19 165.5,0 297.5,0 297.5,-19"/>
-<text text-anchor="middle" x="231.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">src/receiver&#45;normal.cpp</text>
+<g id="a_Node000005"><a xlink:href="transmitter-normal_8cpp.html" target="_top" xlink:title="CHRONOS&#45;LoRa Transmitter program (Normal)">
+<polygon fill="white" stroke="#666666" points="297.5,-19 150.5,-19 150.5,0 297.5,0 297.5,-19"/>
+<text text-anchor="middle" x="224" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">src/transmitter&#45;normal.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4_Node000004_Node000005" class="edge">
-<title>Node4&#45;&gt;Node5</title>
-<g id="a_edge4_Node000004_Node000005"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M189.88,-48.02C201.28,-37.74 213.54,-26.69 221.78,-19.26"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="187.27,-45.65 182.19,-54.95 191.96,-50.85 187.27,-45.65"/>
+<!-- Node3&#45;&gt;Node5 -->
+<g id="edge4_Node000003_Node000005" class="edge">
+<title>Node3&#45;&gt;Node5</title>
+<g id="a_edge4_Node000003_Node000005"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M176.96,-48.61C189.84,-38.17 203.84,-26.83 213.19,-19.26"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="174.7,-45.94 169.13,-54.95 179.11,-51.37 174.7,-45.94"/>
 </a>
 </g>
 </g>

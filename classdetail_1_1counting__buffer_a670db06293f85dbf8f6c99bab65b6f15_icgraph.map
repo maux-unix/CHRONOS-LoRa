@@ -1,0 +1,11 @@
+<map id="detail::counting_buffer::grow" name="detail::counting_buffer::grow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="389,47,557,87"/>
+<area shape="rect" id="Node000002" href="$classdetail_1_1counting__buffer.html#adafc31050da4053e1593583cdcdd33f1" title=" " alt="" coords="173,47,341,87"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="375,70,342,70,342,65,375,65"/>
+<area shape="rect" id="Node000003" href="$compile_8h.html#ab898fdcb82003fc6fbac14d5da66cbbb" title=" " alt="" coords="5,5,125,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="165,46,115,33,116,28,166,41"/>
+<area shape="rect" id="Node000004" href="$base_8h.html#a0f9a011c5e8bf359e75651cbdc411941" title="Returns the number of chars in the output of format(fmt, args...)." alt="" coords="5,55,125,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="159,70,126,70,126,65,159,65"/>
+<area shape="rect" id="Node000005" href="$format_8h.html#ab1aace0cb1b8ea506c95aa46d713e881" title=" " alt="" coords="5,104,125,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="166,93,116,107,115,101,165,88"/>
+</map>
