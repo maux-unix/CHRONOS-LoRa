@@ -13,11 +13,12 @@
 #if !defined(REED_SOLOMON_HPP_)
 #define REED_SOLOMON_HPP_
 
+#include <cstdint>
+
 extern "C" {
 #include <correct.h>
 }
 
-#include <cstdint>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -35,13 +36,13 @@ typedef struct {
     correct_reed_solomon *rs;
 } rs_ctx_t;
 
-int rs_init(rs_ctx_t *ctx);
+// int rs_init(rs_ctx_t *ctx);
 void rs_free(rs_ctx_t *ctx);
 void rs_encode(rs_ctx_t *ctx, const uint8_t *input, uint8_t *out);
 // ssize_t rs_decode(rs_ctx_t *ctx, uint8_t *encoded, uint8_t *decoded);
 void rs_example(void);
 
-int
+inline int
 rs_init(rs_ctx_t *ctx)
 {
     ctx->rs = correct_reed_solomon_create(
@@ -49,13 +50,13 @@ rs_init(rs_ctx_t *ctx)
     return ctx->rs ? 0 : -1;
 }
 
-void
+inline void
 rs_free(rs_ctx_t *ctx)
 {
     if (ctx->rs) correct_reed_solomon_destroy(ctx->rs);
 }
 
-void
+inline void
 rs_encode(rs_ctx_t *ctx, const uint8_t *in, uint8_t *out)
 {
     memcpy(out, in, RS_K);
@@ -68,7 +69,7 @@ rs_decode(rs_ctx_t *ctx, uint8_t *encoded, uint8_t *decoded)
     return correct_reed_solomon_decode(ctx->rs, encoded, RS_N, decoded);
 }
 
-void
+inline void
 rs_example(void)
 {
     correct_reed_solomon *rs = correct_reed_solomon_create(
@@ -87,7 +88,7 @@ rs_example(void)
     uint8_t decoded[RS_K];
 
     memset(data, 0, RS_K);
-    memcpy(data, "HELLO LORA", 10);
+    strcpy((char *)data, "HELLO LORA");
 
     memcpy(encoded, data, RS_K);
 

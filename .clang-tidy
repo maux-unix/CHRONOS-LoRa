@@ -1,3 +1,11 @@
 ---
-Checks:            '-*, clang-analyzer-*, cert-*, bugprone-*, misc-*, performance-*, portability-*'
+Checks: >
+  -*,
+  clang-analyzer-*,
+  cert-*,
+  bugprone-*,
+  -bugprone-easily-swappable-parameters,
+  misc-*,
+  performance-*,
+  portability-*
 HeaderFilterRegex: ''
